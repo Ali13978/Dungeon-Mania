@@ -1,0 +1,83 @@
+10 <Witamy w Halls of the Great Dungeon!>
+11 <Kim jesteś?>
+12 <Nie jestem zainteresowany!>
+20 <Nie jestem kim, ale kim! Jestem Strażnikiem Wielkich Lochów, jestem pierwszym, który spotkał takich jak ty!>
+21 <Jak się tu znalazłem?>
+22 <Ha - ha - ha! Nie rozśmieszaj mnie!>
+30 <Sam loch wybrał ciebie! Poszukuje najodważniejszych i najsilniejszych wojowników, którzy zdadzą Wielki Test!>
+31 <Wyzwanie?>
+32 <Nikt nie odważy się wybrać mnie! Wybieram!>
+40 <Idź w głąb Lochu, im dalej zejdziesz, tym straszniejsi, silniejsi i bardziej podstępni będą twoi rywale. Pokonaj ich wszystkich i odkryj Wielki Sekret Podziemi!>
+41 <Zdam wyzwanie!>
+42 <Och, te bajki, och, ci gawędziarze ...>
+50 <Wśród wielu wrogów są jedni z najpotężniejszych, przerażających i żądnych krwi! To są Tytani Lochu! Musisz ich wszystkich pokonać! Wtedy ...>
+51 <Wtedy ... Co?>
+60 <Nie spiesz się, mój młody wojowniku! Najpierw pokonaj pierwszego z nich! Ogr jaskiniowy to podłe stworzenie! Chociaż jest to pierwszy wróg, ale bardzo niebezpieczny, nawet dla doświadczonego wojownika, nie wspominając o początkujących.>
+61 <Jak mogę stać się silniejszy?>
+70 <Walcz, zdobywaj doświadczenie, zdobywaj magiczne kryształy i ulepszaj swoje umiejętności. Znajdziesz również złoto w skrzyniach Lochu, można je wymienić na kryształy!>
+71 <Wyczyść!>
+80 <Żeby było łatwiej, nagrodzę cię jednym ze starożytnych mieczy, które pomogą ci na początku podróży!>
+81 <Dzięki!>
+82 <Dziękuję, PRZYJACIELU !!!>
+90 <Nazwałeś mnie przyjacielem !!! Od tysięcy lat wegetuję w tych zatęchłych halach, słyszę krzyki potworów i wołanie o litość i pomoc ... I nikt nie nazywał mnie Przyjacielem! Weź ode mnie kolejny prezent, Potężny Artefakt!>
+91 <Do zobaczenia!>
+92 <Artefakt?>
+100 <Ty też jesteś ciekawy! To jest dobre! Artefakty to magiczne byty, które poprawią twoje umiejętności! Szukaj ich w skrzyniach lochów i nie zapominaj, że liczy się szczęście!>
+110 <Gratulacje! Wybrałeś głupotę i obojętność, a teraz idź i wybierz śmierć dla siebie! Mam nadzieję, że sam to rozwiążesz!>
+111 <Jesteś zabawny? Pozostań więc głupcem, głupcem bez nagrody! Mam nadzieję, że sam to rozwiążesz!>
+112 <Niech tak będzie! Mam nadzieję, że sam to rozwiążesz!>
+130 <Oh-hoo! Kogo ja widzę! Właśnie pokonałeś Ogr, to paskudne stworzenie stworzone w niesamowitych jaskiniach Podziemia!>
+131 <Tak!>
+132 <Mów szybciej!>
+140 <Ale oprócz Ogre, musisz walczyć z kilkoma innymi Tytanami!>
+141 <Kim oni są?>
+145 <Oprócz Ogra napotkasz Kamiennego Golema, Przeklętego Minotaura i Ognisty Ifrit! Te potwory, stworzone przez niesamowity umysł, przy użyciu tajemnej starożytnej magii ...>
+146 <Kim jest ten Stwórca?>
+150 <Najbardziej okrutny, okrutny i straszny potwór, produkt samego ZŁA i piekła - oto Korona Lochu! NAJWYŻSZY DEMON, mieszkający w Komnatach Ognia ...>
+151 <Dalej! Nie przestawaj!>
+160 <On rozkazuje wszystkim żywiołom, oswoił wszystkie rodzaje magii ... Stworzenia, potwory, stworzenia, potwory - wszyscy mu służą i czczą! Będziesz musiał z nim walczyć na samym końcu swojej podróży!>
+170 <Hmm, proszę! Musisz pokonać pozostałych Tytanów Podziemia, a następnie ... zanurzyć się w proch Wysokiego Demona.>
+175 <Dobrze się spisałeś, czas odebrać zasłużoną nagrodę!>
+180 <Więc! Żyjesz i pokonałeś wszystkich tytanów! Jesteś prawdziwym wojownikiem! Pozostał ci ostatni krok do nieśmiertelności i nieskończoności! Wysoki Demon ryczy w głębi lochu! Chce zemsty za swoich sługusów!>
+190 <Wyrusz na najstraszliwszą i niebezpieczną ścieżkę swojego testu! W uznaniu swoich zasług przyjmij ode mnie prezent, to najpotężniejszy i najpotężniejszy miecz - korona mojej kolekcji!>
+200 <Pozdrowienia! Pozdrowienia! Chwała wielkiemu zdobywcy lochów! Pokonałeś Wielkiego Demona! Cały loch jest u twoich stóp! Stałeś się wielkim wojownikiem i cieszę się z twojego powodu!>
+201 <Co dalej?>
+210 <Dalej? Dalej tylko nieskończoność i wieczna Chwała Wielkiego Zdobywcy Lochów! Zostaniesz tutaj na zawsze i będziesz walczył w tych Halach bez końca, ale z silniejszymi i bardziej złymi rywalami!>
+300 <Zapytaj, czego chcesz, wojowniku!>
+301 <Twój sukces zasługuje na nagrodę!>
+302 <Czego chce Monster Slayer?>
+303 <Prezenty już na Ciebie czekają!>
+304 <Wybierz nagrodę!>
+305 <Wszystkiego najlepszego tylko dla Ciebie, Dungeon Ravager!>
+306 <Moje dary nie pozostawią cię obojętnym!>
+307 <Powiedz mi, czego brakuje.>
+308 <Potrzebuję miecza.>
+309 <Stare miecze ... są stare!>
+310 <Poproszę nowy miecz!>
+311 <Miecz i tylko miecz!>
+312 <Daj mi artefakt.>
+313 <Artefakt.>
+314 <Potrzebuję potężnego artefaktu!>
+315 <Mam kilka artefaktów.>
+316 <złoto! Potrzebuję tylko złota!>
+317 <Złoto, strażniku!>
+318 <Jestem fanem Złotego Cielca!>
+319 <Złoto nigdy nie jest za dużo!>
+400 <Kolejny Tytan czeka na Ciebie!>
+401 <Następny Boss jest gotowy do walki!>
+402 <Jeszcze jedna rzecz chce twojej krwi!>
+403 <Słyszę wściekły ryk niepokonanej Bestii!>
+406 <Naprzód w głąb podziemi! Liceum Demonów już się obudziło!>
+600 <Chwała zwycięzcy! Straszny Kamienny Golem został wrzucony z powrotem do Piekła!>
+601 <Gotowe !!! Przeklęty Minotaur został pokonany przez wielkiego Bohatera!>
+602 <O cudu !!! Ognista istota z podziemi podporządkowana potężnemu Wojownikowi!>
+700 <Ta rzecz - ogr wciąż żyje! Skończ go!>
+701 <KamDocelowy golem musi zostać pokonany!>
+702 <Przeklęty Minotaur zjada małe dzieci! Nie pozwól, aby tak się stało!>
+703 <Ognisty ifrit piecze kolejną ofiarę! Skończ z nikczemnym gadem!>
+704 <Demon High czeka na twoją ostateczną bitwę!>
+3 <Nieskończoność !!! Nieskończoność i nieśmiertelność !!!>
+1 <Wyjdź ...>
+2 <Walcz!>
+4 <Dobra rada.>
+5 <Dalej ...>

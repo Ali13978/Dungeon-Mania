@@ -1,0 +1,83 @@
+10 <Selamat datang di Aula Penjara Bawah Tanah Besar!>
+11 <Apa yang kamu?>
+12 <Saya tidak tertarik!>
+20 <Aku bukan apa, tapi siapa! Saya Penjaga Gerbang dari Penjara Bawah Tanah Besar, saya yang pertama bertemu orang-orang seperti Anda!>
+21 <Bagaimana saya bisa sampai di sini?>
+22 <Ha - ha - ha! Jangan membuatku tertawa!>
+30 <Penjara Bawah Tanah itu sendiri yang memilihmu! Itu mencari prajurit paling berani dan terkuat yang bisa lulus Ujian Besar!>
+31 <Tantangan?>
+32 <Tidak ada yang berani memilihku! Saya memilih!>
+40 <Pergilah ke dalam Dungeon, semakin jauh kau turun, semakin mengerikan, lebih kuat dan lebih berbahaya sainganmu. Kalahkan mereka semua dan temukan Rahasia Besar Dungeon!>
+41 <Aku akan lulus Challenge!>
+42 <Oh, dongeng ini, oh, pendongeng ini ...>
+50 <Di antara banyak musuh, ada beberapa yang paling kuat, menakutkan dan haus darah! Ini adalah Titans of the Dungeon! Anda harus mengalahkan mereka semua! Kemudian ...>
+51 <Lalu ... Apa?>
+60 <Luangkan waktumu, prajurit mudaku! Pertama, kalahkan yang pertama dari mereka! Gua Ogre adalah makhluk keji! Meski ini musuh pertama, tapi sangat berbahaya, bahkan untuk warrior berpengalaman, belum lagi para pemula.>
+61 <Bagaimana saya bisa menjadi lebih kuat?>
+70 <Bertarung, dapatkan pengalaman, dapatkan kristal ajaib, dan tingkatkan keahlianmu. Anda juga akan menemukan emas di peti Dungeon, itu dapat ditukar dengan kristal!>
+71 <Hapus!>
+80 <Agar lebih mudah, aku menghadiahimu dengan salah satu pedang kuno yang akan membantumu di awal perjalanan!>
+81 <Terima kasih!>
+82 <Terima kasih, TEMANku !!!>
+90 <Kamu memanggilku teman !!! Selama ribuan tahun saya telah bervegetasi di aula pengap ini, saya mendengar jeritan monster dan tangisan minta ampun dan tolong ... Dan tidak ada yang memanggil saya Teman! Ambil hadiah lain dariku, Artefak Perkasa!>
+91 <Sampai jumpa!>
+92 <Artefak?>
+100 <Kamu juga penasaran! Ini baik! Artefak adalah entitas magis yang akan meningkatkan keterampilan Anda! Cari mereka di Dungeon Chests dan jangan lupa, Keberuntungan adalah yang terpenting untuk ini!>
+110 <Selamat! Anda memilih kebodohan dan ketidakpedulian, dan sekarang pergi dan pilih kematian untuk diri Anda sendiri! Harap Anda mencari tahu sendiri!>
+111 <Apa kamu lucu? Jadi tetaplah bodoh, bodoh tanpa imbalan! Harap Anda mencari tahu sendiri!>
+112 <Biarlah begitu! Harap Anda mencari tahu sendiri!>
+130 <Oh-hoo! Siapa yang saya lihat! Kamu baru saja mengalahkan Ogre, makhluk jahat dan jahat yang diciptakan di gua-gua Dunia Bawah yang menakutkan!>
+131 <Ya itu!>
+132 <Bicaralah lebih cepat!>
+140 <Tapi selain Ogre, kamu harus melawan beberapa Titan lagi!>
+141 <Siapa mereka?>
+145 <Selain Ogre, kamu akan bertemu Stone Golem, Cursed Minotaur dan Fire Ifrit! Monster-monster ini, diciptakan oleh pikiran yang menakutkan, menggunakan sihir kuno rahasia ...>
+146 <Siapakah Pencipta ini?>
+150 <Binatang yang paling ganas, kejam dan mengerikan, produk dari JAHAT dan Neraka itu sendiri - ini adalah Mahkota Dungeon! DEMON TERTINGGI, tinggal di Aula Api ...>
+151 <Lanjutkan! Jangan berhenti!>
+160 <Dia memerintah semua elemen, telah menjinakkan semua jenis sihir .. Makhluk, monster, makhluk, monster - semua melayani dan menyembah dia! Anda harus melawannya di akhir perjalanan Anda!>
+170 <Hmm, kumohon! Kamu harus mengalahkan Titans of the Underground lainnya, dan kemudian ... terjun ke dalam debu High Demon.>
+175 <Anda melakukannya dengan baik, inilah waktunya untuk mendapatkan hadiah yang memang layak Anda dapatkan!>
+180 <Jadi! Anda masih hidup dan telah mengalahkan semua Titan! Anda adalah Prajurit Sejati! Anda memiliki langkah terakhir ke Keabadian dan Keabadian! Iblis Tinggi mengaum di kedalaman Dungeon! Dia ingin balas dendam untuk antek-anteknya!>
+190 <Mulailah jalan yang paling mengerikan dan berbahaya dari Ujianmu! Sebagai pengakuan atas pahala Anda, terimalah hadiah dari saya, ini adalah pedang yang paling kuat dan kuat - mahkota koleksi saya!>
+200 <Salam! Salam pembuka! Salam Penakluk Bawah Tanah yang Hebat! Kamu telah mengalahkan Iblis Tinggi! Seluruh Dungeon ada di kakimu! Anda telah menjadi Warrior yang hebat dan saya bahagia untuk Anda!>
+201 <Apa selanjutnya?>
+210 <Selanjutnya? Selanjutnya hanya kemuliaan tak terbatas dan abadi dari Penakluk Bawah Tanah Besar! Anda akan tinggal di sini selamanya dan tanpa henti bertarung di Aula ini, tetapi dengan lawan yang lebih kuat dan lebih jahat!>
+300 <Tanyakan apa yang Anda inginkan, Prajurit!>
+301 <Keberhasilan Anda layak mendapatkan imbalan!>
+302 <Apa yang diinginkan Pembunuh Monster?>
+303 <Hadiah sudah menunggu untuk Anda!>
+304 <Jangan ragu untuk memilih hadiahmu!>
+305 <Semua yang terbaik untukmu, Dungeon Plaguebreaker!>
+306 <Hadiahku tidak akan membuatmu acuh tak acuh!>
+307 <Katakan padaku apa yang kamu lewatkan.>
+308 <Aku butuh pedang.>
+309 <Pedang tua ... itu tua!>
+310 <Tolong pedang baru!>
+311 <Pedang, dan hanya pedang!>
+312 <Beri aku artefak.>
+313 <Artefak.>
+314 <Aku butuh artefak yang kuat!>
+315 <Aku punya sedikit artefak.>
+316 <Emas! Yang saya butuhkan hanyalah emas!>
+317 <Emas, Penjaga Gerbang!>
+318 <Saya adalah penggemar Anak Sapi Emas!>
+319 <Emas tidak pernah terlalu banyak!>
+400 <Titan lain menanti Anda!>
+401 <Bos berikutnya siap bertarung!>
+402 <Hal Lain menginginkan darahmu!>
+403 <Aku mendengar raungan marah dari Binatang yang tak terkalahkan!>
+406 <Maju ke kedalaman Bawah Tanah! Demon High sudah bangun!>
+600 <Puji Pemenang! Golem Batu yang Mengerikan telah dilemparkan kembali ke Neraka!>
+601 <Selesai !!! Minotaur terkutuk telah dikalahkan oleh Pahlawan hebat!>
+602 <Oh Keajaiban !!! Makhluk Api dari dunia bawah diserahkan kepada Prajurit perkasa!>
+700 <Benda ini - Ogre masih hidup! Akhiri dia!>
+701 <KamGolem target harus dikalahkan!>
+702 <Minotaur terkutuk itu memakan anak-anak kecil! Jangan biarkan ini terjadi!>
+703 <Fiery Ifrit memanggang korban lagi! Selesaikan reptil keji itu!>
+704 <Demon High menunggumu untuk pertempuran terakhirmu!>
+3 <Tak Terhingga !!! Infinity dan keabadian !!!>
+1 <Tinggalkan ...>
+2 <Berjuang!>
+4 <Saran yang bagus.>
+5 <Selanjutnya ...>

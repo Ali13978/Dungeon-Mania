@@ -1,0 +1,3066 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 401602943df544af28eca98f1fb665a0, type: 3}
+  m_Name: Dialogues
+  m_EditorClassIdentifier: 
+  localizationNumber: 3
+  dialogues:
+  - name: "\u041F\u0435\u0440\u0432\u044B\u0439 \u0434\u0438\u0430\u043B\u043E\u0433"
+    id: 0
+    nodes:
+    - name: "\u0412\u0445\u043E\u0434"
+      id: 0
+      playerAnswers:
+      - nextNodeId: 1
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 0
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 0
+          reward: 0
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 1
+      - nextNodeId: 0
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 1
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 0
+          reward: 0
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      - nextNodeId: 0
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 0
+        isGetQest: 0
+        isBastard: 1
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 0
+          reward: 0
+          skillReward: 0
+        isCarmaChange: 1
+        carma: 1
+      localizations:
+      - name: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+        npcText:
+        - "\u041F\u0440\u0438\u0432\u0435\u0442\u0441\u0442\u0432\u0443\u044E \u0442\u0435\u0431\u044F
+          \u0432 \u0427\u0435\u0440\u0442\u043E\u0433\u0430\u0445 \u0412\u0435\u043B\u0438\u043A\u043E\u0433\u043E
+          \u041F\u043E\u0434\u0437\u0435\u043C\u0435\u043B\u044C\u044F!\n"
+        playerAllAnswers:
+        - playerAnswer:
+          - "\u0427\u0442\u043E \u0442\u044B \u0442\u0430\u043A\u043E\u0435?"
+        - playerAnswer:
+          - "\u041C\u043D\u0435 \u043D\u0435 \u0438\u043D\u0442\u0435\u0440\u0435\u0441\u043D\u043E!"
+        - playerAnswer:
+          - "\u041E\u0442\u0441\u0442\u0430\u043D\u044C, \u043C\u0435\u0440\u0437\u043A\u043E\u0435
+            \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u043E!"
+      - name: English
+        npcText:
+        - Welcome to the Halls of the Great Dungeon!
+        playerAllAnswers:
+        - playerAnswer:
+          - What are you?
+        - playerAnswer:
+          - I am not interested!
+        - playerAnswer:
+          - Leave me alone, you vile creature!
+      - name: "\u041D\u043E\u0432\u0430\u044F \u043B\u043E\u043A\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F"
+        npcText: []
+        playerAllAnswers: []
+    - name: "\u0427\u0442\u043E \u0442\u044B \u0442\u0430\u043A\u043E\u0435"
+      id: 1
+      playerAnswers:
+      - nextNodeId: 2
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 0
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 0
+          reward: 0
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      - nextNodeId: 11
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 0
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 0
+          reward: 0
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      localizations:
+      - name: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+        npcText:
+        - "\u042F \u043D\u0435 \u0447\u0442\u043E, \u0430 \u043A\u0442\u043E! \u042F
+          - \u041F\u0440\u0438\u0432\u0440\u0430\u0442\u043D\u0438\u043A \u0412\u0435\u043B\u0438\u043A\u043E\u0433\u043E
+          \u041F\u043E\u0434\u0437\u0435\u043C\u0435\u043B\u044C\u044F, \u044F \u043F\u0435\u0440\u0432\u044B\u0439
+          \u043A\u0442\u043E \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u0435\u0442
+          \u0442\u0430\u043A\u0438\u0445, \u043A\u0430\u043A \u0442\u044B!"
+        playerAllAnswers:
+        - playerAnswer:
+          - "\u041A\u0430\u043A \u044F \u0437\u0434\u0435\u0441\u044C \u043E\u043A\u0430\u0437\u0430\u043B\u0441\u044F?"
+        - playerAnswer:
+          - "\u0425\u0430 - \u0445\u0430 - \u0445\u0430! \u041D\u0435 \u0441\u043C\u0435\u0448\u0438
+            \u0441\u0432\u043E\u0435\u0439 \u043F\u043E\u043C\u043F\u0435\u0437\u043D\u043E\u0441\u0442\u044C\u044E!"
+      - name: English
+        npcText:
+        - I'm not what, but who! I am the Gatekeeper of the Great Dungeon, I am the
+          first to meet people like you!
+        playerAllAnswers:
+        - playerAnswer:
+          - How did I get here?
+        - playerAnswer:
+          - Ha - ha - ha! Don't be ridiculous with your pomp!
+      - name: "\u041D\u043E\u0432\u0430\u044F \u043B\u043E\u043A\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F"
+        npcText: []
+        playerAllAnswers: []
+    - name: "\u041A\u0430\u043A \u044F \u0437\u0434\u0435\u0441\u044C \u043E\u043A\u0430\u0437\u0430\u043B\u0441\u044F"
+      id: 2
+      playerAnswers:
+      - nextNodeId: 3
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 0
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 0
+          reward: 0
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      - nextNodeId: 12
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 0
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 0
+          reward: 0
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      localizations:
+      - name: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+        npcText:
+        - "\u0422\u0435\u0431\u044F \u0432\u044B\u0431\u0440\u0430\u043B\u043E \u0441\u0430\u043C\u043E
+          \u041F\u043E\u0434\u0437\u0435\u043C\u0435\u043B\u044C\u0435!"
+        playerAllAnswers:
+        - playerAnswer:
+          - "\u041A\u0430\u043A? \u0417\u0430\u0447\u0435\u043C?"
+        - playerAnswer:
+          - "\u041D\u0438\u043A\u0442\u043E \u043D\u0435 \u0441\u043C\u0435\u0435\u0442
+            \u043C\u0435\u043D\u044F \u0432\u044B\u0431\u0438\u0440\u0430\u0442\u044C!
+            \u0412\u044B\u0431\u0438\u0440\u0430\u044E \u042F!"
+      - name: English
+        npcText:
+        - The Dungeon itself chose you!
+        playerAllAnswers:
+        - playerAnswer:
+          - How? Why?
+        - playerAnswer:
+          - Nobody dares to choose me! I choose!
+      - name: "\u041D\u043E\u0432\u0430\u044F \u043B\u043E\u043A\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F"
+        npcText: []
+        playerAllAnswers: []
+    - name: "\u041A\u0430\u043A \u0437\u0430\u0447\u0435\u043C"
+      id: 3
+      playerAnswers:
+      - nextNodeId: 4
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 0
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 0
+          reward: 0
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      - nextNodeId: 13
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 0
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 0
+          reward: 0
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      localizations:
+      - name: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+        npcText:
+        - "\u041A\u0430\u0436\u0434\u044B\u0439 \u0434\u0435\u043D\u044C \u041F\u043E\u0434\u0437\u0435\u043C\u0435\u043B\u044C\u0435
+          \u0438\u0449\u0435\u0442 \u0441\u0430\u043C\u044B\u0445 \u0441\u043C\u0435\u043B\u044B\u0445
+          \u0438 \u0441\u0438\u043B\u044C\u043D\u044B\u0445 \u0432\u043E\u0438\u043D\u043E\u0432,
+          \u0441\u043F\u043E\u0441\u043E\u0431\u043D\u044B\u0445 \u043F\u0440\u043E\u0439\u0442\u0438
+          \u0412\u0435\u043B\u0438\u043A\u043E\u0435 \u0418\u0441\u043F\u044B\u0442\u0430\u043D\u0438\u0435!"
+        playerAllAnswers:
+        - playerAnswer:
+          - "\u0418\u0441\u043F\u044B\u0442\u0430\u043D\u0438\u0435?"
+        - playerAnswer:
+          - "\u0425\u0430-\u0445\u0430-\u0445\u0430, \u0441\u043C\u0435\u043B\u044B\u0435,
+            \u0441\u0438\u043B\u044C\u043D\u044B\u0435, \u0432\u0435\u043B\u0438\u043A\u043E\u0435,
+            \u0441\u043C\u0435\u0448\u043D\u043E \u0436\u0435..."
+      - name: English
+        npcText:
+        - Every day, the Dungeon is looking for the bravest and strongest warriors
+          who can pass the Great Test!
+        playerAllAnswers:
+        - playerAnswer:
+          - Really? What the Great Test?
+        - playerAnswer:
+          - Ha - ha - ha, brave, strong, great. This funny!
+      - name: "\u041D\u043E\u0432\u0430\u044F \u043B\u043E\u043A\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F"
+        npcText: []
+        playerAllAnswers: []
+    - name: "\u0418\u0441\u043F\u044B\u0442\u0430\u043D\u0438\u0435"
+      id: 4
+      playerAnswers:
+      - nextNodeId: 5
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 0
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 0
+          reward: 0
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      localizations:
+      - name: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+        npcText:
+        - "\u0414\u0430 - \u0434\u0430, \u0438\u043C\u0435\u043D\u043D\u043E! \u0422\u044B\u0441\u044F\u0447\u0438
+          \u0432\u043E\u0438\u043D\u043E\u0432, \u0441\u0440\u0430\u0436\u0430\u044F\u0441\u044C,
+          \u0445\u043E\u0442\u044F\u0442 \u0437\u0430\u0432\u043E\u0435\u0432\u0430\u0442\u044C
+          \u0421\u043B\u0430\u0432\u0443 \u0412\u0435\u043B\u0438\u043A\u0438\u0445,
+          \u043D\u043E \u0442\u043E\u043B\u044C\u043A\u043E \u0435\u0434\u0438\u043D\u0438\u0446\u044B
+          \u0431\u0443\u0434\u0443\u0442 \u0432\u043F\u0438\u0441\u0430\u043D\u044B
+          \u0432 \u0410\u043D\u043D\u0430\u043B\u044B \u041F\u043E\u0434\u0437\u0435\u043C\u0435\u043B\u044C\u044F
+          \u043E\u0433\u043D\u0435\u043D\u043D\u044B\u043C\u0438 \u0431\u0443\u043A\u0432\u0430\u043C\u0438!"
+        playerAllAnswers:
+        - playerAnswer:
+          - "\u041A\u0430\u043A \u043C\u043D\u0435 \u0441\u0442\u0430\u0442\u044C
+            \u043E\u0434\u043D\u0438\u043C \u0438\u0437 \u043D\u0435\u043C\u043D\u043E\u0433\u0438\u0445?"
+      - name: English
+        npcText:
+        - Yes, exactly! Thousands of warriors, fighting, want to win the Glory of
+          the Greats, but only a few will be inscribed in the Annals of the Underground
+          in fiery letters!
+        playerAllAnswers:
+        - playerAnswer:
+          - How can I become one of the few?
+      - name: "\u041D\u043E\u0432\u0430\u044F \u043B\u043E\u043A\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F"
+        npcText: []
+        playerAllAnswers: []
+    - name: "\u043A\u0430\u043A \u043C\u043D\u0435 \u0441\u0442\u0430\u0442\u044C"
+      id: 5
+      playerAnswers:
+      - nextNodeId: 6
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 0
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 0
+          reward: 0
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      - nextNodeId: 0
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 1
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 0
+          reward: 0
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      localizations:
+      - name: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+        npcText:
+        - "\u041E\u0442\u043F\u0440\u0430\u0432\u043B\u044F\u0439\u0441\u044F \u0432
+          \u0433\u043B\u0443\u0431\u0438\u043D\u044B \u041F\u043E\u0434\u0437\u0435\u043C\u0435\u043B\u044C\u044F,
+          \u0447\u0435\u043C \u0433\u043B\u0443\u0431\u0436\u0435 \u0442\u044B \u0441\u043F\u0443\u0441\u0442\u0438\u0448\u044C\u0441\u044F,
+          \u0442\u0435\u043C \u0441\u0442\u0440\u0430\u0448\u043D\u0435\u0435, \u0441\u0438\u043B\u044C\u043D\u0435\u0435
+          \u0438 \u043A\u043E\u0432\u0430\u0440\u043D\u0435\u0435 \u0431\u0443\u0434\u0443\u0442
+          \u0441\u043E\u043F\u0435\u0440\u043D\u0438\u043A\u0438. \u0422\u044B \u0432\u0441\u0442\u0440\u0435\u0442\u0438\u0448\u044C
+          \u0440\u0430\u0437\u043D\u044B\u0445 \u0441\u0443\u0449\u0435\u0441\u0442\u0432,
+          \u043C\u043E\u043D\u0441\u0442\u0440\u043E\u0432, \u0447\u0443\u0434\u043E\u0432\u0438\u0449...
+          \u0422\u0430\u043A \u0436\u0435 \u0442\u0435\u0431\u0435 \u043F\u0440\u0438\u0434\u0435\u0442\u0441\u044F
+          \u0441\u0440\u0430\u0437\u0438\u0442\u044C\u0441\u044F \u0441 \u0422\u0438\u0442\u0430\u043D\u0430\u043C\u0438
+          \n\u041F\u043E\u0434\u0437\u0435\u043C\u0435\u043B\u044C\u044F... \u041E\u0434\u043E\u043B\u0435\u0439
+          \u0447\u0435\u0442\u044B\u0440\u0435\u0445 \u0438\u0437 \u043D\u0438\u0445,
+          \u043F\u043E\u0441\u043B\u0435 \u0447\u0435\u0433\u043E..."
+        playerAllAnswers:
+        - playerAnswer:
+          - "... \u043F\u043E\u0441\u043B\u0435 \u0447\u0435\u0433\u043E... \u0427\u0442\u043E?"
+        - playerAnswer:
+          - "\u041E\u0445 \u0443\u0436 \u044D\u0442\u0438 \u0441\u043A\u0430\u0437\u043A\u0438,
+            \u043E\u0445 \u0443\u0436 \u044D\u0442\u0438 \u0441\u043A\u0430\u0437\u043E\u0447\u043D\u0438\u043A\u0438..."
+      - name: English
+        npcText:
+        - "Go to the depths of the Dungeon, the deeper you go down, the more terrible,
+          stronger and more insidious your rivals will be. You will meet different
+          creatures, monsters ... You will also have to fight the Titans of Dungeons
+          ... \nDefeat four of them, then ..."
+        playerAllAnswers:
+        - playerAnswer:
+          - ... then ... What?
+        - playerAnswer:
+          - Oh, these fairy tales, oh, these storytellers ...
+      - name: "\u041D\u043E\u0432\u0430\u044F \u043B\u043E\u043A\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F"
+        npcText: []
+        playerAllAnswers: []
+    - name: "\u043F\u043E\u0441\u043B\u0435 \u0447\u0435\u0433\u043E \u0447\u0442\u043E?"
+      id: 6
+      playerAnswers:
+      - nextNodeId: 7
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 0
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 0
+          reward: 0
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      localizations:
+      - name: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+        npcText:
+        - "\u041D\u0435 \u0441\u043F\u0435\u0448\u0438, \u043C\u043E\u0439 \u0442\u043E\u0440\u043E\u043F\u043B\u0438\u0432\u044B\u0439
+          \u0434\u0440\u0443\u0433! \u0422\u0432\u043E\u0439 \u0434\u0443\u0445 \u043D\u0435
+          \u0442\u0430\u043A \u043A\u0440\u0435\u043F\u043E\u043A, \u0430 \u0442\u0435\u043B\u043E
+          \u043D\u0435 \u0442\u0430\u043A \u0441\u0438\u043B\u044C\u043D\u043E...
+          \u041F\u043E\u0431\u0435\u0434\u0438 \u0445\u043E\u0442\u044F \u0431\u044B
+          \u043E\u0434\u043D\u043E\u0433\u043E \u0422\u0438\u0442\u0430\u043D\u0430,
+          \u0438  \u0442\u043E\u0433\u0434\u0430 \u0441\u0442\u0430\u043D\u0435\u0442
+          \u044F\u0441\u043D\u043E, \u0447\u0442\u043E \u0442\u044B \u0441\u043F\u043E\u0441\u043E\u0431\u0435\u043D
+          \u043D\u0430 \u043C\u043D\u043E\u0433\u043E\u0435! "
+        playerAllAnswers:
+        - playerAnswer:
+          - "\u041A\u0430\u043A \u043C\u043D\u0435 \u0441\u0442\u0430\u0442\u044C
+            \u0441\u0438\u043B\u044C\u043D\u0435\u0435 \u0438 \u043A\u0440\u0435\u043F\u0447\u0435?"
+      - name: English
+        npcText:
+        - Take your time, my hasty friend! Your spirit is not so strong, and your
+          body is not so strong ... Defeat at least one Titan, and then it will become
+          clear that you are capable of much!
+        playerAllAnswers:
+        - playerAnswer:
+          - How can I get stronger?
+      - name: "\u041D\u043E\u0432\u0430\u044F \u043B\u043E\u043A\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F"
+        npcText: []
+        playerAllAnswers: []
+    - name: "\u043A\u0440\u0435\u043F\u0447\u0435"
+      id: 7
+      playerAnswers:
+      - nextNodeId: 8
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 0
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 0
+          reward: 4
+          skillReward: 9
+        isCarmaChange: 0
+        carma: 0
+      - nextNodeId: 14
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 0
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 0
+          reward: 0
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      localizations:
+      - name: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+        npcText:
+        - "\u0421\u0440\u0430\u0436\u0430\u0439\u0441\u044F, \u043D\u0430\u0431\u0438\u0440\u0430\u0439\u0441\u044F
+          \u043E\u043F\u044B\u0442\u0430, \u0442\u0440\u0435\u043D\u0438\u0440\u0443\u0439
+          \u0441\u0432\u043E\u0438 \u0443\u043C\u0435\u043D\u0438\u044F \u0438 \u043D\u0430\u0432\u044B\u043A\u0438.
+          \u0412 \u0422\u0430\u0439\u043D\u0438\u043A\u0430\u0445 \u041F\u043E\u0434\u0437\u0435\u043C\u0435\u043B\u044C\u044F
+          \u0442\u044B \u043D\u0430\u0439\u0434\u0435\u0448\u044C \u0437\u043E\u043B\u043E\u0442\u043E,
+          \u043A\u043E\u0442\u043E\u0440\u043E\u0435 \u0442\u0435\u0431\u0435 \u043F\u0440\u0438\u0433\u043E\u0434\u0438\u0442\u0441\u044F,
+          \u0434\u0440\u0435\u0432\u043D\u0438\u0435 \u0438 \u0442\u0430\u0438\u043D\u0441\u0442\u0432\u0435\u043D\u043D\u044B\u0435
+          \u0430\u0440\u0442\u0435\u0444\u0430\u043A\u0442\u044B, \u043A\u043E\u0442\u043E\u0440\u044B\u0435
+          \u0441\u0434\u0435\u043B\u0430\u044E\u0442 \u0442\u0435\u0431\u044F \u0441\u0438\u043B\u044C\u043D\u0435\u0435,
+          \u043A\u0440\u0435\u043F\u0447\u0435 \u0438 \u0443\u0434\u0430\u0447\u043B\u0438\u0432\u0435\u0435. "
+        playerAllAnswers:
+        - playerAnswer:
+          - "\u0421\u043F\u0430\u0441\u0438\u0431\u043E \u0442\u0435\u0431\u0435,
+            \u041F\u0440\u0438\u0432\u0440\u0430\u0442\u043D\u0438\u043A! \u0422\u0432\u043E\u0438
+            \u0441\u043E\u0432\u0435\u0442\u044B \u043F\u043E\u043B\u0435\u0437\u043D\u044B
+            \u0438 \u0442\u043E\u0447\u043D\u044B!"
+        - playerAnswer:
+          - "\u0417\u043E\u043B\u043E\u0442\u043E? \u0422\u044B \u0441\u043A\u0430\u0437\u0430\u043B
+            \u0417\u041E\u041B\u041E\u0422\u041E? \u0414\u0430\u0439 \u043C\u043D\u0435
+            \u0435\u0433\u043E!!! \u0423\u043C\u043E\u043B\u044F\u044E!"
+      - name: English
+        npcText:
+        - 'Fight, gain experience, train your skills and abilities. In the Caches
+          of the Dungeon you will find gold that will be useful to you, ancient and
+          mysterious artifacts that will make you stronger and luckier.
+
+
+'
+        playerAllAnswers:
+        - playerAnswer:
+          - Thank you, Gatekeeper! Your advice is helpful and accurate!
+        - playerAnswer:
+          - Gold? Did you say GOLD? Give it to me!!! I beg you!
+      - name: "\u041D\u043E\u0432\u0430\u044F \u043B\u043E\u043A\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F"
+        npcText: []
+        playerAllAnswers: []
+    - name: "\u043D\u0430\u0433\u0440\u0430\u0434\u0430"
+      id: 8
+      playerAnswers:
+      - nextNodeId: 0
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 1
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 0
+          reward: 0
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      - nextNodeId: 9
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 0
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 0
+          reward: 3
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      - nextNodeId: 0
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 0
+        isGetQest: 0
+        isBastard: 1
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 0
+          reward: 0
+          skillReward: 0
+        isCarmaChange: 1
+        carma: 1
+      localizations:
+      - name: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+        npcText:
+        - "\u042F \u0440\u0430\u0434 \u0432\u0438\u0434\u0435\u0442\u044C \u0441\u0442\u043E\u043B\u044C
+          \u0431\u043B\u0430\u0433\u043E\u0440\u0430\u0437\u0443\u043C\u043D\u043E\u0433\u043E
+          \u0438 \u0432\u043D\u0438\u043C\u0430\u0442\u0435\u043B\u044C\u043D\u043E\u0433\u043E
+          \u0412\u043E\u0438\u043D\u0430! \u0417\u0430 \u044D\u0442\u043E \u044F
+          \u043D\u0430\u0433\u0440\u0430\u0436\u0434\u0430\u044E \u0442\u0435\u0431\u044F
+          \u043E\u0434\u043D\u0438\u043C \u0438\u0437 \u0442\u0435\u0445 \u0434\u0440\u0435\u0432\u043D\u0438\u0445
+          \u0430\u0440\u0442\u0435\u0444\u0430\u043A\u0442\u043E\u0432, \u043E \u043A\u043E\u0442\u043E\u0440\u044B\u0445
+          \u044F \u0433\u043E\u0432\u043E\u0440\u0438\u043B! \u041F\u043E\u043C\u043D\u0438,
+          \u043D\u0435 \u0442\u043E\u043B\u044C\u043A\u043E \u043C\u0435\u0447 \u0438
+          \u0431\u0440\u043E\u043D\u044F \u0432\u0430\u0436\u043D\u044B!"
+        playerAllAnswers:
+        - playerAnswer:
+          - "\u0421\u043F\u0430\u0441\u0438\u0431\u043E, \u044F \u0437\u0430\u043F\u043E\u043C\u043D\u044E
+            \u0432\u0441\u0435, \u0447\u0442\u043E \u0442\u044B \u043C\u043D\u0435
+            \u0433\u043E\u0432\u043E\u0440\u0438\u043B!"
+        - playerAnswer:
+          - "\u0411\u043B\u0430\u0433\u043E\u0434\u0430\u0440\u044E \u0442\u0435\u0431\u044F,
+            \u043C\u043E\u0439 \u0414\u0440\u0443\u0433!!! \u0422\u0432\u043E\u0438
+            \u0441\u043E\u0432\u0435\u0442\u044B \u0431\u0435\u0441\u0446\u0435\u043D\u043D\u044B!"
+        - playerAnswer:
+          - "\u0413\u043B\u0443\u043F\u044B\u0439 \u0443\u0440\u043E\u0434\u0435\u0446,
+            \u044F \u0442\u043E\u043B\u044C\u043A\u043E \u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043B\u0441\u044F
+            \u0442\u043E\u0431\u043E\u0439!"
+      - name: English
+        npcText:
+        - 'I am glad to see such a prudent and considerate Warrior! For this, I am
+          rewarding you with one of those ancient artifacts that I spoke of! Remember,
+          it''s not just sword and armor that matter!
+
+
+
+'
+        playerAllAnswers:
+        - playerAnswer:
+          - Thank you, I will remember everything you said to me!
+        - playerAnswer:
+          - Thank you my friend!!! Your advice is invaluable!
+        - playerAnswer:
+          - You stupid freak, I just used you!
+      - name: "\u041D\u043E\u0432\u0430\u044F \u043B\u043E\u043A\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F"
+        npcText: []
+        playerAllAnswers: []
+    - name: "\u0435\u0449\u0435 \u043D\u0430\u0433\u0440\u0430\u0434\u0430"
+      id: 9
+      playerAnswers:
+      - nextNodeId: 0
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 1
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 0
+          reward: 0
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      - nextNodeId: 10
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 0
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 0
+          reward: 0
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      - nextNodeId: 0
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 0
+        isGetQest: 0
+        isBastard: 1
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 0
+          reward: 0
+          skillReward: 0
+        isCarmaChange: 1
+        carma: 1
+      localizations:
+      - name: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+        npcText:
+        - "\u041E, \u0412\u0435\u043B\u0438\u043A\u0438\u0435 \u041C\u0438\u0440\u043E\u0437\u0434\u0430\u0442\u0435\u043B\u0438!
+          \u0422\u044B \u043D\u0430\u0437\u0432\u0430\u043B \u043C\u0435\u043D\u044F
+          \u0414\u0440\u0443\u0433\u043E\u043C?!?!? \u0422\u044B\u0441\u044F\u0447\u0435\u043B\u0435\u0442\u0438\u044F
+          \u044F \u043F\u0440\u043E\u0437\u044F\u0431\u0430\u044E \u0432 \u044D\u0442\u0438\u0445
+          \u0437\u0430\u0442\u0445\u043B\u044B\u0445 \u0437\u0430\u043B\u0430\u0445,
+          \u0441\u043B\u044B\u0448\u0443 \u0432\u043E\u043F\u043B\u0438 \u043C\u043E\u043D\u0441\u0442\u0440\u043E\u0432
+          \u0438 \u043A\u0440\u0438\u043A\u0438 \u043E \u043F\u043E\u0449\u0430\u0434\u0435
+          \u0438\u043B\u0438 \u043F\u043E\u043C\u043E\u0449\u0438... \u0438 \u043D\u0438\u043A\u0442\u043E
+          \u043D\u0435 \u043D\u0430\u0437\u044B\u0432\u0430\u043B \u043C\u0435\u043D\u044F
+          \u0414\u0440\u0443\u0433\u043E\u043C! \n\u041F\u0440\u0438\u043C\u0438
+          \u0436\u0435 \u043E\u0442 \u043C\u0435\u043D\u044F \u0435\u0449\u0435 \u043E\u0434\u0438\u043D
+          \u0434\u0430\u0440! \u0420\u0443\u0431\u044F\u0449\u0438\u0439 \u041D\u0435\u0436\u0438\u0442\u044C!!!"
+        playerAllAnswers:
+        - playerAnswer:
+          - "\u0414\u043E \u0432\u0441\u0442\u0440\u0435\u043C\u0438, \u0414\u0440\u0443\u0433
+            \u041C\u043E\u0439! \u0414\u043E \u0441\u043A\u043E\u0440\u043E\u0439
+            \u0432\u0441\u0442\u0440\u0435\u0447\u0438!"
+        - playerAnswer:
+          - "\u0420\u0443\u0431\u044F\u0449\u0438\u0439 \u041D\u0435\u0436\u0438\u0442\u044C?
+            \u0427\u0442\u043E \u044D\u0442\u043E?"
+        - playerAnswer:
+          - "\u041D\u0430\u0438\u0432\u043D\u044B\u0439 \u041F\u0440\u0438\u0432\u0440\u0430\u0442\u043D\u0438\u043A,
+            \u044F \u0432\u0437\u044F\u043B \u043E\u0442 \u0442\u0435\u0431\u044F
+            \u0432\u0441\u0435, \u0447\u0442\u043E \u043D\u0443\u0436\u043D\u043E!"
+      - name: English
+        npcText:
+        - 'Oh, Great Creators! Did you call me friend?!?!? For thousands of years
+          I have been living in these musty halls, I hear the screams of monsters
+          and cries for mercy or help ... and no one called me Friend! Take another
+          gift from me!
+
+          "Slashing Undead" !!!
+
+'
+        playerAllAnswers:
+        - playerAnswer:
+          - See you, My Friend! See you soon!
+        - playerAnswer:
+          - '"Slashing Undead"? What is it?'
+        - playerAnswer:
+          - Naive Gatekeeper, I took everything I need from you!
+      - name: "\u041D\u043E\u0432\u0430\u044F \u043B\u043E\u043A\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F"
+        npcText: []
+        playerAllAnswers: []
+    - name: "\u041C\u0435\u0447\u0443\u0449\u0438\u0439 \u043E\u0433\u043E\u043D\u044C"
+      id: 10
+      playerAnswers:
+      - nextNodeId: 0
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 1
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 500
+          reward: 1
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      localizations:
+      - name: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+        npcText:
+        - "\u041E! \u0422\u044B \u043D\u0435 \u0442\u043E\u043B\u044C\u043A\u043E
+          \u0432\u0435\u043B\u0438\u043A\u043E\u0434\u0443\u0448\u0435\u043D, \u043D\u043E
+          \u0438 \u043B\u044E\u0431\u043E\u0437\u043D\u0430\u0442\u0435\u043B\u0435\u043D!
+          \u0420\u0443\u0431\u044F\u0449\u0438\u0439 \u041D\u0435\u0436\u0438\u0442\u044C
+          - \u044D\u0442\u043E \u0434\u0440\u0435\u0432\u043D\u0438\u0439 \u043C\u0435\u0447,
+          \u0432\u044B\u043A\u043E\u0432\u0430\u043D\u043D\u044B\u0439 \u0438\u0437
+          \u041C\u0430\u0433\u0438\u0447\u0435\u0441\u043A\u043E\u0439 \u0420\u0443\u0434\u044B,
+          \u0434\u043E\u0431\u044B\u0442\u043E\u0439 \u0432 \u0433\u043B\u0443\u0431\u0438\u043D\u0430\u0445
+          \u0411\u0430\u0433\u0440\u044F\u043D\u044B\u0445 \u0413\u043E\u0440! \u0414\u0440\u0435\u0432\u043D\u0438\u0435
+          \u043A\u0443\u0437\u043D\u0435\u0446\u044B \u043D\u0430 \u0441\u043B\u0430\u0432\u0443
+          \u043F\u043E\u0441\u0442\u0430\u0440\u0430\u043B\u0438\u0441\u044C, \u0441\u043E\u0437\u0434\u0430\u0432
+          \u043C\u0435\u0447, \u043F\u043E\u0434\u0445\u043E\u0434\u044F\u0449\u0438\u0439\n\u043D\u043E\u0432\u0438\u0447\u043A\u0443,
+          \u043D\u043E \u043F\u0440\u0438 \u044D\u0442\u043E\u043C \u0441\u043F\u043E\u0441\u043E\u0431\u043D\u044B\u0439
+          \u043F\u0440\u043E\u0442\u0438\u0432\u043E\u0441\u0442\u043E\u044F\u0442\u044C
+          \u043C\u043D\u043E\u0433\u0438\u043C \u0441\u043E\u043F\u0435\u0440\u043D\u0438\u043A\u0430\u043C!"
+        playerAllAnswers:
+        - playerAnswer:
+          - "\u0412\u0441\u0435\u0433\u0434\u0430 \u043F\u043E\u043B\u0435\u0437\u043D\u043E
+            \u043F\u043E\u043B\u0443\u0447\u0430\u0442\u044C \u0437\u043D\u0430\u043D\u0438\u044F!"
+      - name: English
+        npcText:
+        - 'You are not only generous, but also inquisitive! The Slashing Undead is
+          an ancient sword forged from Magical Ore from the depths of the Crimson
+          Mountains! The ancient blacksmiths did their best to create a sword suitable
+
+          a
+          beginner, but at the same time capable of withstanding many rivals!
+
+'
+        playerAllAnswers:
+        - playerAnswer:
+          - It is always useful to gain knowledge!
+      - name: "\u041D\u043E\u0432\u0430\u044F \u043B\u043E\u043A\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F"
+        npcText: []
+        playerAllAnswers: []
+    - name: "\u0421\u043C\u0435\u0448\u043D\u043E?"
+      id: 11
+      playerAnswers:
+      - nextNodeId: 2
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 0
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 0
+          reward: 0
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      - nextNodeId: 0
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 1
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 0
+          reward: 0
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      localizations:
+      - name: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+        npcText:
+        - "\u042F \u0432\u0438\u0436\u0443 \u0442\u0435\u0431\u0435 \u0441\u043C\u0435\u0448\u043D\u043E
+          \u0438 \u0432\u0435\u0441\u0435\u043B\u043E? \u041F\u043E\u0441\u043C\u043E\u0442\u0440\u0438\u043C
+          \u043A\u0430\u043A \u0442\u044B \u0437\u0430\u043F\u043E\u0435\u0448\u044C
+          \u043F\u043E\u0437\u0436\u0435!"
+        playerAllAnswers:
+        - playerAnswer:
+          - "\u041D\u0435 \u043E\u0431\u0438\u0436\u0430\u0439\u0441\u044F, \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0430\u0439!
+            \u042F - \u0432\u0435\u0441\u0435\u043B\u044C\u0447\u0430\u043A!"
+        - playerAnswer:
+          - "\u041E\u0445 \u0442\u044B! \u041D\u0430\u043F\u0443\u0433\u0430\u043B!
+            \u042F \u043D\u0435 \u0431\u043E\u044E\u0441\u044C \u043D\u0438\u043A\u043E\u0433\u043E!"
+      - name: English
+        npcText:
+        - 'I see you funny and funny? Let''s see how you sing it later!
+
+
+'
+        playerAllAnswers:
+        - playerAnswer:
+          - Do not be offended, go on! I am a merry fellow!
+        - playerAnswer:
+          - Oh you! Scared! I'm not afraid of anyone!
+      - name: "\u041D\u043E\u0432\u0430\u044F \u043B\u043E\u043A\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F"
+        npcText: []
+        playerAllAnswers: []
+    - name: "\u0432\u044B\u0431\u043E\u0440"
+      id: 12
+      playerAnswers:
+      - nextNodeId: 0
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 1
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 0
+          reward: 0
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      localizations:
+      - name: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+        npcText:
+        - "\u041F\u043E\u0437\u0434\u0440\u0430\u0432\u043B\u044F\u044E! \u0422\u044B
+          \u0432\u044B\u0431\u0440\u0430\u043B \u0433\u043B\u0443\u043F\u043E\u0441\u0442\u044C
+          \u0438 \u0431\u0435\u0437\u0440\u0430\u0437\u043B\u0438\u0447\u0438\u0435,
+          \u0430 \u0442\u0435\u043F\u0435\u0440\u044C \u0441\u0442\u0443\u043F\u0430\u0439
+          \u0438 \u0432\u044B\u0431\u0435\u0440\u0438 \u0441\u0435\u0431\u0435 \u0441\u043C\u0435\u0440\u0442\u044C!"
+        playerAllAnswers:
+        - playerAnswer:
+          - "\u0423\u0439\u0442\u0438..."
+      - name: English
+        npcText:
+        - 'Congratulations! You chose stupidity and indifference, and now go and
+          choose your death!
+
+'
+        playerAllAnswers:
+        - playerAnswer:
+          - Go away ...
+      - name: "\u041D\u043E\u0432\u0430\u044F \u043B\u043E\u043A\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F"
+        npcText: []
+        playerAllAnswers: []
+    - name: "\u0441\u043C\u0435\u0445"
+      id: 13
+      playerAnswers:
+      - nextNodeId: 0
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 1
+        isGetQest: 0
+        isBastard: 1
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 0
+          reward: 0
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      localizations:
+      - name: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+        npcText:
+        - "\u0422\u0430\u043A \u0442\u0435\u0431\u0435 \u0432\u0441\u0435-\u0436\u0435
+          \u0441\u043C\u0435\u0448\u043D\u043E? \u0422\u0430\u043A \u043E\u0441\u0442\u0430\u0432\u0430\u0439\u0441\u044F
+          \u0436\u0435 \u0433\u043B\u0443\u043F\u0446\u043E\u043C, \u0433\u043B\u0443\u043F\u0446\u043E\u043C
+          \u0431\u0435\u0437 \u043D\u0430\u0433\u0440\u0430\u0434\u044B!"
+        playerAllAnswers:
+        - playerAnswer:
+          - "\u0423\u0439\u0442\u0438..."
+      - name: English
+        npcText:
+        - 'So you''re still funny? So remain a fool, a fool without a reward!
+
+'
+        playerAllAnswers:
+        - playerAnswer:
+          - Go away ...
+      - name: "\u041D\u043E\u0432\u0430\u044F \u043B\u043E\u043A\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F"
+        npcText: []
+        playerAllAnswers: []
+    - name: "\u0437\u043E\u043B\u043E\u0442\u043E"
+      id: 14
+      playerAnswers:
+      - nextNodeId: 0
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 1
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 1000
+          reward: 2
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      localizations:
+      - name: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+        npcText:
+        - "\u0425\u0430 - \u0445\u0430 -\u0445\u0430!!! \u0410\u0445 \u0442\u044B
+          \u043C\u043E\u0439, \u0430\u043B\u0447\u043D\u044B\u0439 \u0438 \u043D\u0435\u043D\u0430\u0441\u044B\u0442\u043D\u044B\u0439
+          \u0434\u0440\u0443\u0433! \u0411\u0435\u0440\u0438 \u0436\u0435 \u0437\u043E\u043B\u043E\u0442\u043E,
+          \u0435\u0441\u043B\u0438 \u0442\u0435\u0431\u0435 \u043D\u0438\u0447\u0435\u0433\u043E
+          \u0431\u043E\u043B\u044C\u0448\u0435 \u043D\u0435 \u0438\u043D\u0442\u0435\u0440\u0435\u0441\u043D\u043E!!!"
+        playerAllAnswers:
+        - playerAnswer:
+          - "\u0412\u0437\u044F\u0442\u044C \u0437\u043E\u043B\u043E\u0442\u043E
+            \u0438 \u0443\u0439\u0442\u0438."
+      - name: English
+        npcText:
+        - 'Ha - ha-ha !!! Oh, you, my greedy and insatiable friend! Take the gold
+          if you are not interested in anything else !!!
+
+'
+        playerAllAnswers:
+        - playerAnswer:
+          - Take gold and leave.
+      - name: "\u041D\u043E\u0432\u0430\u044F \u043B\u043E\u043A\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F"
+        npcText: []
+        playerAllAnswers: []
+    isQuest: 0
+    quest:
+      localization:
+      - nameQuest: "\u041D\u0430\u0437\u0432\u0430\u043D\u0438\u0435 \u043A\u0432\u0435\u0441\u0442\u0430"
+        titleQuest: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435 \u043A\u0432\u0435\u0441\u0442\u0430"
+      - nameQuest: "\u041D\u0430\u0437\u0432\u0430\u043D\u0438\u0435 \u043A\u0432\u0435\u0441\u0442\u0430"
+        titleQuest: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435 \u043A\u0432\u0435\u0441\u0442\u0430"
+      targetQuest: 0
+      objectQuest: 0
+      amountObjectQuest: 0
+      rewardQuest:
+        valueReward: 0
+        reward: 0
+        skillReward: 0
+      complete: 0
+      faild: 0
+      taken: 0
+      cancel: 0
+      isMain: 0
+  - name: "\u0434\u0435\u043C\u043E\u043D"
+    id: 1
+    nodes:
+    - name: "\u041F\u0435\u0440\u0432\u044B\u0439"
+      id: 0
+      playerAnswers:
+      - nextNodeId: 1
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 0
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 0
+          reward: 0
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      localizations:
+      - name: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+        npcText:
+        - "\u041F\u0440\u0438\u0432\u0435\u0442\u0441\u0442\u0432\u0443\u044E! \u041F\u0440\u0438\u0432\u0435\u0442\u0441\u0442\u0432\u0443\u044E!
+          \u041F\u0440\u0438\u0432\u0435\u0442\u0441\u0442\u0432\u0443\u044E \u0412\u0435\u043B\u0438\u043A\u043E\u0433\u043E
+          \u041F\u043E\u043A\u043E\u0440\u0438\u0442\u0435\u043B\u044F \u041F\u043E\u0434\u0437\u0435\u043C\u0435\u043B\u044C\u044F!
+          \u0422\u044B \u043F\u043E\u0431\u0435\u0434\u0438\u043B \u0412\u0435\u0440\u0445\u043E\u0432\u043D\u043E\u0433\u043E
+          \u0414\u0435\u043C\u043E\u043D\u0430! \u0412\u0441\u0435 \u041F\u043E\u0434\u0437\u0435\u043C\u0435\u043B\u044C\u0435
+          \u0443 \u0442\u0432\u043E\u0438\u0445 \u043D\u043E\u0433!"
+        playerAllAnswers:
+        - playerAnswer:
+          - "\u042D\u0442\u043E \u0431\u044B\u043B\u043E \u043D\u0435\u043B\u0435\u0433\u043A\u043E!"
+      - name: English
+        npcText:
+        - 'Greetings! Greetings! Hail Great Dungeon Conqueror! You have defeated
+          the High Demon! The entire Dungeon is at your feet!
+
+'
+        playerAllAnswers:
+        - playerAnswer:
+          - That was not easy!
+      - name: "\u041D\u043E\u0432\u0430\u044F \u043B\u043E\u043A\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F"
+        npcText: []
+        playerAllAnswers: []
+    - name: "\u043D\u0435\u043B\u0435\u0433\u043A\u043E"
+      id: 1
+      playerAnswers:
+      - nextNodeId: 2
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 0
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 0
+          reward: 0
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      localizations:
+      - name: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+        npcText:
+        - "\u0414\u0430, \u0442\u044B \u043F\u0440\u0430\u0432! \u041F\u043E\u0431\u0435\u0434\u0438\u0442\u044C
+          \u0414\u0435\u043C\u043E\u043D\u0430 \u0438 \u041F\u043E\u043A\u043E\u0440\u0438\u0442\u044C
+          \u041F\u043E\u0434\u0437\u0435\u043C\u0435\u043B\u044C\u0435 - \u0437\u0430\u0434\u0430\u0447\u0430
+          \u043D\u0435 \u0441\u0430\u043C\u0430\u044F \u043F\u0440\u043E\u0441\u0442\u0430\u044F!
+          \u041D\u043E \u0442\u044B \u0441\u043F\u0440\u0430\u0432\u0438\u043B\u0441\u044F!
+          \u0421\u043F\u0440\u0430\u0432\u0438\u043B\u0441\u044F \u0441 \u043C\u043E\u0435\u0439
+          \u043F\u043E\u043C\u043E\u0449\u044C\u044E!"
+        playerAllAnswers:
+        - playerAnswer:
+          - "\u0414\u0430, \u044D\u0442\u043E \u0442\u0430\u043A, \u0438 \u044F \u0431\u043B\u0430\u0433\u043E\u0434\u0430\u0440\u0435\u043D
+            \u0442\u0435\u0431\u0435!"
+      - name: English
+        npcText:
+        - 'Yes you are right! Defeating the Demon and Conquering the Dungeon is not
+          an easy task! But you did it! Coped with my help!
+
+'
+        playerAllAnswers:
+        - playerAnswer:
+          - Yes, it is, and I am grateful to you!
+      - name: "\u041D\u043E\u0432\u0430\u044F \u043B\u043E\u043A\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F"
+        npcText: []
+        playerAllAnswers: []
+    - name: "\u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0435\u043D\u0438\u0435"
+      id: 2
+      playerAnswers:
+      - nextNodeId: 3
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 0
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 0
+          reward: 0
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      localizations:
+      - name: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+        npcText:
+        - "\u0422\u044B \u0441\u0442\u0430\u043B \u0432\u0435\u043B\u0438\u043A\u0438\u043C
+          \u0412\u043E\u0438\u043D\u043E\u043C \u0441 \u0431\u043E\u043B\u044C\u0448\u0438\u043C
+          \u0438 \u0434\u043E\u0431\u0440\u044B\u043C \u0441\u0435\u0440\u0434\u0446\u0435\u043C!
+          \u042F \u0440\u0430\u0434 \u0437\u0430 \u0442\u0435\u0431\u044F!"
+        playerAllAnswers:
+        - playerAnswer:
+          - "\u0427\u0442\u043E \u0436\u0435 \u0434\u0430\u043B\u044C\u0448\u0435?"
+      - name: English
+        npcText:
+        - 'You have become a great Warrior with a big and kind heart! I''m happy
+          for you!
+
+'
+        playerAllAnswers:
+        - playerAnswer:
+          - What's next?
+      - name: "\u041D\u043E\u0432\u0430\u044F \u043B\u043E\u043A\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F"
+        npcText: []
+        playerAllAnswers: []
+    - name: "\u041A\u043E\u043D\u0435\u0446"
+      id: 3
+      playerAnswers:
+      - nextNodeId: 4
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 0
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 0
+          reward: 0
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      localizations:
+      - name: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+        npcText:
+        - "\u0414\u0430\u043B\u044C\u0448\u0435? \u0414\u0430\u043B\u044C\u0448\u0435
+          \u0442\u043E\u043B\u044C\u043A\u043E \u0431\u0435\u0441\u043A\u043E\u043D\u0435\u0447\u043D\u043E\u0441\u0442\u044C
+          \u0438 \u0432\u0435\u0447\u043D\u0430\u044F \u0421\u043B\u0430\u0432\u0430
+          \u0412\u0435\u043B\u0438\u043A\u043E\u0433\u043E \u041F\u043E\u043A\u043E\u0440\u0438\u0442\u0435\u043B\u044F
+          \u041F\u043E\u0434\u0437\u0435\u043C\u0435\u043B\u044C\u044F! \u0422\u044B
+          \u043D\u0430\u0432\u0441\u0435\u0433\u0434\u0430 \u043E\u0441\u0442\u0430\u043D\u0435\u0448\u044C\u0441\u044F
+          \u0437\u0434\u0435\u0441\u044C \u0438 \u0431\u0435\u0441\u043A\u043E\u043D\u0435\u0447\u043D\u043E
+          \u0431\u0443\u0434\u0435\u0448\u044C \u0441\u0440\u0430\u0436\u0430\u0442\u044C\u0441\u044F
+          \u0432 \u044D\u0442\u0438\u0445 \u0427\u0435\u0440\u0442\u043E\u0433\u0430\u0445,
+          \u043D\u043E \u0441 \u0431\u043E\u043B\u0435\u0435 \u0441\u0438\u043B\u044C\u043D\u044B\u043C\u0438
+          \u0438 \u0437\u043B\u044B\u043C\u0438 \u0441\u043E\u043F\u0435\u0440\u043D\u0438\u043A\u0430\u043C\u0438!"
+        playerAllAnswers:
+        - playerAnswer:
+          - "\u0417\u043D\u0430\u0447\u0438\u0442 \u0442\u0430\u043A\u043E\u0439
+            \u043C\u043E\u0439 \u0443\u0434\u0435\u043B..."
+      - name: English
+        npcText:
+        - 'Next? Then only infinity and eternal Glory of the Great Dungeon Conqueror!
+          You will stay here forever and endlessly fight in these Halls, but with
+          stronger and more evil rivals!
+
+'
+        playerAllAnswers:
+        - playerAnswer:
+          - So this is my lot ...
+      - name: "\u041D\u043E\u0432\u0430\u044F \u043B\u043E\u043A\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F"
+        npcText: []
+        playerAllAnswers: []
+    - name: "\u043C\u0435\u0447"
+      id: 4
+      playerAnswers:
+      - nextNodeId: 0
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 1
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 3000
+          reward: 2
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      localizations:
+      - name: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+        npcText:
+        - "\u041F\u0440\u0438\u043C\u0438 \u0436\u0435 \u0432 \u0434\u0430\u0440
+          \u043C\u043E\u0439 \u043F\u043E\u0441\u043B\u0435\u0434\u043D\u0438\u0439
+          \u043F\u043E\u0434\u0430\u0440\u043E\u043A! \u0422\u0435\u0431\u044F \u0436\u0434\u0443\u0442
+          \u0441\u0442\u0440\u0430\u0448\u043D\u044B\u0435 \u0438 \u0441\u0438\u043B\u044C\u043D\u044B\u0435
+          \u043F\u0440\u043E\u0442\u0438\u0432\u043D\u0438\u043A\u0438, \u043F\u043E\u044D\u0442\u043E\u043C\u0443
+          \u044F \u0434\u0430\u0440\u0443\u044E \u0442\u0435\u0431\u0435 \u0437\u043E\u043B\u043E\u0442\u043E,
+          \u043C\u043D\u043E\u0433\u043E \u0437\u043E\u043B\u043E\u0442\u0430, \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u0439
+          \u0435\u0433\u043E \u043F\u043E \u043D\u0430\u0437\u043D\u0430\u0447\u0435\u043D\u0438\u044E!
+          \u041F\u0440\u043E\u0449\u0430\u0439, \u041F\u043E\u043A\u043E\u0440\u043E\u0438\u0442\u0435\u043B\u044C
+          \u041F\u043E\u0434\u0437\u0435\u043C\u0435\u043B\u044C\u044F! \n\u0422\u044B
+          \u0441\u0430\u043C \u0437\u0430 \u0441\u0435\u0431\u044F \u043F\u043E\u0441\u0442\u043E\u0438\u0448\u044C! "
+        playerAllAnswers:
+        - playerAnswer:
+          - "\u0412 \u0431\u043E\u0439!"
+      - name: English
+        npcText:
+        - 'Accept my last gift as a gift! Terrible and strong opponents await you,
+          so I will give you gold, a lot of gold, use it as directed! Goodbye Dungeon
+          Conqueror, you stand up for yourself!
+
+'
+        playerAllAnswers:
+        - playerAnswer:
+          - To battle!
+      - name: "\u041D\u043E\u0432\u0430\u044F \u043B\u043E\u043A\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F"
+        npcText: []
+        playerAllAnswers: []
+    isQuest: 0
+    quest:
+      localization:
+      - nameQuest: "\u041D\u0430\u0437\u0432\u0430\u043D\u0438\u0435 \u043A\u0432\u0435\u0441\u0442\u0430"
+        titleQuest: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435 \u043A\u0432\u0435\u0441\u0442\u0430"
+      - nameQuest: "\u041D\u0430\u0437\u0432\u0430\u043D\u0438\u0435 \u043A\u0432\u0435\u0441\u0442\u0430"
+        titleQuest: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435 \u043A\u0432\u0435\u0441\u0442\u0430"
+      targetQuest: 0
+      objectQuest: 0
+      amountObjectQuest: 0
+      rewardQuest:
+        valueReward: 0
+        reward: 0
+        skillReward: 0
+      complete: 0
+      faild: 0
+      taken: 0
+      cancel: 0
+      isMain: 0
+  - name: "\u041F\u0435\u0440\u0432\u044B\u0439 \u0431\u043E\u0441\u0441"
+    id: 2
+    nodes:
+    - name: "\u0412\u0445\u043E\u0434"
+      id: 0
+      playerAnswers:
+      - nextNodeId: 1
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 0
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 0
+          reward: 3
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      - nextNodeId: 2
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 0
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 0
+          reward: 0
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      - nextNodeId: 3
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 0
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 0
+          reward: 0
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      localizations:
+      - name: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+        npcText:
+        - "\u041E-\u0433\u043E-\u0433\u043E! \u041A\u043E\u0433\u043E \u044F \u0432\u0438\u0436\u0443!
+          \u0414\u0430 \u044D\u0442\u043E \u0436\u0435 \u043F\u043E\u0431\u0435\u0434\u0438\u0442\u0435\u043B\u044C
+          \u041F\u0435\u0449\u0435\u0440\u043D\u043E\u0433\u043E \u041E\u0433\u0440\u0430!
+          \u041A\u0430\u043A \u043F\u043E\u0436\u0438\u0432\u0430\u0435\u0448\u044C?"
+        playerAllAnswers:
+        - playerAnswer:
+          - "\u042D\u0442\u043E \u0431\u044B\u043B\u0430 \u043D\u0435\u043B\u0435\u0433\u043A\u0430\u044F
+            \u0441\u0445\u0432\u0430\u0442\u043A\u0430!"
+        - playerAnswer:
+          - "\u0425\u0430! \u042F \u0443\u043B\u043E\u0436\u0438\u043B \u0435\u0433\u043E
+            \u043E\u0434\u043D\u043E\u0439 \u043B\u0435\u0432\u043E\u0439!"
+        - playerAnswer:
+          - "\u0420\u0430\u0441\u0441\u043A\u0430\u0436\u0438 \u043C\u043D\u0435
+            \u0432\u0441\u0435 \u043E\u0431 \u044D\u0442\u043E\u043C \u043C\u0435\u0441\u0442\u0435!"
+      - name: English
+        npcText:
+        - Oh-ho-ho! Whom do I see! Yes, this is the winner of the Cave Ogre! How
+          are you?
+        playerAllAnswers:
+        - playerAnswer:
+          - It was not an easy fight!
+        - playerAnswer:
+          - Ha! I laid him down with one left!
+        - playerAnswer:
+          - Tell me everything about this place!
+      - name: "\u041D\u043E\u0432\u0430\u044F \u043B\u043E\u043A\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F"
+        npcText: []
+        playerAllAnswers: []
+    - name: "\u041D\u0435\u043B\u0435\u0433\u043A\u043E"
+      id: 1
+      playerAnswers:
+      - nextNodeId: 3
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 0
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 0
+          reward: 0
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      - nextNodeId: 0
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 1
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 0
+          reward: 0
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      localizations:
+      - name: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+        npcText:
+        - "\u0414\u0430, \u044D\u0442\u0438 \u0442\u0432\u0430\u0440\u0438 \u0441\u0438\u043B\u044C\u043D\u044B
+          \u0438 \u043E\u043F\u0430\u0441\u043D\u044B! \u0414\u0430\u043B\u044C\u0448\u0435
+          \u0431\u0443\u0434\u0435\u0442 \u0435\u0449\u0435 \u0441\u0442\u0440\u0430\u0448\u043D\u0435\u0435!
+          \u041F\u043E\u044D\u0442\u043E\u043C\u0443 \u044F \u0434\u0430\u0440\u044E
+          \u0442\u0435\u0431\u0435 \u043E\u0434\u0438\u043D \u0438\u0437 \u043B\u0443\u0447\u0448\u0438\u0445
+          \u043C\u0435\u0447\u0435\u0439 \u0432 \u043C\u0438\u0440\u0435, \u044D\u0442\u043E
+          - \u0448\u0435\u0434\u0435\u0432\u0440 \u043C\u043E\u0435\u0439 \u043A\u043E\u043B\u043B\u0435\u043A\u0446\u0438\u0438!
+          \u0421 \u043D\u0438\u043C \u0442\u0435\u0431\u0435 \u0431\u0443\u0434\u0435\u0442
+          \u043D\u0430\u043C\u043D\u043E\u0433\u043E \u043F\u0440\u043E\u0449\u0435
+          \u0432 \u0431\u0443\u0434\u0443\u0449\u0435\u043C!"
+        playerAllAnswers:
+        - playerAnswer:
+          - "\u0414\u0430, \u044D\u0442\u043E \u0434\u043E\u0441\u0442\u043E\u0439\u043D\u0430\u044F
+            \u043D\u0430\u0433\u0440\u0430\u0434\u0430, \u043D\u043E \u043C\u043D\u0435
+            \u043D\u0443\u0436\u043D\u0430 \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u044F!"
+        - playerAnswer:
+          - "\u0421\u043F\u0430\u0441\u0438\u0431\u043E, \u044F \u043D\u0435 \u0437\u0430\u0431\u044B\u0432\u0430\u044E
+            \u0434\u043E\u0431\u0440\u0430!"
+      - name: English
+        npcText:
+        - Yes, these creatures are strong and dangerous! It will be even worse further!
+          Therefore, I give you one of the best swords in the world, this is a masterpiece
+          of my collection! It will be much easier with him in the future!
+        playerAllAnswers:
+        - playerAnswer:
+          - Yes, this is a worthy reward, but I need information!
+        - playerAnswer:
+          - "Thank you, I don\u2019t forget goodness"
+      - name: "\u041D\u043E\u0432\u0430\u044F \u043B\u043E\u043A\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F"
+        npcText: []
+        playerAllAnswers: []
+    - name: "\u041E\u0434\u043D\u043E\u0439 \u043B\u0435\u0432\u043E\u0439"
+      id: 2
+      playerAnswers:
+      - nextNodeId: 15
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 0
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 0
+          reward: 0
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      - nextNodeId: 16
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 0
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 0
+          reward: 0
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      localizations:
+      - name: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+        npcText:
+        - "\u0414\u0430 \u0442\u044B \u043D\u0430\u0441\u0442\u043E\u044F\u0449\u0438\u0439
+          \u0431\u0435\u0440\u0441\u0435\u0440\u043A?"
+        playerAllAnswers:
+        - playerAnswer:
+          - "\u0414\u0430 \u043D\u0435\u0442, \u0447\u0442\u043E \u0442\u044B, \u044D\u0442\u043E
+            \u044F \u0434\u043B\u044F \u043A\u0440\u0430\u0441\u043D\u043E\u0433\u043E
+            \u0441\u043B\u043E\u0432\u0446\u0430!"
+        - playerAnswer:
+          - "\u0414\u0430, \u0438\u043C\u0435\u043D\u043D\u043E, \u044F \u0442\u0430\u043A\u043E\u0439!"
+      - name: English
+        npcText:
+        - 'Are you a real berserker?
+
+
+'
+        playerAllAnswers:
+        - playerAnswer:
+          - No, what are you, it's me for a catchphrase!
+        - playerAnswer:
+          - Yes, exactly, I am!
+      - name: "\u041D\u043E\u0432\u0430\u044F \u043B\u043E\u043A\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F"
+        npcText: []
+        playerAllAnswers: []
+    - name: "\u0420\u0430\u0441\u0441\u043A\u0430\u0437 \u041D\u0430\u0447\u0430\u043B\u043E"
+      id: 3
+      playerAnswers:
+      - nextNodeId: 4
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 0
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 1
+          reward: 4
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      - nextNodeId: 5
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 0
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 0
+          reward: 0
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      localizations:
+      - name: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+        npcText:
+        - "\u0422\u044B \u043E \u0447\u0435\u043C, \u0434\u0440\u0443\u0433 \u043C\u043E\u0439?"
+        playerAllAnswers:
+        - playerAnswer:
+          - "\u0427\u0442\u043E \u0436\u0435 \u0434\u0430\u043B\u044C\u0448\u0435?"
+        - playerAnswer:
+          - "\u0427\u0442\u043E \u0436\u0435 \u0442\u044B, \u0411\u0435\u0437\u043C\u043E\u0437\u0433\u043B\u043E\u0435
+            \u0421\u0443\u0449\u0435\u0441\u0442\u0432\u043E, \u0445\u043E\u0447\u0435\u0448\u044C
+            \u0432\u0441\u0435 \u0443\u0442\u0430\u0438\u0442\u044C?"
+      - name: English
+        npcText:
+        - 'What are you talking about, my friend?
+
+
+'
+        playerAllAnswers:
+        - playerAnswer:
+          - What's next?
+        - playerAnswer:
+          - Why do you, Brainless Creature, want to hide everything?
+      - name: "\u041D\u043E\u0432\u0430\u044F \u043B\u043E\u043A\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F"
+        npcText: []
+        playerAllAnswers: []
+    - name: "\u0425\u043E\u0440\u043E\u0448\u0430\u044F \u0431\u0435\u0441\u0435\u0434\u0430"
+      id: 4
+      playerAnswers:
+      - nextNodeId: 6
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 0
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 0
+          reward: 0
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      localizations:
+      - name: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+        npcText:
+        - "\u0410\u0445 \u0434\u0430! \u041D\u0435 \u0433\u043D\u0435\u0432\u0430\u0439\u0441\u044F
+          \u043D\u0430 \u043C\u0435\u043D\u044F, \u0442\u044B\u0441\u044F\u0447\u0438
+          \u043B\u0435\u0442 \u043D\u0435 \u043F\u0440\u043E\u0445\u043E\u0434\u044F\u0442
+          \u0434\u0430\u0440\u043E\u043C. \u0417\u0430 \u0442\u0432\u043E\u044E \u0434\u043E\u0431\u0440\u043E\u0436\u0435\u043B\u0430\u0442\u0435\u043B\u044C\u043D\u043E\u0441\u0442\u044C
+          \u043F\u0440\u0438\u043C\u0438 \u0435\u0449\u0435 \u043E\u0434\u0438\u043D
+          \u0434\u0430\u0440 - \u0414\u0440\u0435\u0432\u043D\u0438\u0439 \u0422\u0430\u0438\u043D\u0441\u0442\u0432\u0435\u043D\u043D\u044B\u0439
+          \u0410\u0440\u0442\u0435\u0444\u0430\u043A\u0442, \u043A\u043E\u0442\u043E\u0440\u044B\u0439
+          \u043F\u043E\u043C\u043E\u0436\u0435\u0442 \u0442\u0435\u0431\u0435 \u0432
+          \u043E\u043F\u0430\u0441\u043D\u043E\u043C \u043F\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0438!"
+        playerAllAnswers:
+        - playerAnswer:
+          - "\u042F \u0431\u043B\u0430\u0433\u043E\u0434\u0430\u0440\u044E \u0442\u0435\u0431\u044F,
+            \u043D\u043E \u043F\u043E\u0436\u0430\u043B\u0443\u0439\u0441\u0442\u0430,
+            \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0430\u0439!"
+      - name: English
+        npcText:
+        - 'Oh yes! Don''t be angry with me, thousands of years are not wasted. For
+          your kindness, accept another gift - the Ancient Mysterious Artifact, which
+          will help you on a dangerous journey!
+
+'
+        playerAllAnswers:
+        - playerAnswer:
+          - I thank you, but please go on!
+      - name: "\u041D\u043E\u0432\u0430\u044F \u043B\u043E\u043A\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F"
+        npcText: []
+        playerAllAnswers: []
+    - name: "\u041F\u043B\u043E\u0445\u0430\u044F \u0431\u0435\u0441\u0435\u0434\u0430"
+      id: 5
+      playerAnswers:
+      - nextNodeId: 6
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 0
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 0
+          reward: 0
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      - nextNodeId: 7
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 0
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 0
+          reward: 0
+          skillReward: 0
+        isCarmaChange: 1
+        carma: 1
+      localizations:
+      - name: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+        npcText:
+        - "\u0421\u043B\u0435\u0434\u0438 \u0437\u0430 \u044F\u0437\u044B\u043A\u043E\u043C,
+          \u0447\u0435\u043B\u043E\u0432\u0435\u0447\u0435\u0448\u043A\u043E! \u042F
+          \u0432\u0441\u0435 \u043F\u0440\u0435\u043A\u0440\u0430\u0441\u043D\u043E
+          \u043F\u043E\u043C\u043D\u044E, \u0430 \u0432\u043E\u0442 \u0442\u0432\u043E\u0438
+          \u043C\u0430\u043D\u0435\u0440\u044B \u043E\u0441\u0442\u0430\u0432\u043B\u044F\u044E\u0442
+          \u0436\u0435\u043B\u0430\u0442\u044C \u043B\u0443\u0447\u0448\u0435\u0433\u043E!"
+        playerAllAnswers:
+        - playerAnswer:
+          - "\u041B\u0430\u0434\u043D\u043E, \u043B\u0430\u0434\u043D\u043E, \u043D\u0435
+            \u0433\u043E\u0440\u044F\u0447\u0438\u0441\u044C! \u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0430\u0439!"
+        - playerAnswer:
+          - "\u0412\u043E\u0442 \u0435\u0449\u0435, \u043A\u0430\u043A \u0445\u043E\u0447\u0443
+            \u0442\u0430\u043A \u0438 \u0440\u0430\u0437\u0433\u043E\u0432\u0430\u0440\u0438\u0432\u0430\u044E!"
+      - name: English
+        npcText:
+        - 'Watch your tongue, little man! I remember everything perfectly, but your
+          manners leave much to be desired!
+
+
+'
+        playerAllAnswers:
+        - playerAnswer:
+          - Okay, okay, don't get excited! Go on!
+        - playerAnswer:
+          - Here's another, as I want, and talk!
+      - name: "\u041D\u043E\u0432\u0430\u044F \u043B\u043E\u043A\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F"
+        npcText: []
+        playerAllAnswers: []
+    - name: "\u041E\u0441\u043D\u043E\u0432\u043D\u043E\u0439 \u0440\u0430\u0441\u0441\u043A\u0430\u0437"
+      id: 6
+      playerAnswers:
+      - nextNodeId: 10
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 0
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 0
+          reward: 0
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      - nextNodeId: 8
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 0
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 0
+          reward: 0
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      localizations:
+      - name: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+        npcText:
+        - "\u0422\u044B \u0442\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u043E \u043E\u0434\u043E\u043B\u0435\u043B
+          \u041E\u0433\u0440\u0430, \u044D\u0442\u0443 \u043C\u0435\u0440\u0437\u043A\u0443\u044E,
+          \u043F\u0440\u043E\u0442\u0438\u0432\u043D\u0443\u044E \u0442\u0432\u0430\u0440\u044C,
+          \u0441\u043E\u0437\u0434\u0430\u043D\u043D\u0443\u044E \u0432 \u0436\u0443\u0442\u043A\u0438\u0445
+          \u043F\u0435\u0449\u0435\u0440\u0430\u0445 \u041F\u043E\u0434\u0437\u0435\u043C\u043D\u043E\u0433\u043E
+          \u041C\u0438\u0440\u0430! "
+        playerAllAnswers:
+        - playerAnswer:
+          - "\u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0430\u0439!"
+        - playerAnswer:
+          - "\u041A \u0447\u0435\u043C\u0443 \u044D\u0442\u043E\u0442 \u043F\u043E\u0442\u043E\u043A
+            \u0441\u043B\u043E\u0432? \u0413\u043E\u0432\u043E\u0440\u0438 \u0431\u044B\u0441\u0442\u0440\u0435\u0435!"
+      - name: English
+        npcText:
+        - 'You just defeated the Ogre, this nasty, nasty creature created in the
+          eerie caves of the Underworld!
+
+
+'
+        playerAllAnswers:
+        - playerAnswer:
+          - Go on!
+        - playerAnswer:
+          - Why this stream of words? Speak faster!
+      - name: "\u041D\u043E\u0432\u0430\u044F \u043B\u043E\u043A\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F"
+        npcText: []
+        playerAllAnswers: []
+    - name: "\u0411\u0435\u0437 \u0440\u0430\u0441\u0441\u043A\u0430\u0437\u0430"
+      id: 7
+      playerAnswers:
+      - nextNodeId: 0
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 1
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 0
+          reward: 0
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      localizations:
+      - name: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+        npcText:
+        - "\u041D\u0443 \u0438 \u043E\u0441\u0442\u0430\u0432\u0430\u0439\u0441\u044F
+          \u0432 \u043D\u0435\u0432\u0435\u0434\u0435\u043D\u0438\u0438! \u0414\u0430
+          \u0435\u0449\u0435 \u0438 \u0431\u0435\u0437 \u0435\u0434\u0438\u043D\u043E\u0439
+          \u043D\u0430\u0433\u0440\u0430\u0434\u044B!!! \u0423\u0431\u0438\u0440\u0430\u0439\u0441\u044F
+          \u043F\u0440\u043E\u0447\u044C!"
+        playerAllAnswers:
+        - playerAnswer:
+          - "\u0423\u0439\u0442\u0438."
+      - name: English
+        npcText:
+        - 'Well, stay in the dark! And even without a single award !!! Go away!
+
+'
+        playerAllAnswers:
+        - playerAnswer:
+          - Go away.
+      - name: "\u041D\u043E\u0432\u0430\u044F \u043B\u043E\u043A\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F"
+        npcText: []
+        playerAllAnswers: []
+    - name: "\u0411\u044B\u0441\u0442\u0440\u044B\u0439 \u0440\u0430\u0441\u0441\u043A\u0430\u0437"
+      id: 8
+      playerAnswers:
+      - nextNodeId: 9
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 0
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 0
+          reward: 0
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      localizations:
+      - name: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+        npcText:
+        - "\u0425\u043C, \u043F\u043E\u0436\u0430\u043B\u0443\u0439\u0441\u0442\u0430!
+          \u0422\u044B \u0434\u043E\u043B\u0436\u0435\u043D \u043F\u043E\u0431\u0435\u0434\u0438\u0442\u044C
+          \u0432\u0441\u0435\u0445 \u0422\u0438\u0442\u0430\u043D\u043E\u0432 \u041F\u043E\u0434\u0437\u0435\u043C\u0435\u043B\u044C\u044F,
+          \u0430 \u0437\u0430\u0442\u0435\u043C ... \u043F\u043E\u0432\u0435\u0440\u0433\u043D\u0443\u0442\u044C
+          \u0432 \u043F\u0440\u0430\u0445 \u0412\u0435\u0440\u0445\u043E\u0432\u043D\u043E\u0433\u043E
+          \u0414\u0435\u043C\u043E\u043D\u0430!!!!!!!!"
+        playerAllAnswers:
+        - playerAnswer:
+          - "\u0421\u043A\u043E\u0440\u0435\u0435 \u0432 \u0431\u043E\u0439!"
+      - name: English
+        npcText:
+        - 'Hmm, please! You must defeat all the Titans of the Dungeon, and then ...
+          plunge the Supreme Demon into the dust !!!!!!!!
+
+'
+        playerAllAnswers:
+        - playerAnswer:
+          - Hurry to battle!
+      - name: "\u041D\u043E\u0432\u0430\u044F \u043B\u043E\u043A\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F"
+        npcText: []
+        playerAllAnswers: []
+    - name: "\u0417\u043E\u043B\u043E\u0442\u043E"
+      id: 9
+      playerAnswers:
+      - nextNodeId: 0
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 0
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 1000
+          reward: 2
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      localizations:
+      - name: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+        npcText:
+        - "\u0425\u0430-\u0445\u0430! \u0412\u0440\u0435\u043C\u044F - \u0434\u0435\u043D\u044C\u0433\u0438???
+          \u041D\u0443 \u0442\u0430\u043A \u043F\u043E\u043B\u0443\u0447\u0438 \u043E\u0442
+          \u043C\u0435\u043D\u044F \u043D\u0435\u043C\u043D\u043E\u0433\u043E \u0437\u043E\u043B\u043E\u0442\u0438\u0448\u043A\u0430,
+          \u043E\u043D\u043E \u043E\u0447\u0435\u043D\u044C \u043F\u0440\u0438\u0433\u043E\u0434\u0438\u0442\u0441\u044F
+          \u0442\u0430\u043A\u043E\u043C\u0443 \u0442\u043E\u0440\u043E\u043F\u044B\u0433\u0435,
+          \u043A\u0430\u043A \u0422\u042B!"
+        playerAllAnswers:
+        - playerAnswer:
+          - "\u0414\u0430\u0432\u0430\u0439, \u0434\u0430\u0432\u0430\u0439 \u0435\u0433\u043E
+            \u0441\u044E\u0434\u0430!"
+      - name: English
+        npcText:
+        - 'Ha ha! Time is money??? Well, get some gold from me, it will be very useful
+          to such a hurry, like YOU!
+
+'
+        playerAllAnswers:
+        - playerAnswer:
+          - Come on, give it here!
+      - name: "\u041D\u043E\u0432\u0430\u044F \u043B\u043E\u043A\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F"
+        npcText: []
+        playerAllAnswers: []
+    - name: "\u0411\u043E\u043B\u044C\u0448\u043E\u0439 \u0440\u0430\u0441\u0441\u043A\u0430\u0437"
+      id: 10
+      playerAnswers:
+      - nextNodeId: 11
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 0
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 0
+          reward: 0
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      localizations:
+      - name: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+        npcText:
+        - "\u041D\u043E \u043A\u0440\u043E\u043C\u0435 \u041E\u0433\u0440\u0430 \u0442\u0435\u0431\u0435
+          \u043F\u0440\u0435\u0434\u0441\u0442\u043E\u0438\u0442 \u0441\u0440\u0430\u0437\u0438\u0442\u044C\u0441\u044F
+          \u0435\u0449\u0435 \u0441 \u043D\u0435\u0441\u043A\u043E\u043B\u044C\u043A\u0438\u043C\u0438
+          \u0422\u0438\u0442\u0430\u043D\u0430\u043C\u0438! \u042D\u0442\u043E \u0427\u0443\u0434\u043E\u0432\u0438\u0449\u0430,
+          \u0441\u043E\u0437\u0434\u0430\u043D\u043D\u044B\u0435 \u0436\u0443\u0442\u043A\u0438\u043C
+          \u0440\u0430\u0437\u0443\u043C\u043E\u043C, \u0441 \u043F\u043E\u043C\u043E\u0449\u044C\u044E
+          \u0442\u0430\u0439\u043D\u043E\u0439 \u0434\u0440\u0435\u0432\u043D\u0435\u0439
+          \u043C\u0430\u0433\u0438\u0438..."
+        playerAllAnswers:
+        - playerAnswer:
+          - "\u041A\u0442\u043E \u0436\u0435 \u044D\u0442\u043E\u0442 \u0422\u0432\u043E\u0440\u0435\u0446?"
+      - name: English
+        npcText:
+        - 'But besides Ogre, you have to fight with several other Titans! These are
+          Monsters, created by an eerie mind, using secret ancient magic ...
+
+'
+        playerAllAnswers:
+        - playerAnswer:
+          - Who is this Creator?
+      - name: "\u041D\u043E\u0432\u0430\u044F \u043B\u043E\u043A\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F"
+        npcText: []
+        playerAllAnswers: []
+    - name: "\u0414\u0430\u043B\u044C\u0448\u0435"
+      id: 11
+      playerAnswers:
+      - nextNodeId: 13
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 0
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 0
+          reward: 0
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      - nextNodeId: 12
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 0
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 0
+          reward: 0
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      localizations:
+      - name: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+        npcText:
+        - "\u0421\u0430\u043C\u043E\u0435 \u0441\u0432\u0438\u0440\u0435\u043F\u043E\u0435,
+          \u0436\u0435\u0441\u0442\u043E\u043A\u043E\u0435 \u0438 \u0441\u0442\u0440\u0430\u0448\u043D\u043E\u0435
+          \u0427\u0443\u0434\u043E\u0432\u0438\u0449\u0435, \u043F\u043E\u0440\u043E\u0436\u0434\u0435\u043D\u0438\u0435
+          \u0441\u0430\u043C\u043E\u0433\u043E \u0417\u041B\u0410 \u0438 \u0410\u0414\u0410
+          - \u044D\u0442\u043E \u0438 \u0435\u0441\u0442\u044C \u0412\u0435\u043D\u0435\u0446
+          \u041F\u043E\u0434\u0437\u0435\u043C\u0435\u043B\u044C\u044F! \u0412\u0415\u0420\u0425\u041E\u0412\u041D\u042B\u0419
+          \u0414\u0415\u041C\u041E\u041D, \u043F\u043E\u0441\u0435\u043B\u0438\u0432\u0448\u0438\u0439\u0441\u044F
+          \u0432 \u041E\u0433\u043D\u0435\u043D\u043D\u044B\u0445 \u0417\u0430\u043B\u0430\u0445..."
+        playerAllAnswers:
+        - playerAnswer:
+          - "\u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0430\u0439! \u041D\u0435
+            \u043E\u0441\u0442\u0430\u043D\u0430\u0432\u043B\u0438\u0432\u0430\u0439\u0441\u044F!"
+        - playerAnswer:
+          - "\u0421\u0442\u043E\u0439,\u0441\u0442\u043E\u0439,\u0441\u0442\u043E\u0439!
+            \u0425\u0432\u0430\u0442\u0438\u0442!"
+      - name: English
+        npcText:
+        - 'The most ferocious, cruel and terrible Monster, the product of EVIL and
+          HELL itself - this is the Crown of the Dungeon! THE SUPREME DEMON who settled
+          in the Halls of Fire ...
+
+
+'
+        playerAllAnswers:
+        - playerAnswer:
+          - Go on! Do not stop!
+        - playerAnswer:
+          - Stop, stop, stop! Enough!
+      - name: "\u041D\u043E\u0432\u0430\u044F \u043B\u043E\u043A\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F"
+        npcText: []
+        playerAllAnswers: []
+    - name: "\u0421\u0442\u0440\u0430\u0448\u043D\u043E"
+      id: 12
+      playerAnswers:
+      - nextNodeId: 0
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 1
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 0
+          reward: 0
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      localizations:
+      - name: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+        npcText:
+        - "\u0422\u0435\u0431\u0435 \u0441\u0442\u0440\u0430\u0448\u043D\u043E???"
+        playerAllAnswers:
+        - playerAnswer:
+          - "\u0427\u0442\u043E \u0437\u0430 \u0432\u043E\u043F\u0440\u043E\u0441?
+            \u041A\u043E\u043D\u0435\u0447\u043D\u043E! \u041D\u0430\u0433\u043D\u0430\u043B
+            \u0436\u0443\u0442\u0438..."
+      - name: English
+        npcText:
+        - 'You''re scared???
+
+'
+        playerAllAnswers:
+        - playerAnswer:
+          - 'What''s question? Sure! '
+      - name: "\u041D\u043E\u0432\u0430\u044F \u043B\u043E\u043A\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F"
+        npcText: []
+        playerAllAnswers: []
+    - name: "\u041D\u0435 \u0441\u0442\u0440\u0430\u0448\u043D\u043E"
+      id: 13
+      playerAnswers:
+      - nextNodeId: 14
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 0
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 10
+          reward: 5
+          skillReward: 3
+        isCarmaChange: 0
+        carma: 0
+      localizations:
+      - name: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+        npcText:
+        - "\u041E\u043D \u043F\u043E\u0432\u0435\u043B\u0435\u0432\u0430\u0435\u0442
+          \u0432\u0441\u0435\u043C\u0438 \u0441\u0442\u0438\u0445\u0438\u044F\u043C\u0438,
+          \u043F\u0440\u0438\u0440\u0443\u0447\u0438\u043B \u0432\u0441\u0435 \u0432\u0438\u0434\u044B
+          \u043C\u0430\u0433\u0438\u0438.. \u0421\u0443\u0449\u0435\u0441\u0442\u0432\u0430,
+          \u043C\u043E\u043D\u0441\u0442\u0440\u044B, \u0442\u0432\u0430\u0440\u0438,
+          \u0447\u0443\u0434\u043E\u0432\u0438\u0449\u0430 - \u0432\u0441\u0435 \u0441\u043B\u0443\u0436\u0430\u0442
+          \u0438 \u043F\u043E\u043A\u043B\u043E\u043D\u044F\u044E\u0442\u0441\u044F
+          \u0435\u043C\u0443! \u0421 \u043D\u0438\u043C \u0442\u0435\u0431\u0435
+          \u043F\u0440\u0438\u0434\u0435\u0442\u0441\u044F \u0432\u0441\u0442\u0443\u043F\u0438\u0442\u044C
+          \u0432 \u0441\u0445\u0432\u0430\u0442\u043A\u0443 \u0432 \u0441\u0430\u043C\u043E\u043C
+          \u043A\u043E\u043D\u0446\u0435 \u0442\u0432\u043E\u0435\u0433\u043E \u043F\u0443\u0442\u0438!"
+        playerAllAnswers:
+        - playerAnswer:
+          - "\u0414\u0430, \u043E\u0437\u0430\u0434\u0430\u0447\u0438\u043B \u0442\u044B
+            \u043C\u0435\u043D\u044F..."
+      - name: English
+        npcText:
+        - 'He commands all the elements, tamed all types of magic .. Creatures, monsters
+          - all serve and worship him! You will have to fight with him at the very
+          end of your journey!
+
+'
+        playerAllAnswers:
+        - playerAnswer:
+          - Yes, you puzzled me ...
+      - name: "\u041D\u043E\u0432\u0430\u044F \u043B\u043E\u043A\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F"
+        npcText: []
+        playerAllAnswers: []
+    - name: "\u041D\u0430\u0433\u0440\u0430\u0434\u0430"
+      id: 14
+      playerAnswers:
+      - nextNodeId: 0
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 1
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 3000
+          reward: 1
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      localizations:
+      - name: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+        npcText:
+        - "\u041D\u0435 \u043F\u0435\u0440\u0435\u0436\u0438\u0432\u0430\u0439! \u042F
+          \u0443\u043B\u0443\u0447\u0448\u0430\u044E \u0442\u0432\u043E\u0438 \u0437\u043D\u0430\u043D\u0438\u044F
+          \"\u041C\u0430\u0433\u0438\u0438 \u0421\u043C\u0435\u0440\u0442\u0438\",
+          \u0442\u0435\u043F\u0435\u0440\u044C \u0442\u044B \u0441\u043C\u043E\u0436\u0435\u0448\u044C
+          \u043F\u0440\u043E\u0442\u0438\u0432\u043E\u0441\u0442\u043E\u044F\u0442\u044C
+          \u0430\u0442\u0430\u043A\u0430\u043C \u0432\u0440\u0430\u0433\u043E\u0432
+          \u0438 \u0443\u043C\u0435\u043D\u044C\u0448\u0430\u0442\u044C \u0443\u0440\u043E\u043D
+          \u043E\u0442 \u0438\u0445 \u0430\u0442\u0430\u043A \u0438\u043B\u0438 \u0434\u0430\u0436\u0435
+          \u043F\u043E\u043B\u043D\u043E\u0441\u0442\u044C \u043E\u0442\u0440\u0430\u0436\u0430\u0442\u044C
+          \u0441 \u043F\u043E\u043C\u043E\u0449\u044E \u041C\u0430\u0433\u0438\u0447\u0435\u0441\u043A\u043E\u0433\u043E
+          \u0429\u0438\u0442\u0430!"
+        playerAllAnswers:
+        - playerAnswer:
+          - "\u042D\u0442\u043E \u0445\u043E\u0440\u043E\u0448\u043E! \u0421\u043F\u0430\u0441\u0438\u0431\u043E,
+            \u0447\u0442\u043E \u043F\u043E\u043C\u043E\u0433\u0430\u0435\u0448\u044C
+            \u043C\u043D\u0435!"
+      - name: English
+        npcText:
+        - 'Do not worry! I improve your knowledge of "Death Magic", now you can resist
+          the attacks of enemies and reduce the damage from their attacks, or even
+          completely reflect with the help of the Magic Shield!
+
+'
+        playerAllAnswers:
+        - playerAnswer:
+          - It's good! Thank you for helping me!
+      - name: "\u041D\u043E\u0432\u0430\u044F \u043B\u043E\u043A\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F"
+        npcText: []
+        playerAllAnswers: []
+    - name: "\u041D\u0435 \u0431\u0435\u0440\u0441\u0435\u0440\u043A"
+      id: 15
+      playerAnswers:
+      - nextNodeId: 3
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 0
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 0
+          reward: 0
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      localizations:
+      - name: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+        npcText:
+        - "\u0418\u043C\u0435\u043D\u043D\u043E, \u0441 \u044D\u0442\u043E\u0439
+          \u0433\u0430\u0434\u0438\u043D\u043E\u0439 \u043D\u0435 \u0442\u0430\u043A
+          \u043B\u0435\u0433\u043A\u043E \u0441\u043F\u0440\u0430\u0432\u0438\u0442\u044C\u0441\u044F!"
+        playerAllAnswers:
+        - playerAnswer:
+          - "\u0422\u044B \u0434\u043E\u043B\u0436\u0435\u043D \u0431\u044B\u043B
+            \u043C\u043D\u0435 \u0447\u0442\u043E-\u0442\u043E \u0440\u0430\u0441\u0441\u043A\u0430\u0437\u0430\u0442\u044C!"
+      - name: English
+        npcText:
+        - 'Precisely, this reptile is not so easy to deal with!
+
+'
+        playerAllAnswers:
+        - playerAnswer:
+          - You had to tell me something!
+      - name: "\u041D\u043E\u0432\u0430\u044F \u043B\u043E\u043A\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F"
+        npcText: []
+        playerAllAnswers: []
+    - name: "\u0411\u0435\u0440\u0441\u0435\u0440\u043A"
+      id: 16
+      playerAnswers:
+      - nextNodeId: 3
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 0
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 0
+          reward: 0
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      - nextNodeId: 0
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 1
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 500
+          reward: 1
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      localizations:
+      - name: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+        npcText:
+        - "\u0425\u043C, \u043D\u0443 \u0442\u043E\u0433\u0434\u0430, \u043C\u043E\u0436\u0435\u0442
+          \u0431\u044B\u0442\u044C \u044F \u0442\u0435\u0431\u0435 \u0438 \u043D\u0435
+          \u043D\u0443\u0436\u0435\u043D?"
+        playerAllAnswers:
+        - playerAnswer:
+          - "\u041D\u0435, \u043D\u0435, \u043D\u0435, \u043F\u043E\u0433\u043E\u0434\u0438!
+            \u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u043C!"
+        - playerAnswer:
+          - "\u042D\u0442\u043E \u044F \u0438 \u0438\u043C\u0435\u043B \u0432\u0432\u0438\u0434\u0443!"
+      - name: English
+        npcText:
+        - 'Hmm, well then, maybe you don''t need me?
+
+
+'
+        playerAllAnswers:
+        - playerAnswer:
+          - No, no, no, wait! Let's continue!
+        - playerAnswer:
+          - That's what I meant!
+      - name: "\u041D\u043E\u0432\u0430\u044F \u043B\u043E\u043A\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F"
+        npcText: []
+        playerAllAnswers: []
+    isQuest: 0
+    quest:
+      localization:
+      - nameQuest: "\u041D\u0430\u0437\u0432\u0430\u043D\u0438\u0435 \u043A\u0432\u0435\u0441\u0442\u0430"
+        titleQuest: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435 \u043A\u0432\u0435\u0441\u0442\u0430"
+      - nameQuest: "\u041D\u0430\u0437\u0432\u0430\u043D\u0438\u0435 \u043A\u0432\u0435\u0441\u0442\u0430"
+        titleQuest: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435 \u043A\u0432\u0435\u0441\u0442\u0430"
+      targetQuest: 0
+      objectQuest: 0
+      amountObjectQuest: 0
+      rewardQuest:
+        valueReward: 0
+        reward: 0
+        skillReward: 0
+      complete: 0
+      faild: 0
+      taken: 0
+      cancel: 0
+      isMain: 0
+  - name: "\u0411\u043E\u0441\u0441"
+    id: 3
+    nodes:
+    - name: "\u0412\u0445\u043E\u0434"
+      id: 0
+      playerAnswers:
+      - nextNodeId: 0
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 1
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 0
+          reward: 3
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      - nextNodeId: 0
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 1
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 0
+          reward: 4
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      - nextNodeId: 0
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 1
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 500
+          reward: 2
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      localizations:
+      - name: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+        npcText:
+        - "\u0421\u043B\u0430\u0432\u0430 \u0431\u0435\u0436\u0438\u0442 \u0432\u043F\u0435\u0440\u0435\u0434\u0438
+          \u0442\u0435\u0431\u044F, \u041F\u043E\u0431\u0435\u0434\u0438\u0442\u0435\u043B\u044C
+          \u0422\u0438\u0442\u0430\u043D\u043E\u0432!"
+        - "\u0412\u0441\u0435 \u041F\u043E\u0434\u0437\u0435\u043C\u0435\u043B\u044C\u0435
+          \u0433\u0443\u0434\u0438\u0442 \u043E\u0442 \u0442\u0432\u043E\u0438\u0445
+          \u043F\u043E\u0434\u0432\u0438\u0433\u043E\u0432!"
+        - "\u041F\u0440\u043E\u0441\u0438, \u0447\u0442\u043E \u0445\u043E\u0447\u0435\u0448\u044C,
+          \u0412\u043E\u0438\u043D!"
+        - "\u0422\u0432\u043E\u0438 \u0443\u0441\u043F\u0435\u0445\u0438 \u0437\u0430\u0441\u043B\u0443\u0436\u0438\u0432\u0430\u044E\u0442
+          \u043D\u0430\u0433\u0440\u0430\u0434\u044B!"
+        - "\u0427\u0435\u0433\u043E \u0436\u0435\u043B\u0430\u0435\u0442 \u0418\u0441\u0442\u0440\u0435\u0431\u0438\u0442\u0435\u043B\u044C
+          \u0427\u0443\u0434\u043E\u0432\u0438\u0449?"
+        - "\u041F\u043E\u0434\u0430\u0440\u043A\u0438 \u0443\u0436\u0435 \u0436\u0434\u0443\u0442
+          \u0442\u0435\u0431\u044F!"
+        - "\u041D\u0435 \u0441\u0442\u0435\u0441\u043D\u044F\u0439\u0441\u044F, \u0432\u044B\u0431\u0438\u0440\u0430\u0439
+          \u043D\u0430\u0433\u0440\u0430\u0434\u0443!"
+        - "\u0412\u0441\u0435 \u0441\u0430\u043C\u043E\u0435 \u043B\u0443\u0447\u0448\u0435\u0435
+          \u0442\u043E\u044C\u043A\u043E \u0434\u043B\u044F \u0442\u0435\u0431\u044F,
+          \u0412\u043E\u0437\u043C\u0443\u0442\u0438\u0442\u0435\u043B\u044C \u041F\u043E\u0437\u0434\u0435\u043C\u0435\u043B\u044C\u044F!"
+        - "\u041C\u043E\u0438 \u0434\u0430\u0440\u044B \u043D\u0435 \u043E\u0441\u0442\u0430\u0432\u044F\u0442
+          \u0442\u0435\u0431\u044F \u0440\u0430\u0432\u043D\u043E\u0434\u0443\u0448\u043D\u044B\u043C!"
+        - "\u0420\u0430\u0441\u0441\u043A\u0430\u0436\u0438 \u043C\u043D\u0435 \u0447\u0435\u0433\u043E
+          \u0442\u0435\u0431\u0435 \u043D\u0435 \u0445\u0432\u0430\u0442\u0430\u0435\u0442."
+        playerAllAnswers:
+        - playerAnswer:
+          - "\u041C\u043D\u0435 \u043D\u0443\u0436\u0435\u043D \u043C\u0435\u0447."
+          - "\u0421\u0442\u0430\u0440\u044B\u0435 \u043C\u0435\u0447\u0438...\u043E\u043D\u0438
+            \u0441\u0442\u0430\u0440\u044B\u0435!"
+          - "\u041D\u043E\u0432\u044B\u0439 \u043C\u0435\u0447, \u043F\u043E\u0436\u0430\u043B\u0443\u0439\u0441\u0442\u0430!"
+          - "\u041C\u0435\u0447, \u0438 \u0442\u043E\u043B\u044C\u043A\u043E \u043C\u0435\u0447!"
+        - playerAnswer:
+          - "\u0414\u0430\u0439 \u043C\u043D\u0435 \u043A\u0430\u043A\u043E\u0439-\u043D\u0438\u0431\u0443\u0434\u044C
+            \u0430\u0440\u0442\u0435\u0444\u0430\u043A\u0442."
+          - "\u0410\u0440\u0442\u0435\u0444\u0430\u043A\u0442."
+          - "\u041C\u043D\u0435 \u043D\u0443\u0436\u043D\u0430 \u043C\u043E\u0449\u043D\u0430\u044F
+            \u0440\u0435\u043B\u0438\u043A\u0432\u0438\u044F!"
+          - "\u0423 \u043C\u0435\u043D\u044F \u043C\u0430\u043B\u043E \u0430\u0440\u0442\u0435\u0444\u0430\u043A\u0442\u043E\u0432."
+        - playerAnswer:
+          - "\u0417\u043E\u043B\u043E\u0442\u043E! \u041C\u043D\u0435 \u043D\u0443\u0436\u043D\u043E
+            \u0442\u043E\u043B\u044C\u043A\u043E \u0437\u043E\u043B\u043E\u0442\u043E!"
+          - "\u0417\u043E\u043B\u043E\u0442\u043E, \u041F\u0440\u0438\u0432\u0440\u0430\u0442\u043D\u0438\u043A!"
+          - "\u042F - \u043F\u043E\u043A\u043B\u043E\u043D\u043D\u0438\u043A \u0417\u043E\u043B\u043E\u0442\u043E\u0433\u043E
+            \u0422\u0435\u043B\u044C\u0446\u0430!"
+          - "\u0417\u043E\u043B\u043E\u0442\u0430 \u043C\u043D\u043E\u0433\u043E
+            \u043D\u0435 \u0431\u044B\u0432\u0430\u0435\u0442!"
+      - name: English
+        npcText:
+        - 'Gifts are already waiting for you!
+
+
+
+'
+        - All the best just for you, Dungeon Ravager!
+        - Glory runs ahead of you, Titan Winner!
+        - The entire Dungeon is abuzz with your exploits!
+        - Ask what you want, Warrior!
+        - Your success deserves a reward!
+        - What does Monster Slayer want?
+        - Tell me what you are missing.
+        - My gifts will not leave you indifferent!
+        - Don't be shy, choose your reward!
+        playerAllAnswers:
+        - playerAnswer:
+          - 'I need a sword. '
+          - A sword, and only a sword!
+          - 'New sword please! '
+          - 'Old swords ... they are old! '
+        - playerAnswer:
+          - 'Give me some artifact. '
+          - I have few artifacts.
+          - 'I need a powerful relic! '
+          - 'Artifact. '
+        - playerAnswer:
+          - 'Gold! I only need gold! '
+          - There is never too much gold!
+          - 'I am a fan of the Golden Calf! '
+          - 'Gold, Gatekeeper! '
+      - name: "\u041D\u043E\u0432\u0430\u044F \u043B\u043E\u043A\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F"
+        npcText: []
+        playerAllAnswers: []
+    isQuest: 0
+    quest:
+      localization:
+      - nameQuest: "\u041D\u0430\u0437\u0432\u0430\u043D\u0438\u0435 \u043A\u0432\u0435\u0441\u0442\u0430"
+        titleQuest: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435 \u043A\u0432\u0435\u0441\u0442\u0430"
+      - nameQuest: "\u041D\u0430\u0437\u0432\u0430\u043D\u0438\u0435 \u043A\u0432\u0435\u0441\u0442\u0430"
+        titleQuest: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435 \u043A\u0432\u0435\u0441\u0442\u0430"
+      targetQuest: 0
+      objectQuest: 0
+      amountObjectQuest: 0
+      rewardQuest:
+        valueReward: 0
+        reward: 0
+        skillReward: 0
+      complete: 0
+      faild: 0
+      taken: 0
+      cancel: 0
+      isMain: 0
+  - name: "\u0418\u0441\u0442\u043E\u0440\u0438\u044F"
+    id: 4
+    nodes: []
+    isQuest: 0
+    quest:
+      localization:
+      - nameQuest: "\u041D\u0430\u0437\u0432\u0430\u043D\u0438\u0435 \u043A\u0432\u0435\u0441\u0442\u0430"
+        titleQuest: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435 \u043A\u0432\u0435\u0441\u0442\u0430"
+      - nameQuest: "\u041D\u0430\u0437\u0432\u0430\u043D\u0438\u0435 \u043A\u0432\u0435\u0441\u0442\u0430"
+        titleQuest: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435 \u043A\u0432\u0435\u0441\u0442\u0430"
+      targetQuest: 0
+      objectQuest: 0
+      amountObjectQuest: 0
+      rewardQuest:
+        valueReward: 0
+        reward: 0
+        skillReward: 0
+      complete: 0
+      faild: 0
+      taken: 0
+      cancel: 0
+      isMain: 0
+  - name: "\u041E\u0431\u0449\u0438\u0439"
+    id: 5
+    nodes:
+    - name: "\u041F\u0435\u0440\u0432\u044B\u0439"
+      id: 0
+      playerAnswers:
+      - nextNodeId: 0
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 1
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 0
+          reward: 0
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      localizations:
+      - name: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+        npcText:
+        - "\u0423\u0434\u0430\u0447\u0430 \u043E\u0447\u0435\u043D\u044C \u0432\u0430\u0436\u043D\u0430,
+          \u0431\u0435\u0437 \u043D\u0435\u0435 \u043D\u0435 \u043D\u0430\u0439\u0442\u0438
+          \u0446\u0435\u043D\u043D\u043E\u0441\u0442\u0438!"
+        - "\u0427\u0435\u043C \u0431\u043E\u043B\u044C\u0448\u0435 \u043E\u043F\u044B\u0442\u0430,
+          \u0442\u0435\u043C \u0446\u0435\u043D\u043D\u0435\u0435 \u0430\u0440\u0442\u0435\u0444\u0430\u043A\u0442\u044B."
+        - "\u041F\u043E\u0439\u0434\u0438 \u0441\u0440\u0443\u0431\u0438 \u043F\u0430\u0440\u0443
+          \u0433\u043E\u043B\u043E\u0432, \u043D\u0430\u0439\u0434\u0438 \u043A\u0430\u043A\u0443\u044E-\u043D\u0438\u0431\u0443\u0434\u044C
+          \u0445\u0440\u0435\u043D\u044C..."
+        - "\u041E\u0447\u0435\u0440\u0435\u043D\u043E\u0439 \u0422\u0438\u0442\u0430\u043D
+          \u0436\u0434\u0435\u0442 \u0442\u0432\u043E\u0435\u0439 \u043A\u0440\u043E\u0432\u0438..."
+        - "\u0412 \u0431\u043E\u0439, \u0434\u0440\u0443\u0433 \u043C\u043E\u0439,
+          \u043D\u0430 \u043F\u043E\u0438\u0441\u043A\u0438!!!"
+        - "\u041F\u043E\u0431\u0435\u0434\u0438 \u0422\u0438\u0442\u0430\u043D\u0430
+          \u0438 \u043F\u0440\u0438\u0445\u043E\u0434\u0438!"
+        - "\u0421\u0435\u0439\u0447\u0430\u0441, \u043C\u043D\u0435 \u043D\u0435\u0447\u0435\u0433\u043E
+          \u0442\u0435\u0431\u0435 \u043F\u0440\u0435\u0434\u043B\u043E\u0436\u0438\u0442\u044C!"
+        - "\u0423\u043B\u0443\u0447\u0448\u0430\u0439 \u043D\u0430\u0432\u044B\u043A
+          \u0414\u0435\u043D\u044C\u0433\u0438, \u0441\u0442\u0430\u043D\u0435\u0448\u044C
+          \u0431\u043E\u0433\u0430\u0442\u044B\u043C."
+        - "\u0421\u0445\u043E\u0434\u0438 \u0440\u0430\u0437\u0432\u0435\u0441\u044F
+          \u043D\u0430 \u0410\u0440\u0435\u043D\u0435 \u0438 \u0437\u0430\u0440\u0430\u0431\u043E\u0442\u0430\u0439
+          \u0437\u043E\u043B\u043E\u0442\u0438\u0448\u043A\u0430."
+        - "\u0427\u0435\u0440\u043D\u044B\u0439 \u0432\u043E\u0440\u043E\u043D, \u0447\u0435\u0440\u043D\u044B\u0439
+          \u0432\u043E\u0440\u043E\u043D..."
+        - "\u041C\u0435\u043D\u044F\u0439 \u0437\u043E\u043B\u043E\u0442\u043E \u043D\u0430
+          \u043A\u0440\u0438\u0441\u0442\u0430\u043B\u043B\u044B!"
+        - "\u0423\u043B\u0443\u0447\u0448\u0430\u0439 \u043D\u0430\u0432\u044B\u043A\u0438
+          \u0441 \u043F\u043E\u043C\u043E\u0449\u044C\u044E \u043A\u0440\u0438\u0441\u0442\u0430\u043B\u043B\u043E\u0432!"
+        - "\u0410\u0440\u0435\u043D\u0430 - \u0441\u0442\u0440\u0430\u0448\u043D\u043E\u0435
+          \u043C\u0435\u0441\u0442\u043E, \u043C\u043E\u0436\u043D\u043E \u0437\u0430\u0439\u0442\u0438,
+          \u043D\u043E \u043D\u0435\u043B\u044C\u0437\u044F \u0432\u044B\u0439\u0442\u0438!"
+        - "\u0422\u0438\u0442\u0430\u043D\u044B \u0441\u0430\u043C\u0438 \u0441\u043E\u0431\u043E\u0439
+          \u043D\u0435 \u043F\u043E\u0433\u0438\u0431\u043D\u0443\u0442!"
+        - "\u0412 \u0441\u0443\u043D\u0434\u0443\u043A\u0430\u0445 \u043C\u043E\u0436\u043D\u043E
+          \u043D\u0430\u0439\u0442\u0438 \u043A\u043B\u0430\u0434 \u0438\u043B\u0438
+          \u0446\u0435\u043D\u043D\u044B\u0439 \u0430\u0440\u0442\u0435\u0444\u0430\u043A\u0442!"
+        - "\u0411\u043E\u043B\u044C\u0448\u0435 \u043E\u043F\u044B\u0442\u0430 -
+          \u0431\u043E\u043B\u044C\u0448\u0435 \u0434\u0435\u043D\u0435\u0433 \u0432
+          \u0441\u0443\u043D\u0434\u0443\u043A\u0430\u0445!"
+        playerAllAnswers:
+        - playerAnswer:
+          - "\u0423\u0439\u0442\u0438..."
+      - name: English
+        npcText:
+        - Go to the Arena and get some gold.
+        - More experience - more money in chests!
+        - Another Titan is waiting for your blood ...
+        - Go chop off a couple of heads, find some shit ...
+        - In battle, my friend, in search!
+        - The more experience, the more valuable artifacts.
+        - Treasure or valuable artifact can be found in chests!
+        - Now, I have nothing to offer you!
+        - Defeat Titan and come!
+        - Improve the Money skill, you will become rich.
+        - Titans won't die by themselves!
+        - The arena is a scary place, you can enter, but you cannot leave!
+        - Luck is very important, without it you cannot find value!
+        - Improve your skills with crystals!
+        - Exchange gold for crystals!
+        playerAllAnswers:
+        - playerAnswer:
+          - Go away ...
+      - name: "\u041D\u043E\u0432\u0430\u044F \u043B\u043E\u043A\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F"
+        npcText: []
+        playerAllAnswers: []
+    isQuest: 0
+    quest:
+      localization:
+      - nameQuest: "\u041D\u0430\u0437\u0432\u0430\u043D\u0438\u0435 \u043A\u0432\u0435\u0441\u0442\u0430"
+        titleQuest: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435 \u043A\u0432\u0435\u0441\u0442\u0430"
+      - nameQuest: "\u041D\u0430\u0437\u0432\u0430\u043D\u0438\u0435 \u043A\u0432\u0435\u0441\u0442\u0430"
+        titleQuest: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435 \u043A\u0432\u0435\u0441\u0442\u0430"
+      targetQuest: 0
+      objectQuest: 0
+      amountObjectQuest: 0
+      rewardQuest:
+        valueReward: 0
+        reward: 0
+        skillReward: 0
+      complete: 0
+      faild: 0
+      taken: 0
+      cancel: 0
+      isMain: 0
+  - name: "\u0411\u0430\u0441\u0442\u0430\u0440\u0434"
+    id: 6
+    nodes:
+    - name: "\u041F\u0435\u0440\u0432\u044B\u0439"
+      id: 0
+      playerAnswers:
+      - nextNodeId: 0
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 1
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 0
+          reward: 0
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      - nextNodeId: 1
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 0
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 0
+          reward: 0
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      localizations:
+      - name: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+        npcText:
+        - "\u0422\u044B \u0436\u0430\u043B\u043E\u043A, \u044F \u043D\u0435 \u0445\u043E\u0447\u0443
+          \u0442\u0435\u0431\u044F \u0432\u0438\u0434\u0435\u0442\u044C!"
+        - "\u041D\u0430\u0431\u0435\u0440\u0438\u0441\u044C \u0443\u043C\u0430, \u0442\u043E\u0433\u0434\u0430
+          \u0438 \u043F\u0440\u0438\u0445\u043E\u0434\u0438!"
+        - "\u0422\u044B \u043D\u0435 \u0437\u043D\u0430\u0435\u0448\u044C, \u0447\u0442\u043E
+          \u0442\u0430\u043A\u043E\u0435 \u043F\u0440\u0438\u043B\u0438\u0447\u0438\u044F!"
+        - "\u041E\u0442\u043F\u0440\u0430\u0432\u043B\u044F\u0439\u0441\u044F \u043D\u0430
+          \u043A\u043E\u0440\u043C \u0413\u0443\u043B\u044F\u043C!"
+        - "\u041D\u0430\u0443\u0447\u0438\u0441\u044C \u043F\u043E\u0447\u0442\u0435\u043D\u0438\u044E,
+          \u0442\u043E\u0433\u0434\u0430 \u0438 \u043F\u043E\u0433\u043E\u0432\u043E\u0440\u0438\u043C!"
+        - "\u0423\u0439\u0434\u0438, \u043C\u0435\u0440\u0437\u0430\u0432\u0435\u0446,
+          \u044F \u0432 \u043F\u0435\u0447\u0430\u043B\u0438..."
+        - "\u0412\u043E\u043D\u044E\u0447\u0438\u0435 \u041E\u0440\u043A\u0438 \u0442\u0432\u043E\u0438
+          \u0441\u043E\u0431\u0435\u0441\u0435\u0434\u043D\u0438\u043A\u0438!"
+        - "\u0422\u0435\u0431\u0435 \u0437\u0434\u0435\u0441\u044C \u043D\u0435 \u0440\u0430\u0434\u044B..."
+        - "\u0421\u044B\u043D \u043E\u0431\u0435\u0437\u044C\u044F\u043D\u044B \u0438
+          \u0435\u0445\u0438\u0434\u043D\u044B, \u0443\u0439\u0434\u0438!"
+        - "\u041A\u0440\u0435\u043F\u043A\u043E \u043F\u043E\u0434\u0443\u043C\u0430\u0439,
+          \u043F\u043E\u0442\u043E\u043C \u043F\u0440\u0438\u0445\u043E\u0434\u0438!"
+        playerAllAnswers:
+        - playerAnswer:
+          - "\u0423\u0439\u0442\u0438..."
+        - playerAnswer:
+          - "\u041F\u0440\u043E\u0449\u0443 \u043F\u0440\u043E\u0449\u0435\u043D\u0438\u044F!"
+          - "\u042F\u0437\u044B\u043A \u043C\u043E\u0439 - \u0432\u0440\u0430\u0433
+            \u043C\u043E\u0439! \u042F \u0438\u0437\u0432\u0438\u043D\u044F\u044E\u0441\u044C!"
+          - "\u042F \u043D\u0435 \u0445\u043E\u0442\u0435\u043B \u0432\u0440\u0430\u0436\u0434\u044B!"
+          - "\u0414\u0430\u0432\u0430\u0439 \u0437\u0430\u0431\u0443\u0434\u0435\u043C
+            \u043E\u0431\u0438\u0434\u044B!"
+      - name: English
+        npcText:
+        - You are pathetic, I do not want to see you!
+        - Think well, then come!
+        - You don't know what decency is!
+        - Get your mind, then come!
+        - Go to feed the Ghouls!
+        - Learn reverence, then we'll talk!
+        - Go away, bastard, I'm in sorrow ...
+        - Smelly Orcs are your interlocutors!
+        - Son of the monkey and the echidna, go away!
+        - You're not welcome here ...
+        playerAllAnswers:
+        - playerAnswer:
+          - Go away ...
+        - playerAnswer:
+          - 'I''m sorry! '
+          - Let's forget the insults!
+          - 'I didn''t want any enmity! '
+          - 'My tongue is my enemy! I apologize! '
+      - name: "\u041D\u043E\u0432\u0430\u044F \u043B\u043E\u043A\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F"
+        npcText: []
+        playerAllAnswers: []
+    - name: "\u043F\u043E\u0449\u0430\u0434\u0430"
+      id: 1
+      playerAnswers:
+      - nextNodeId: 2
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 0
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 200
+          reward: 0
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      localizations:
+      - name: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+        npcText:
+        - "\u0417\u0430\u0441\u043B\u0443\u0436\u0438\u0442\u044C \u043F\u0440\u043E\u0449\u0435\u043D\u0438\u0435
+          \u043D\u0435 \u0442\u0430\u043A \u043F\u0440\u043E\u0441\u0442\u043E!"
+        - "\u0422\u0430\u043A \u043F\u0440\u043E\u0441\u0442\u043E? \u0422\u044B
+          \u0448\u0443\u0442\u0438\u0448\u044C?"
+        - "\u0422\u044B \u0441\u0438\u043B\u044C\u043D\u043E \u043E\u0441\u043A\u043E\u0440\u0431\u0438\u043B
+          \u043C\u0435\u043D\u044F!"
+        - "\u041D\u0430\u0438\u0432\u043D\u044B\u0439, \u043D\u0435 \u0432\u0441\u0435
+          \u0442\u0430\u043A \u043F\u0440\u043E\u0441\u0442\u043E!"
+        playerAllAnswers:
+        - playerAnswer:
+          - "\u041A\u0430\u043A \u043C\u043D\u0435 \u0432\u0441\u0435 \u0438\u0441\u043F\u0440\u0430\u0432\u0438\u0442\u044C? "
+          - "\u0427\u0442\u043E \u0436\u0435 \u043C\u043D\u0435 \u0441\u0434\u0435\u043B\u0430\u0442\u044C?"
+          - "\u041D\u0430\u0437\u043E\u0432\u0438 \u0446\u0435\u043D\u0443 \u043F\u0440\u043E\u0449\u0435\u043D\u0438\u044F!"
+      - name: English
+        npcText:
+        - 'It''s not easy to earn forgiveness!
+
+
+
+'
+        - Naive, it's not that simple!
+        - You insulted me greatly!
+        - So simple? Are you kidding?
+        playerAllAnswers:
+        - playerAnswer:
+          - 'How can I fix everything? '
+          - What is the price of forgiveness!
+          - 'What should I do? '
+      - name: "\u041D\u043E\u0432\u0430\u044F \u043B\u043E\u043A\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F"
+        npcText: []
+        playerAllAnswers: []
+    - name: "\u0437\u0430\u0434\u0430\u043D\u0438\u0435"
+      id: 2
+      playerAnswers:
+      - nextNodeId: 3
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 0
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 0
+          reward: 0
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      localizations:
+      - name: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+        npcText:
+        - "\u0422\u044B \u0441\u043C\u043E\u0436\u0435\u0448\u044C \u043F\u043E\u043B\u0443\u0447\u0438\u0442\u044C
+          \u043C\u043E\u0435 \u043F\u0440\u043E\u0449\u0435\u043D\u0438\u0435, \u0438\u0441\u043A\u0443\u043F\u0438\u0432
+          \u0441\u0432\u043E\u044E \u0432\u0438\u043D\u0443 \u043A\u0440\u043E\u0432\u044C\u044E!"
+        playerAllAnswers:
+        - playerAnswer:
+          - "\u0427\u0442\u043E \u044D\u0442\u043E \u0437\u043D\u0430\u0447\u0438\u0442?"
+      - name: English
+        npcText:
+        - 'You can get my forgiveness by redeeming your guilt with blood!
+
+'
+        playerAllAnswers:
+        - playerAnswer:
+          - What does it mean?
+      - name: "\u041D\u043E\u0432\u0430\u044F \u043B\u043E\u043A\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F"
+        npcText: []
+        playerAllAnswers: []
+    - name: "\u043F\u0440\u043E\u043B\u0435\u0439 \u043A\u0440\u043E\u0432\u044C"
+      id: 3
+      playerAnswers:
+      - nextNodeId: 4
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 0
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 0
+          reward: 0
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      - nextNodeId: 5
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 0
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 0
+          reward: 0
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      - nextNodeId: 0
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 1
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 0
+          reward: 0
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      localizations:
+      - name: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+        npcText:
+        - "\u041F\u0440\u043E\u043B\u0435\u0439 \u043A\u0440\u043E\u0432\u044C!!!
+          \u041E\u0441\u043A\u043E\u0440\u0431\u043B\u0435\u043D\u0438\u044F \u0441\u043C\u044B\u0432\u0430\u044E\u0442\u0441\u044F
+          \u0442\u043E\u043B\u044C\u043A\u043E \u043A\u0440\u043E\u0432\u044C\u044E!!!"
+        playerAllAnswers:
+        - playerAnswer:
+          - "\u041F\u0440\u043E\u0441\u0442\u0438, \u043F\u0440\u043E\u0441\u0442\u0438
+            \u043C\u0435\u043D\u044F, \u0443\u043C\u043E\u043B\u044F\u044E!!!"
+        - playerAnswer:
+          - "\u042F \u0434\u043E\u043B\u0436\u0435\u043D \u043F\u043E\u0433\u0438\u0431\u043D\u0443\u0442\u044C?"
+        - playerAnswer:
+          - "\u0425\u043C, \u043D\u0435 \u043D\u0443\u0436\u043D\u043E \u043C\u043D\u0435
+            \u0442\u0432\u043E\u0435 \u043F\u0440\u043E\u0449\u0435\u043D\u0438\u0435!"
+          - "\u0412\u043E\u0442 \u0435\u0449\u0435!"
+          - "\u041E\u0431\u043E\u0439\u0434\u0443\u0441\u044C \u0431\u0435\u0437
+            \u044D\u0442\u043E\u0433\u043E!"
+          - "\u0422\u0435\u0431\u0435 \u043D\u0430\u0434\u043E, \u0442\u044B \u0438
+            \u0441\u043C\u044B\u0432\u0430\u0439!"
+          - "\u0413\u043B\u0443\u043F\u043E\u0441\u0442\u0438!"
+      - name: English
+        npcText:
+        - Spill blood !!! Insults are washed off only with blood !!!
+        playerAllAnswers:
+        - playerAnswer:
+          - I'm sorry, forgive me, I beg you !!!
+        - playerAnswer:
+          - Should I die?
+        - playerAnswer:
+          - 'Hmm, I don''t need your forgiveness! '
+          - 'You need to, you and wash it off! '
+          - Nonsense!
+          - 'I can do without it! '
+      - name: "\u041D\u043E\u0432\u0430\u044F \u043B\u043E\u043A\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F"
+        npcText: []
+        playerAllAnswers: []
+    - name: "\u043F\u043B\u0430\u043A\u0430\u0442\u044C"
+      id: 4
+      playerAnswers:
+      - nextNodeId: 0
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 1
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 500
+          reward: 1
+          skillReward: 0
+        isCarmaChange: 1
+        carma: 3
+      localizations:
+      - name: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+        npcText:
+        - "\u041F\u043B\u0430\u0447\u0443\u0449\u0438\u0439 \u0412\u043E\u0438\u043D?
+          \u0422\u044B \u0440\u0430\u0441\u0442\u0440\u043E\u0433\u0430\u043B \u043C\u0435\u043D\u044F...
+          \u042F \u0430\u0436 \u0441\u0430\u043C \u043F\u0440\u043E\u0441\u043B\u0435\u0437\u0438\u043B\u0441\u044F...
+          \u0425\u0430-\u0445\u0430-\u0445\u0430.... \u0421\u0442\u0443\u043F\u0430\u0439,
+          \u044F \u043F\u0440\u043E\u0449\u0430\u044E \u0442\u0435\u0431\u044F! \u0418
+          \u0432\u043F\u0440\u0435\u0434\u044C \u043D\u0435 \u0431\u0443\u0434\u044C
+          \u0442\u0430\u043A\u0438\u043C \u0434\u0435\u0440\u0437\u043A\u0438\u043C!"
+        playerAllAnswers:
+        - playerAnswer:
+          - "\u0423\u0439\u0442\u0438..."
+      - name: English
+        npcText:
+        - 'Crying Warrior? You touched me ... I already shed a tear myself ... Ha
+          ha ha ... Go, I forgive you! And henceforth, don''t be so cocky!
+
+'
+        playerAllAnswers:
+        - playerAnswer:
+          - Go away ...
+      - name: "\u041D\u043E\u0432\u0430\u044F \u043B\u043E\u043A\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F"
+        npcText: []
+        playerAllAnswers: []
+    - name: "\u0443\u0431\u0438\u0442\u044C"
+      id: 5
+      playerAnswers:
+      - nextNodeId: 0
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 1
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 0
+          reward: 0
+          skillReward: 0
+        isCarmaChange: 1
+        carma: 2
+      localizations:
+      - name: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+        npcText:
+        - "\u0415\u0441\u043B\u0438, \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0442\u0435\u043B\u044C\u043D\u043E,
+          \u0445\u043E\u0447\u0435\u0448\u044C \u0437\u0430\u0441\u043B\u0443\u0436\u0438\u0442\u044C
+          \u043F\u0440\u043E\u0449\u0435\u043D\u0438\u0435, \u043D\u0430\u0439\u0434\u0438
+          \u0440\u0435\u0448\u0435\u043D\u0438\u0435 \u0441\u0430\u043C, \u043F\u043E\u0434\u0441\u043A\u0430\u0437\u043A\u0443
+          \u044F \u0442\u0435\u0431\u0435 \u0434\u0430\u043B!"
+        playerAllAnswers:
+        - playerAnswer:
+          - "\u0414\u0430, \u043A\u043E\u043D\u0435\u0447\u043D\u043E!"
+      - name: English
+        npcText:
+        - 'If you really want to earn forgiveness, find a solution yourself, I gave
+          you a hint!
+
+'
+        playerAllAnswers:
+        - playerAnswer:
+          - Yes of course!
+      - name: "\u041D\u043E\u0432\u0430\u044F \u043B\u043E\u043A\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F"
+        npcText: []
+        playerAllAnswers: []
+    isQuest: 0
+    quest:
+      localization:
+      - nameQuest: "\u041D\u0430\u0437\u0432\u0430\u043D\u0438\u0435 \u043A\u0432\u0435\u0441\u0442\u0430"
+        titleQuest: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435 \u043A\u0432\u0435\u0441\u0442\u0430"
+      - nameQuest: "\u041D\u0430\u0437\u0432\u0430\u043D\u0438\u0435 \u043A\u0432\u0435\u0441\u0442\u0430"
+        titleQuest: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435 \u043A\u0432\u0435\u0441\u0442\u0430"
+      targetQuest: 0
+      objectQuest: 0
+      amountObjectQuest: 0
+      rewardQuest:
+        valueReward: 0
+        reward: 0
+        skillReward: 0
+      complete: 0
+      faild: 0
+      taken: 0
+      cancel: 0
+      isMain: 0
+  - name: "\u041F\u0440\u043E\u0449\u0435\u043D\u0438\u0435"
+    id: 7
+    nodes:
+    - name: "\u043D\u0430\u0447\u0430\u043B\u043E"
+      id: 0
+      playerAnswers:
+      - nextNodeId: 1
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 0
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 0
+          reward: 0
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      - nextNodeId: 2
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 0
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 0
+          reward: 0
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      localizations:
+      - name: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+        npcText:
+        - "\u042F \u0432\u0438\u0436\u0443 \u043F\u0435\u0447\u0430\u0442\u044C \u0441\u043C\u0435\u0440\u0442\u0438
+          \u043D\u0430 \u0442\u0432\u043E\u0435\u043C \u043B\u0438\u0446\u0435!"
+        playerAllAnswers:
+        - playerAnswer:
+          - "\u0414\u0430, \u044F \u043F\u043E\u0433\u0438\u0431 \u0432 \u043A\u0440\u043E\u0432\u0430\u0432\u043E\u043C
+            \u0441\u0440\u0430\u0436\u0435\u043D\u0438\u0438!"
+        - playerAnswer:
+          - "\u041D\u0435 \u043F\u043E\u043D\u0438\u043C\u0430\u044E \u043E \u0447\u0435\u043C
+            \u0442\u044B..."
+      - name: English
+        npcText:
+        - 'I see the stamp of death on your face!
+
+
+'
+        playerAllAnswers:
+        - playerAnswer:
+          - Yes, I died in a bloody battle!
+        - playerAnswer:
+          - Do not understand what you talking about...
+      - name: "\u041D\u043E\u0432\u0430\u044F \u043B\u043E\u043A\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F"
+        npcText: []
+        playerAllAnswers: []
+    - name: "\u043A\u0440\u043E\u0432\u044C"
+      id: 1
+      playerAnswers:
+      - nextNodeId: 3
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 0
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 500
+          reward: 0
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      - nextNodeId: 2
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 0
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 0
+          reward: 0
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      localizations:
+      - name: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+        npcText:
+        - "\u0414\u0430, \u0442\u044B \u0438\u0441\u043A\u0443\u043F\u0438\u043B
+          \u0441\u0432\u043E\u0435 \u043D\u0435\u0432\u0435\u0436\u0435\u0441\u0442\u0432\u043E
+          \u043A\u0440\u043E\u0432\u044C\u044E! \u042F \u043F\u0440\u043E\u0449\u0430\u044E
+          \u0442\u0435\u0431\u044F, \u043C\u044B \u043C\u043E\u0436\u0435\u043C \u0441\u0442\u0430\u0442\u044C
+          \u0434\u0440\u0443\u0437\u044C\u044F\u043C\u0438. \u0414\u0443\u043C\u0430\u044E,
+          \u0432\u043F\u0440\u0435\u0434\u044C \u0442\u044B \u0431\u0443\u0434\u0435\u0448\u044C
+          \u0431\u043B\u0430\u0433\u043E\u0440\u0430\u0437\u0443\u043C\u043D\u0435\u0435!
+          \u041C\u043E\u0435 \u0440\u0430\u0441\u043F\u043E\u043B\u043E\u0436\u0435\u043D\u0438\u0435
+          \u043F\u0440\u0438\u043D\u0435\u0441\u0435\u0442 \u0442\u0435\u0431\u0435
+          \u0432\u044B\u0433\u043E\u0434\u0443!"
+        playerAllAnswers:
+        - playerAnswer:
+          - "\u042F \u0431\u044B\u043B \u043D\u0435\u043F\u0440\u0430\u0432 \u0438
+            \u043E\u0441\u043E\u0437\u043D\u0430\u043B \u044D\u0442\u043E!"
+        - playerAnswer:
+          - "\u041A\u0430\u043A\u043E\u0439 \u0436\u0435 \u0442\u044B \u043C\u0435\u0440\u0437\u043A\u0438\u0439,
+            \u041F\u0440\u0438\u0432\u0440\u0430\u0442\u043D\u0438\u043A!"
+      - name: English
+        npcText:
+        - 'Yes, you redeemed your ignorance with blood! I forgive you, we can become
+          friends. I think you will be more prudent in the future! My location will
+          benefit you!
+
+
+'
+        playerAllAnswers:
+        - playerAnswer:
+          - I was wrong and realized it!
+        - playerAnswer:
+          - How vile you are, Gatekeeper!
+      - name: "\u041D\u043E\u0432\u0430\u044F \u043B\u043E\u043A\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F"
+        npcText: []
+        playerAllAnswers: []
+    - name: "\u0431\u0435\u0437 \u043D\u0430\u0433\u0440\u0430\u0434\u044B"
+      id: 2
+      playerAnswers:
+      - nextNodeId: 0
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 1
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 0
+          reward: 0
+          skillReward: 0
+        isCarmaChange: 1
+        carma: 3
+      localizations:
+      - name: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+        npcText:
+        - "\u0425\u043C, \u043C\u043D\u0435 \u043A\u0430\u0436\u0435\u0442\u0441\u044F,
+          \u0442\u044B \u043D\u0435 \u0434\u043E \u043A\u043E\u043D\u0446\u0430 \u043E\u0441\u043E\u0437\u043D\u0430\u043B
+          \u0441\u0432\u043E\u044E \u0432\u0438\u043D\u0443, \u043D\u043E \u044F
+          \u0432\u0441\u0435 \u0440\u0430\u0432\u043D\u043E \u0442\u0435\u0431\u044F
+          \u043F\u0440\u043E\u0449\u0430\u044E! \u0418\u0434\u0438 \u0441 \u043C\u0438\u0440\u043E\u043C!"
+        playerAllAnswers:
+        - playerAnswer:
+          - "\u0423\u0439\u0442\u0438..."
+      - name: English
+        npcText:
+        - 'Hmm, it seems to me that you have not fully realized your guilt, but I
+          still forgive you! Go in peace!
+
+'
+        playerAllAnswers:
+        - playerAnswer:
+          - Go away ...
+      - name: "\u041D\u043E\u0432\u0430\u044F \u043B\u043E\u043A\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F"
+        npcText: []
+        playerAllAnswers: []
+    - name: "\u043D\u0430\u0433\u0440\u0430\u0434\u0430"
+      id: 3
+      playerAnswers:
+      - nextNodeId: 0
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 1
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 700
+          reward: 1
+          skillReward: 0
+        isCarmaChange: 1
+        carma: 3
+      localizations:
+      - name: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+        npcText:
+        - "\u0425\u043E\u0440\u043E\u0448\u043E! \u0422\u044B \u0443\u043C\u0435\u0435\u0448\u044C
+          \u043F\u0440\u0438\u0437\u043D\u0430\u0432\u0430\u0442\u044C \u0441\u0432\u043E\u0438
+          \u043E\u0448\u0438\u0431\u043A\u0438! \u042F \u043F\u0440\u043E\u0449\u0430\u044E
+          \u0442\u0435\u0431\u044F, \u044D\u0442\u043E \u043F\u043E\u0441\u043B\u0443\u0436\u0438\u0442
+          \u0442\u0435\u0431\u0435 \u0443\u0440\u043E\u043A\u043E\u043C \u0438 \u043F\u0440\u0438\u043E\u0431\u0440\u0435\u0442\u0435\u043D\u0438\u0435\u043C
+          \u043E\u043F\u044B\u0442\u0430, \u0442\u0430\u043A \u043D\u0435\u043E\u0431\u0445\u043E\u0434\u0438\u043C\u043E\u0433\u043E
+          \u0432 \u0442\u0432\u043E\u0435\u0439 \u043C\u0438\u0441\u0441\u0438\u0438!"
+        playerAllAnswers:
+        - playerAnswer:
+          - "\u0423\u0439\u0442\u0438..."
+      - name: English
+        npcText:
+        - 'Good! You know how to admit your mistakes! I forgive you, this will serve
+          you as a lesson and experience, so necessary in your mission!
+
+'
+        playerAllAnswers:
+        - playerAnswer:
+          - Go away ...
+      - name: "\u041D\u043E\u0432\u0430\u044F \u043B\u043E\u043A\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F"
+        npcText: []
+        playerAllAnswers: []
+    isQuest: 0
+    quest:
+      localization:
+      - nameQuest: "\u041D\u0430\u0437\u0432\u0430\u043D\u0438\u0435 \u043A\u0432\u0435\u0441\u0442\u0430"
+        titleQuest: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435 \u043A\u0432\u0435\u0441\u0442\u0430"
+      - nameQuest: "\u041D\u0430\u0437\u0432\u0430\u043D\u0438\u0435 \u043A\u0432\u0435\u0441\u0442\u0430"
+        titleQuest: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435 \u043A\u0432\u0435\u0441\u0442\u0430"
+      targetQuest: 0
+      objectQuest: 0
+      amountObjectQuest: 0
+      rewardQuest:
+        valueReward: 0
+        reward: 0
+        skillReward: 0
+      complete: 0
+      faild: 0
+      taken: 0
+      cancel: 0
+      isMain: 0
+  - name: "\u043D\u0435\u0433\u0430\u0442\u0438\u0432"
+    id: 8
+    nodes:
+    - name: "\u043D\u0430\u0447\u0430\u043B\u043E"
+      id: 0
+      playerAnswers:
+      - nextNodeId: 0
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 1
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 0
+          reward: 0
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      localizations:
+      - name: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+        npcText:
+        - "\u0422\u044B \u043D\u0435 \u0432\u044B\u043F\u043E\u043B\u043D\u0438\u043B
+          \u043C\u043E\u0438\u0445 \u0443\u0441\u043B\u043E\u0432\u0438\u0439!"
+        - "\u0418\u0441\u043F\u043E\u043B\u043D\u0438 \u0441\u0432\u043E\u0435 \u043E\u0431\u0435\u0449\u0430\u043D\u0438\u0435!"
+        - "\u041D\u0435\u043B\u044C\u0437\u044F \u043F\u0440\u0438\u0445\u043E\u0434\u0438\u0442\u044C,
+          \u043D\u0435 \u0432\u044B\u043F\u043E\u043B\u043D\u0438\u0432 \u043E\u0431\u0435\u0442!"
+        - "\u0422\u0432\u043E\u044F \u043A\u043B\u044F\u0442\u0432\u0430 \u043D\u0435
+          \u0438\u0441\u043F\u043E\u043B\u043D\u0435\u043D\u0430!"
+        playerAllAnswers:
+        - playerAnswer:
+          - "\u0423\u0439\u0442\u0438..."
+      - name: English
+        npcText:
+        - 'You did not fulfill my conditions!
+
+
+
+
+'
+        - Your oath has not been fulfilled!
+        - You can't come without fulfilling your vow!
+        - Keep your promise!
+        playerAllAnswers:
+        - playerAnswer:
+          - Go away ...
+      - name: "\u041D\u043E\u0432\u0430\u044F \u043B\u043E\u043A\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F"
+        npcText: []
+        playerAllAnswers: []
+    isQuest: 0
+    quest:
+      localization:
+      - nameQuest: "\u041D\u0430\u0437\u0432\u0430\u043D\u0438\u0435 \u043A\u0432\u0435\u0441\u0442\u0430"
+        titleQuest: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435 \u043A\u0432\u0435\u0441\u0442\u0430"
+      - nameQuest: "\u041D\u0430\u0437\u0432\u0430\u043D\u0438\u0435 \u043A\u0432\u0435\u0441\u0442\u0430"
+        titleQuest: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435 \u043A\u0432\u0435\u0441\u0442\u0430"
+      targetQuest: 0
+      objectQuest: 0
+      amountObjectQuest: 0
+      rewardQuest:
+        valueReward: 0
+        reward: 0
+        skillReward: 0
+      complete: 0
+      faild: 0
+      taken: 0
+      cancel: 0
+      isMain: 0
+  - name: "\u043D\u0435 \u0434\u0440\u0443\u0433"
+    id: 9
+    nodes:
+    - name: "\u043D\u0430\u0447\u0430\u043B\u043E"
+      id: 0
+      playerAnswers:
+      - nextNodeId: 0
+        isNewDialogue: 0
+        nextIdDialogue: 0
+        isCloseDialogue: 1
+        isGetQest: 0
+        isBastard: 0
+        isVariable: 0
+        isAvialable: 1
+        playerReward:
+          valueReward: 0
+          reward: 0
+          skillReward: 0
+        isCarmaChange: 0
+        carma: 0
+      localizations:
+      - name: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+        npcText:
+        - "\u042F \u0442\u0435\u0431\u044F \u0437\u043D\u0430\u0442\u044C \u043D\u0435
+          \u0445\u043E\u0447\u0443!"
+        - "\u0422\u044B \u0434\u043B\u044F \u043C\u0435\u043D\u044F \u043D\u0435
+          \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0443\u0435\u0448\u044C!"
+        - "\u041C\u043E\u0436\u0435\u0448\u044C \u043D\u0435 \u043F\u043E\u0434\u0445\u043E\u0438\u0442\u044C
+          \u043A\u043E \u043C\u043D\u0435!"
+        - "\u0422\u0432\u043E\u0438 \u0432\u0438\u0437\u0438\u0442\u044B \u043A\u043E
+          \u043C\u043D\u0435 \u0431\u0435\u0441\u043F\u043E\u043B\u0435\u0437\u043D\u044B!"
+        - "\u042F \u0442\u0435\u0431\u044F \u043D\u0435\u043D\u0430\u0432\u0438\u0436\u0443!"
+        playerAllAnswers:
+        - playerAnswer:
+          - "\u0423\u0439\u0442\u0438."
+      - name: English
+        npcText:
+        - I hate you!
+        - Your visits to me are useless!
+        - You don't have to come near me!
+        - You don't exist for me!
+        - "I don\u2019t want to know you!"
+        playerAllAnswers:
+        - playerAnswer:
+          - Go away...
+      - name: "\u041D\u043E\u0432\u0430\u044F \u043B\u043E\u043A\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F"
+        npcText: []
+        playerAllAnswers: []
+    isQuest: 0
+    quest:
+      localization:
+      - nameQuest: "\u041D\u0430\u0437\u0432\u0430\u043D\u0438\u0435 \u043A\u0432\u0435\u0441\u0442\u0430"
+        titleQuest: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435 \u043A\u0432\u0435\u0441\u0442\u0430"
+      - nameQuest: "\u041D\u0430\u0437\u0432\u0430\u043D\u0438\u0435 \u043A\u0432\u0435\u0441\u0442\u0430"
+        titleQuest: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435 \u043A\u0432\u0435\u0441\u0442\u0430"
+      targetQuest: 0
+      objectQuest: 0
+      amountObjectQuest: 0
+      rewardQuest:
+        valueReward: 0
+        reward: 0
+        skillReward: 0
+      complete: 0
+      faild: 0
+      taken: 0
+      cancel: 0
+      isMain: 0

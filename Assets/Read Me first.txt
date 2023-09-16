@@ -1,0 +1,2 @@
+To use this plugin must create a custom gradle and upgrade gradle plugin to version 3.4.3 manually in base gradle template
+						to avoid any kind of issues

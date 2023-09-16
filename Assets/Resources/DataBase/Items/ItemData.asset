@@ -1,0 +1,1366 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de92e9eea86ae4331a37d27e677de70b, type: 3}
+  m_Name: ItemData
+  m_EditorClassIdentifier: 
+  swords:
+  - itemType: 0
+    itemCategory: 0
+    icon: {fileID: 21300000, guid: e91fc63fcd9bb1c4abf7ffdc0848a328, type: 3}
+    index: 0
+    itemLocalizations:
+    - name: "\u0420\u0436\u0430\u0432\u044B\u0439 \u043C\u0435\u0447"
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: "\u0421\u0430\u043C\u044B\u0439 \u043F\u0440\u043E\u0441\u0442\u043E\u0439
+        \u0438 \u0431\u0435\u0437\u043E\u0431\u0438\u0434\u043D\u044B\u0439 \u043C\u0435\u0447"
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    - name: 'Rusty sword '
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: The simplest and most harmless sword
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    price: 0
+    isQuestItem: 0
+    damageMin: 3
+    damageMax: 5
+    mageDamage: 10
+    requierLevel: 0
+    isUse: 0
+    avialable: 1
+    swordMageType: 1
+    bonus: 0
+    bonusValue: 0
+  - itemType: 0
+    itemCategory: 0
+    icon: {fileID: 21300000, guid: 30c3473b99a93ab48a29a89a1b7cced2, type: 3}
+    index: 1
+    itemLocalizations:
+    - name: "\u0420\u0443\u0431\u044F\u0449\u0438\u0439 \u041D\u0435\u0436\u0438\u0442\u044C"
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: "\u041E\u043F\u0430\u0441\u043D\u043E\u0435 \u043E\u0440\u0443\u0436\u0438\u0435
+        \u0434\u0430\u0436\u0435 \u0432 \u0440\u0443\u043A\u0430\u0445 \u043D\u043E\u0432\u0438\u0447\u043A\u0430"
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    - name: 'Slashing Undead '
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: A dangerous weapon even in the hands of a beginner
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    price: 0
+    isQuestItem: 0
+    damageMin: 3
+    damageMax: 5
+    mageDamage: 20
+    requierLevel: 1
+    isUse: 0
+    avialable: 1
+    swordMageType: 1
+    bonus: 0
+    bonusValue: 0
+  - itemType: 0
+    itemCategory: 0
+    icon: {fileID: 21300000, guid: 422ce2ba344177449a97fe0f91d36fe7, type: 3}
+    index: 2
+    itemLocalizations:
+    - name: "\u041A\u043E\u0441\u0442\u044F\u043D\u043E\u0439 \u0423\u0431\u0438\u0439\u0446\u0430"
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: "\u0421\u0434\u0435\u043B\u0430\u043D \u0438\u0437 \u043E\u0431\u043B\u043E\u043C\u043A\u0430
+        \u043A\u043E\u0441\u0442\u0438 \u043D\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u043D\u043E\u0433\u043E
+        \u043C\u043E\u043D\u0441\u0442\u0440\u0430"
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    - name: 'Bone Slayer '
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: Made from a piece of bone from an unknown monster
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    price: 0
+    isQuestItem: 0
+    damageMin: 5
+    damageMax: 7
+    mageDamage: 30
+    requierLevel: 5
+    isUse: 0
+    avialable: 0
+    swordMageType: 1
+    bonus: 0
+    bonusValue: 0
+  - itemType: 0
+    itemCategory: 0
+    icon: {fileID: 21300000, guid: 900f7aec7c89b124690cb27ede023bbf, type: 3}
+    index: 3
+    itemLocalizations:
+    - name: "\u041F\u0440\u043E\u043A\u043B\u044F\u0442\u044B\u0439 \u0413\u043B\u0430\u0434\u0438\u0443\u0441"
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: "\u041C\u0435\u0447 \u043B\u0435\u0433\u0438\u043E\u043D\u0435\u0440\u0430,
+        \u0441 \u043D\u0430\u043B\u043E\u0436\u0435\u043D\u043D\u044B\u043C \u0437\u0430\u043A\u043B\u044F\u0442\u0438\u0435\u043C"
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    - name: 'Cursed Gladius '
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: Legionnaire's spell sword
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    price: 0
+    isQuestItem: 0
+    damageMin: 7
+    damageMax: 10
+    mageDamage: 35
+    requierLevel: 7
+    isUse: 0
+    avialable: 0
+    swordMageType: 1
+    bonus: 0
+    bonusValue: 0
+  - itemType: 0
+    itemCategory: 0
+    icon: {fileID: 21300000, guid: bec8f959272e6f6489baf3cc65a0bb35, type: 3}
+    index: 4
+    itemLocalizations:
+    - name: "\u042D\u043B\u044C\u0444\u0438\u0439\u0441\u043A\u0438\u0439 \u0421\u0442\u0430\u043B\u044C\u043D\u043E\u0439"
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: "\u041F\u043B\u0430\u0432\u043D\u044B\u0435 \u043B\u0438\u043D\u0438\u0438
+        \u0438 \u0440\u0435\u0437\u043A\u0438\u0439 \u0445\u0430\u0440\u0430\u043A\u0442\u0435\u0440"
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    - name: 'Elven Steel '
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: Smooth lines and sharp character
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    price: 0
+    isQuestItem: 0
+    damageMin: 7
+    damageMax: 10
+    mageDamage: 50
+    requierLevel: 10
+    isUse: 0
+    avialable: 0
+    swordMageType: 1
+    bonus: 0
+    bonusValue: 0
+  - itemType: 0
+    itemCategory: 0
+    icon: {fileID: 21300000, guid: ad8852f27df9aa9488cf6e70a476ce85, type: 3}
+    index: 5
+    itemLocalizations:
+    - name: "\u0416\u0430\u043B\u043E \u0410\u0440\u0430\u0445\u043D\u0430"
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: "\u0421\u0442\u0440\u0430\u043D\u043D\u0430\u044F \u0432\u0435\u0449\u0438
+        \u0438\u0437 \u0434\u0440\u0443\u0433\u043E\u0433\u043E \u043C\u0438\u0440\u0430"
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    - name: 'Arachne''s sting '
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: A strange thing from another world
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    price: 0
+    isQuestItem: 0
+    damageMin: 10
+    damageMax: 15
+    mageDamage: 35
+    requierLevel: 15
+    isUse: 0
+    avialable: 0
+    swordMageType: 1
+    bonus: 0
+    bonusValue: 0
+  - itemType: 0
+    itemCategory: 0
+    icon: {fileID: 21300000, guid: b4034f673cb3e5c4fb7df763926e35e8, type: 3}
+    index: 6
+    itemLocalizations:
+    - name: "\u041A\u0430\u043B\u0435\u0447\u0430\u0449\u0438\u0439 \u041E\u0440\u043A\u043E\u0432"
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: "\u0417\u0430\u0437\u0443\u0431\u0440\u0435\u043D\u043D\u043E\u0435
+        \u043B\u0435\u0437\u0432\u0438\u0435 \u043E\u0441\u0442\u0430\u0432\u043B\u044F\u0435\u0442
+        \u0441\u0442\u0440\u0430\u0448\u043D\u044B\u0435 \u0440\u0430\u043D\u044B"
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    - name: 'Killer of Orcs '
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: The serrated blade leaves terrible wounds
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    price: 0
+    isQuestItem: 0
+    damageMin: 10
+    damageMax: 15
+    mageDamage: 45
+    requierLevel: 15
+    isUse: 0
+    avialable: 0
+    swordMageType: 1
+    bonus: 0
+    bonusValue: 0
+  - itemType: 0
+    itemCategory: 0
+    icon: {fileID: 21300000, guid: 8b43661052f7c594dbaea52ce5b53bad, type: 3}
+    index: 7
+    itemLocalizations:
+    - name: "\u0421\u0442\u0438\u043B\u0435\u0442 \u041D\u0430\u0435\u043C\u043D\u0438\u043A\u0430"
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: "\u0411\u044B\u0441\u0442\u0440\u044B\u0435 \u0443\u0434\u0430\u0440\u044B
+        - \u0441\u043C\u0435\u0440\u0442\u0435\u043B\u044C\u043D\u044B\u0435 \u0440\u0430\u043D\u044B"
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    - name: 'Mercenary Stiletto '
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: Quick blows - fatal wounds
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    price: 0
+    isQuestItem: 0
+    damageMin: 15
+    damageMax: 20
+    mageDamage: 35
+    requierLevel: 15
+    isUse: 0
+    avialable: 0
+    swordMageType: 1
+    bonus: 0
+    bonusValue: 0
+  - itemType: 0
+    itemCategory: 0
+    icon: {fileID: 21300000, guid: de72c07fd522abb4382687152dd26500, type: 3}
+    index: 8
+    itemLocalizations:
+    - name: "\u041A\u043B\u0438\u043D\u043E\u043A \u0421\u0442\u0440\u0430\u0436\u0430"
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: "\u041C\u043E\u0449\u043D\u043E\u0435 \u043E\u0440\u0443\u0436\u0438\u0435
+        \u0434\u0440\u0435\u0432\u043D\u0438\u0445 \u0438\u0441\u043F\u043E\u043B\u0438\u043D\u043E\u0432"
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    - name: 'Guardian Blade '
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: A powerful weapon of the ancient giants
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    price: 0
+    isQuestItem: 0
+    damageMin: 20
+    damageMax: 25
+    mageDamage: 45
+    requierLevel: 20
+    isUse: 0
+    avialable: 0
+    swordMageType: 1
+    bonus: 0
+    bonusValue: 0
+  - itemType: 0
+    itemCategory: 0
+    icon: {fileID: 21300000, guid: 50fad0b9f808e5b4e892777ce25ab344, type: 3}
+    index: 9
+    itemLocalizations:
+    - name: "\u0416\u0435\u0440\u0442\u0432\u0435\u043D\u043D\u043E\u0435 \u041B\u0435\u0437\u0432\u0438\u0435"
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: "\u0414\u0440\u0435\u0432\u043D\u0438\u0439, \u043C\u0430\u0433\u0438\u0447\u0435\u0441\u043A\u0438\u0439
+        \u043A\u043B\u0438\u043D\u043E\u043A"
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    - name: 'Sacrificial Blade '
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: Ancient, magic blade
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    price: 0
+    isQuestItem: 0
+    damageMin: 25
+    damageMax: 20
+    mageDamage: 55
+    requierLevel: 25
+    isUse: 0
+    avialable: 0
+    swordMageType: 1
+    bonus: 0
+    bonusValue: 0
+  - itemType: 0
+    itemCategory: 0
+    icon: {fileID: 21300000, guid: 682530ffd460f124183195933e237f5e, type: 3}
+    index: 10
+    itemLocalizations:
+    - name: "\u041F\u043E\u043A\u043E\u0440\u0438\u0442\u0435\u043B\u044C \u0414\u0435\u043C\u043E\u043D\u043E\u0432"
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: "\u0414\u0430\u0436\u0435 \u0434\u0435\u043C\u043E\u043D\u044B \u0442\u0440\u0435\u043F\u0435\u0449\u0430\u0442
+        \u043F\u0435\u0440\u0435\u0434 \u043D\u0438\u043C"
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    - name: 'Demon Slayer '
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: Even demons are in awe of him
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    price: 0
+    isQuestItem: 0
+    damageMin: 40
+    damageMax: 50
+    mageDamage: 60
+    requierLevel: 30
+    isUse: 0
+    avialable: 0
+    swordMageType: 1
+    bonus: 0
+    bonusValue: 0
+  artifactes:
+  - itemType: 1
+    itemCategory: 0
+    icon: {fileID: 21300000, guid: 0d47e12972dd47b46841f0dad6558eb3, type: 3}
+    index: 0
+    itemLocalizations:
+    - name: "\u0423\u0440\u0430\u0433\u0430\u043D \u044F\u0440\u043E\u0441\u0442\u0438"
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: "\u041D\u0435 \u0441\u0442\u043E\u0439 \u043D\u0430 \u043F\u0443\u0442\u0438
+        \u0430\u0442\u0430\u043A\u0443\u044E\u0449\u0435\u0433\u043E"
+      description: "\u041D\u0435 \u0441\u0442\u043E\u0439 \u043D\u0430 \u043F\u0443\u0442\u0438
+        \u0430\u0442\u0430\u043A\u0443\u044E\u0449\u0435\u0433\u043E"
+    - name: 'A hurricane of rage '
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: Don't get in the way of the attacker
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    price: 200
+    isQuestItem: 0
+    damageMin: 0
+    damageMax: 0
+    mageDamage: 0
+    requierLevel: 0
+    isUse: 0
+    avialable: 0
+    swordMageType: 0
+    bonus: 4
+    bonusValue: 2
+  - itemType: 1
+    itemCategory: 0
+    icon: {fileID: 21300000, guid: 3ab2028f9d6a65744881131e7d25983d, type: 3}
+    index: 1
+    itemLocalizations:
+    - name: "\u0412\u0442\u043E\u0440\u043E\u0439 \u0448\u0430\u043D\u0441"
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: "\u0428\u0430\u043D\u0441 - \u044D\u0442\u043E \u043D\u0435 \u0448\u043D\u0430\u043F\u0441"
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    - name: 'Second chance '
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: Chance is not schnapps
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    price: 200
+    isQuestItem: 0
+    damageMin: 0
+    damageMax: 0
+    mageDamage: 0
+    requierLevel: 3
+    isUse: 0
+    avialable: 0
+    swordMageType: 0
+    bonus: 9
+    bonusValue: 5
+  - itemType: 1
+    itemCategory: 0
+    icon: {fileID: 21300000, guid: 00884e6b9aabd154587ffc9d91c8e8bd, type: 3}
+    index: 2
+    itemLocalizations:
+    - name: "\u041F\u043E\u0434\u0430\u0447\u043A\u0430 \u043D\u0438\u0449\u0435\u043C\u0443"
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: "\u041F\u043E\u0434\u0430\u0439\u0442\u0435 \u043D\u0430 \u043F\u0440\u043E\u043F\u0438\u0442\u0430\u043D\u0438\u0435..."
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    - name: Handout to the beggar
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: 
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    price: 350
+    isQuestItem: 0
+    damageMin: 0
+    damageMax: 0
+    mageDamage: 0
+    requierLevel: 2
+    isUse: 0
+    avialable: 0
+    swordMageType: 0
+    bonus: 8
+    bonusValue: 2
+  - itemType: 1
+    itemCategory: 0
+    icon: {fileID: 21300000, guid: ce73eb152026a3e40931ea6a8d0c85cc, type: 3}
+    index: 3
+    itemLocalizations:
+    - name: "\u041C\u0435\u0434\u0432\u0435\u0436\u044C\u044F \u0448\u043A\u0443\u0440\u0430"
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: "\u0417\u0430\u0449\u0438\u0449\u0430\u0435\u0442 \u043D\u0435 \u0442\u043E\u043B\u044C\u043A\u043E
+        \u043E\u0442 \u0445\u043E\u043B\u043E\u0434\u0430"
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    - name: 'Bear skin '
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: Protects not only from the cold
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    price: 200
+    isQuestItem: 0
+    damageMin: 0
+    damageMax: 0
+    mageDamage: 0
+    requierLevel: 0
+    isUse: 0
+    avialable: 0
+    swordMageType: 0
+    bonus: 6
+    bonusValue: 2
+  - itemType: 1
+    itemCategory: 0
+    icon: {fileID: 21300000, guid: fda2294fbc686df488cbfc3389b111ff, type: 3}
+    index: 4
+    itemLocalizations:
+    - name: "\u042D\u043B\u044C\u0444\u0438\u0439\u0441\u043A\u0438\u0435 \u0442\u0440\u0430\u0432\u044B"
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: "\u0422\u0440\u0430\u0432\u0430 - \u0442\u044B \u0441\u0447\u0430\u0441\u0442\u044C\u0435..."
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    - name: 'Elven herbs '
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: Grass - you are happiness ...
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    price: 300
+    isQuestItem: 0
+    damageMin: 0
+    damageMax: 0
+    mageDamage: 0
+    requierLevel: 0
+    isUse: 0
+    avialable: 0
+    swordMageType: 0
+    bonus: 5
+    bonusValue: 80
+  - itemType: 1
+    itemCategory: 0
+    icon: {fileID: 21300000, guid: a81bf0715ec33fa49b13765696b85e76, type: 3}
+    index: 5
+    itemLocalizations:
+    - name: "\u041B\u0435\u0434\u044F\u043D\u043Ee \u043A\u043E\u043B\u044C\u0446\u043E"
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: "\u0420\u0443\u043A\u0438 \u043C\u043E\u0433\u0443\u0442 \u043F\u0440\u0438\u043C\u0435\u0440\u0437\u043D\u0443\u0442\u044C
+        \u043A \u043C\u0435\u0447\u0443"
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    - name: 'Ice ring '
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: Hands can freeze to the sword
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    price: 450
+    isQuestItem: 0
+    damageMin: 0
+    damageMax: 0
+    mageDamage: 0
+    requierLevel: 2
+    isUse: 0
+    avialable: 0
+    swordMageType: 0
+    bonus: 1
+    bonusValue: 2
+  - itemType: 1
+    itemCategory: 0
+    icon: {fileID: 21300000, guid: 76a0ff55627934040b44902d31bb145d, type: 3}
+    index: 6
+    itemLocalizations:
+    - name: "\u041F\u0443\u0442\u044C \u043D\u0430\u0432\u0435\u0440\u0445"
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: "\u0428\u0430\u0433 \u0437\u0430 \u0448\u0430\u0433\u043E\u043C \u043A
+        \u043D\u0430\u0433\u0440\u0430\u0434\u0435"
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    - name: 'Way up '
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: Step by step towards the reward
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    price: 200
+    isQuestItem: 0
+    damageMin: 0
+    damageMax: 0
+    mageDamage: 0
+    requierLevel: 1
+    isUse: 0
+    avialable: 0
+    swordMageType: 0
+    bonus: 10
+    bonusValue: 250
+  - itemType: 1
+    itemCategory: 0
+    icon: {fileID: 21300000, guid: 22f5ea23fff770a4b9930f54be6b2a19, type: 3}
+    index: 7
+    itemLocalizations:
+    - name: "\u0421\u0432\u0435\u0447\u0430 \u0441\u0432\u044F\u0449\u0435\u043D\u043D\u0438\u043A\u0430"
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: "\u041D\u0435\u0447\u0435\u0441\u0442\u044C \u043D\u0435\u0434\u043E\u043B\u044E\u0431\u043B\u0438\u0432\u0430\u0435\u0442
+        \u0441\u0432\u044F\u0449\u0435\u043D\u043D\u044B\u0439 \u043E\u0433\u043E\u043D\u044C"
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    - name: 'Priest''s candle '
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: Scum dislikes sacred fire
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    price: 450
+    isQuestItem: 0
+    damageMin: 0
+    damageMax: 0
+    mageDamage: 0
+    requierLevel: 2
+    isUse: 0
+    avialable: 0
+    swordMageType: 0
+    bonus: 0
+    bonusValue: 3
+  - itemType: 1
+    itemCategory: 0
+    icon: {fileID: 21300000, guid: f57be2014068bf246a40f81df30a1bfe, type: 3}
+    index: 8
+    itemLocalizations:
+    - name: "\u041A\u043E\u043B\u043F\u0430\u043A \u043F\u0430\u043B\u0430\u0447\u0430"
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: "\u041F\u0430\u043B\u0430\u0447 \u043F\u0440\u043E\u0432\u043E\u0434\u043D\u0438\u043A
+        \u0432 \u043C\u0438\u0440 \u0441\u043C\u0435\u0440\u0442\u0438"
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    - name: 'Executioner''s cap '
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: Executioner guide to the world of death
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    price: 500
+    isQuestItem: 0
+    damageMin: 0
+    damageMax: 0
+    mageDamage: 0
+    requierLevel: 3
+    isUse: 0
+    avialable: 0
+    swordMageType: 0
+    bonus: 3
+    bonusValue: 2
+  - itemType: 1
+    itemCategory: 0
+    icon: {fileID: 21300000, guid: 51a3a4403f78b664caffb1d8b8db36d2, type: 3}
+    index: 9
+    itemLocalizations:
+    - name: "\u0414\u0430\u043B\u044C\u043D\u043E\u0437\u043E\u0440"
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: "\u0421\u0442\u0430\u0440\u0438\u043D\u043D\u044B\u0439 \u043F\u0440\u0438\u0431\u043E\u0440
+        \u0443\u043B\u0443\u0447\u0448\u0430\u0435\u0442 \u0442\u043E\u0447\u043D\u043E\u0441\u0442\u044C"
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    - name: Far View
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: Antique instrument improves accuracy
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    price: 200
+    isQuestItem: 0
+    damageMin: 0
+    damageMax: 0
+    mageDamage: 0
+    requierLevel: 2
+    isUse: 0
+    avialable: 0
+    swordMageType: 0
+    bonus: 7
+    bonusValue: 10
+  - itemType: 1
+    itemCategory: 0
+    icon: {fileID: 21300000, guid: ef3ef2a615ef9724e82997e6190d532a, type: 3}
+    index: 10
+    itemLocalizations:
+    - name: "\u041F\u043E\u0434\u043A\u043E\u0432\u0430 \u0435\u0434\u0438\u043D\u043E\u0440\u043E\u0433\u0430"
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: "\u041F\u043E\u0432\u0435\u0437\u043B\u043E, \u0442\u0430\u043A \u043F\u043E\u0432\u0435\u0437\u043B\u043E"
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    - name: 'Unicorn horseshoe '
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: Lucky so lucky
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    price: 600
+    isQuestItem: 0
+    damageMin: 0
+    damageMax: 0
+    mageDamage: 0
+    requierLevel: 3
+    isUse: 0
+    avialable: 0
+    swordMageType: 0
+    bonus: 11
+    bonusValue: 3
+  - itemType: 1
+    itemCategory: 0
+    icon: {fileID: 21300000, guid: 298efe4e7168a4745bf5e87aa336d660, type: 3}
+    index: 11
+    itemLocalizations:
+    - name: "\u041C\u043E\u043B\u043D\u0438\u044F \u0441\u0442\u0440\u0435\u043B\u0430"
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: "\u041E\u0440\u0443\u0436\u0438\u0435 \u0442\u0430\u043A \u0438 \u0441\u0432\u0435\u0440\u043A\u0430\u0435\u0442,
+        \u043A\u0430\u043A \u043C\u043E\u043B\u043D\u0438\u044F"
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    - name: 'Lightning arrow '
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: Weapons sparkle like lightning
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    price: 400
+    isQuestItem: 0
+    damageMin: 0
+    damageMax: 0
+    mageDamage: 0
+    requierLevel: 2
+    isUse: 0
+    avialable: 0
+    swordMageType: 0
+    bonus: 2
+    bonusValue: 2
+  - itemType: 1
+    itemCategory: 0
+    icon: {fileID: 21300000, guid: f1faff2269919264dac81f4b92737e0c, type: 3}
+    index: 12
+    itemLocalizations:
+    - name: "\u0414\u0440\u0435\u0432\u043D\u0438\u0435 \u0440\u0443\u043D\u044B"
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: "\u041C\u0435\u0447\u0438 \u0441\u0442\u0430\u043D\u0432\u044F\u0442\u0441\u044F
+        \u043E\u043F\u0430\u0441\u043D\u0435\u0435 "
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    - name: 'Ancient runes '
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: Swords become more dangerous
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    price: 1000
+    isQuestItem: 0
+    damageMin: 0
+    damageMax: 0
+    mageDamage: 0
+    requierLevel: 4
+    isUse: 0
+    avialable: 0
+    swordMageType: 0
+    bonus: 4
+    bonusValue: 4
+  - itemType: 1
+    itemCategory: 0
+    icon: {fileID: 21300000, guid: 78e453e599700d347bdbae5820483f50, type: 3}
+    index: 13
+    itemLocalizations:
+    - name: "\u0427\u0430\u0448\u0430 \u0413\u0440\u0430\u0430\u043B\u044F"
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: "\u0418\u0441\u043F\u0435\u0439 \u0438\u0437 \u0441\u0432\u044F\u0442\u043E\u0433\u043E
+        \u043A\u0443\u0431\u043A\u0430"
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    - name: 'The Holy Grail '
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: Drink from the holy goblet
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    price: 1500
+    isQuestItem: 0
+    damageMin: 0
+    damageMax: 0
+    mageDamage: 0
+    requierLevel: 4
+    isUse: 0
+    avialable: 0
+    swordMageType: 0
+    bonus: 9
+    bonusValue: 10
+  - itemType: 1
+    itemCategory: 0
+    icon: {fileID: 21300000, guid: d6436e81d385db54da8b262e4fe21c40, type: 3}
+    index: 14
+    itemLocalizations:
+    - name: "\u041C\u0435\u043B\u043A\u0438\u0439 \u0432\u043E\u0440\u0438\u0448\u043A\u0430"
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: "\u041B\u043E\u0441\u043A\u043E\u0441\u0442\u044C \u0440\u0443\u043A
+        \u0434\u0430 \u0438 \u0442\u043E\u043B\u044C\u043A\u043E"
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    - name: 'Petty thief '
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: Sleight of hand only
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    price: 2000
+    isQuestItem: 0
+    damageMin: 0
+    damageMax: 0
+    mageDamage: 0
+    requierLevel: 4
+    isUse: 0
+    avialable: 0
+    swordMageType: 0
+    bonus: 8
+    bonusValue: 5
+  - itemType: 1
+    itemCategory: 0
+    icon: {fileID: 21300000, guid: e5beb3a8ba795634998475d09d76a79f, type: 3}
+    index: 15
+    itemLocalizations:
+    - name: "\u0421\u0435\u0440\u0434\u0446\u0435 \u0432 \u0440\u0443\u043A\u0435"
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: "\u041D\u0435\u0436\u043D\u0430\u044F \u0437\u0430\u0449\u0438\u0442\u0430"
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    - name: Heart in the hand
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: Delicate protection
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    price: 1000
+    isQuestItem: 0
+    damageMin: 0
+    damageMax: 0
+    mageDamage: 0
+    requierLevel: 4
+    isUse: 0
+    avialable: 0
+    swordMageType: 0
+    bonus: 6
+    bonusValue: 3
+  - itemType: 1
+    itemCategory: 0
+    icon: {fileID: 21300000, guid: d1d97841c1e82d845bd9c9e25566f9e5, type: 3}
+    index: 16
+    itemLocalizations:
+    - name: "\u041A\u0440\u0435\u043F\u043A\u0438\u0439 \u043E\u0440\u0435\u0448\u0435\u043A"
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: "\u0411\u0435\u0440\u0435\u0433\u0438\u0442\u0435 \u0437\u0443\u0431\u044B,
+        \u0432\u0430\u043C\u043F\u0438\u0440\u044B!"
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    - name: Die Hard
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: Take care of your teeth, vampires!
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    price: 1200
+    isQuestItem: 0
+    damageMin: 0
+    damageMax: 0
+    mageDamage: 0
+    requierLevel: 3
+    isUse: 0
+    avialable: 0
+    swordMageType: 0
+    bonus: 5
+    bonusValue: 150
+  - itemType: 1
+    itemCategory: 0
+    icon: {fileID: 21300000, guid: 53075bc94ee489645ba825c8ec154b2c, type: 3}
+    index: 17
+    itemLocalizations:
+    - name: "\u041E\u0442\u043C\u043E\u0440\u043E\u0436\u0435\u043D\u043D\u044B\u0439"
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: "\u0421 \u0442\u0430\u043A\u0438\u043C \u0430\u043A\u043A\u0443\u0440\u0430\u0442\u043D\u0435\u0435,
+        \u043B\u0435\u0434 \u0432 \u0431\u0430\u0448\u043A\u0435"
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    - name: 'Frostbitten '
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: Ice in the head
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    price: 1500
+    isQuestItem: 0
+    damageMin: 0
+    damageMax: 0
+    mageDamage: 0
+    requierLevel: 5
+    isUse: 0
+    avialable: 0
+    swordMageType: 0
+    bonus: 1
+    bonusValue: 4
+  - itemType: 1
+    itemCategory: 0
+    icon: {fileID: 21300000, guid: 12fb39c8317586b40ae3827a4fcabdb0, type: 3}
+    index: 18
+    itemLocalizations:
+    - name: "\u0427\u0435\u0440\u0442\u043E\u0432\u0430 \u043C\u0435\u0434\u0430\u043B\u044C"
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: "\u0414\u0430 \u043D\u0430\u0433\u0440\u0430\u0434\u044F\u0442 \u0442\u0435\u0431\u044F
+        \u0447\u0435\u0440\u0442\u0438"
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    - name: 'Goddamn medal '
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: May the devil's reward you
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    price: 1500
+    isQuestItem: 0
+    damageMin: 0
+    damageMax: 0
+    mageDamage: 0
+    requierLevel: 5
+    isUse: 0
+    avialable: 0
+    swordMageType: 0
+    bonus: 10
+    bonusValue: 300
+  - itemType: 1
+    itemCategory: 0
+    icon: {fileID: 21300000, guid: 866ac04a54725ed4a83ef1ade6e27cf2, type: 3}
+    index: 19
+    itemLocalizations:
+    - name: "\u0424\u043E\u043D\u0430\u0440\u044C \u043E\u0442\u0448\u0435\u043B\u044C\u043D\u0438\u043A\u0430"
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: "\u042F\u0440\u043A\u043E \u0441\u0432\u0435\u0442\u0438\u0442 \u0432
+        \u0441\u0430\u043C\u043E\u0439 \u0442\u044C\u043C\u0435"
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    - name: 'Hermit''s Lantern '
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: Shines brightly in the darkness itself
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    price: 1500
+    isQuestItem: 0
+    damageMin: 0
+    damageMax: 0
+    mageDamage: 0
+    requierLevel: 5
+    isUse: 0
+    avialable: 0
+    swordMageType: 0
+    bonus: 0
+    bonusValue: 4
+  - itemType: 1
+    itemCategory: 0
+    icon: {fileID: 21300000, guid: 1ac0f3a5e57bc7242aa8924052ea7121, type: 3}
+    index: 20
+    itemLocalizations:
+    - name: "\u041F\u0440\u043E\u043A\u043B\u044F\u0442\u0430\u044F \u043F\u0435\u0442\u043B\u044F"
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: "\u041F\u043E\u0434\u0443\u043C\u0430\u0439, \u043F\u043E\u043A\u0430
+        \u0434\u0435\u0440\u0433\u0430\u0435\u0448\u044C\u0441\u044F"
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    - name: 'Cursed noose '
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: Think while you twitch
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    price: 2000
+    isQuestItem: 0
+    damageMin: 0
+    damageMax: 0
+    mageDamage: 0
+    requierLevel: 5
+    isUse: 0
+    avialable: 0
+    swordMageType: 0
+    bonus: 3
+    bonusValue: 5
+  - itemType: 1
+    itemCategory: 0
+    icon: {fileID: 21300000, guid: 836cb9d1cf932dd4b90e440eb0af47c3, type: 3}
+    index: 21
+    itemLocalizations:
+    - name: "\u0413\u043D\u043E\u043C\u0438\u0439 \u043F\u0440\u0438\u0446\u0435\u043B"
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: "\u041A\u0430\u0440\u043B\u0438\u043A\u0438 \u0437\u043D\u0430\u044E\u0442
+        \u0442\u043E\u043B\u043A \u0432 \u043C\u0435\u0445\u0430\u043D\u0438\u0437\u043C\u0430\u0445"
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    - name: 'Dwarf scope '
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: Dwarfs know a lot about mechanisms
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    price: 1000
+    isQuestItem: 0
+    damageMin: 0
+    damageMax: 0
+    mageDamage: 0
+    requierLevel: 3
+    isUse: 0
+    avialable: 0
+    swordMageType: 0
+    bonus: 7
+    bonusValue: 20
+  - itemType: 1
+    itemCategory: 0
+    icon: {fileID: 21300000, guid: 9a7413084bfd07b409c7de5a40ef4d88, type: 3}
+    index: 22
+    itemLocalizations:
+    - name: "\u0412\u0441\u0435\u0433\u0434\u0430 \u0448\u0435\u0441\u0442\u044C"
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: "\u0428\u0435\u0441\u0442\u044C \u0438 \u0442\u043E\u043B\u044C\u043A\u043E
+        \u0448\u0435\u0441\u0442\u044C"
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    - name: 'Always six '
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: Six and  six only
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    price: 3000
+    isQuestItem: 0
+    damageMin: 0
+    damageMax: 0
+    mageDamage: 0
+    requierLevel: 5
+    isUse: 0
+    avialable: 0
+    swordMageType: 0
+    bonus: 11
+    bonusValue: 4
+  - itemType: 1
+    itemCategory: 0
+    icon: {fileID: 21300000, guid: 751d7a79da8df90448652d4ece5b4018, type: 3}
+    index: 23
+    itemLocalizations:
+    - name: "\u0418\u043C\u043F\u0443\u043B\u044C\u0441\u044B \u0436\u0438\u0437\u043D\u0438"
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: "\u0412\u0441\u0435 \u0442\u0435\u043B\u043E \u043E\u043F\u0430\u0441\u043D\u043E
+        \u0438\u0441\u043A\u0440\u0438\u0442\u0441\u044F"
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    - name: 'Impulses of life '
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: The whole body sparkles dangerously
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    price: 1500
+    isQuestItem: 0
+    damageMin: 0
+    damageMax: 0
+    mageDamage: 0
+    requierLevel: 5
+    isUse: 0
+    avialable: 0
+    swordMageType: 0
+    bonus: 2
+    bonusValue: 4
+  - itemType: 1
+    itemCategory: 0
+    icon: {fileID: 21300000, guid: fa0547de6a16e84418d7e92f701a0824, type: 3}
+    index: 24
+    itemLocalizations:
+    - name: "\u0423\u043A\u043E\u043B \u0437\u043E\u043D\u0442\u0438\u043A\u043E\u043C"
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: "\u0412\u0440\u0430\u0433\u0438 \u043D\u0435 \u043E\u0436\u0438\u0434\u0430\u044E\u0442
+        \u0442\u0430\u043A\u043E\u0439 \u0430\u0442\u0430\u043A\u0438"
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    - name: 'Umbrella prick '
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: Enemies do not expect such an attack
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    price: 1000
+    isQuestItem: 0
+    damageMin: 0
+    damageMax: 0
+    mageDamage: 0
+    requierLevel: 7
+    isUse: 0
+    avialable: 0
+    swordMageType: 0
+    bonus: 4
+    bonusValue: 5
+  - itemType: 1
+    itemCategory: 0
+    icon: {fileID: 21300000, guid: 50f74c21c5a9bde40b077e2f66cc292e, type: 3}
+    index: 25
+    itemLocalizations:
+    - name: "\u0414\u0435\u0432\u044F\u0442\u0430\u044F \u0436\u0438\u0437\u043D\u044C"
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: "\u0416\u0430\u043B\u044C, \u0447\u0442\u043E \u0442\u043E\u043B\u044C\u043A\u043E
+        \u0434\u0435\u0432\u044F\u0442\u044C \u0436\u0438\u0437\u043D\u0435\u0439
+        \u0443 \u043A\u043E\u0448\u043A\u0438"
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    - name: 'Ninth life '
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: Too bad the cat has only nine lives
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    price: 3000
+    isQuestItem: 0
+    damageMin: 0
+    damageMax: 0
+    mageDamage: 0
+    requierLevel: 6
+    isUse: 0
+    avialable: 0
+    swordMageType: 0
+    bonus: 9
+    bonusValue: 10
+  - itemType: 1
+    itemCategory: 0
+    icon: {fileID: 21300000, guid: d661c9ff098cfae4f9bceffdb318b89d, type: 3}
+    index: 26
+    itemLocalizations:
+    - name: "\u041A\u043B\u044E\u0447 \u043E\u0442 \u0441\u0443\u043D\u0434\u0443\u043A\u0430"
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: "\u0414\u0432\u0435\u043D\u0430\u0434\u0446\u0430\u0442\u044C \u0447\u0435\u043B\u043E\u0432\u0435\u043A
+        \u043D\u0430 \u0441\u0443\u043D\u0434\u0443\u043A \u043C\u0435\u0440\u0442\u0432\u0435\u0446\u0430..."
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    - name: Chest key
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: Twelve people per dead man's chest ...
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    price: 4000
+    isQuestItem: 0
+    damageMin: 0
+    damageMax: 0
+    mageDamage: 0
+    requierLevel: 7
+    isUse: 0
+    avialable: 0
+    swordMageType: 0
+    bonus: 8
+    bonusValue: 10
+  - itemType: 1
+    itemCategory: 0
+    icon: {fileID: 21300000, guid: 6a5746982519f1f4cbaf89fa1a2d1484, type: 3}
+    index: 27
+    itemLocalizations:
+    - name: "\u0417\u0430\u0449\u0438\u0442\u043D\u044B\u0439 \u043E\u0441\u043A\u0430\u043B"
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: "\u041E\u0441\u043A\u0430\u043B \u0441\u043C\u0435\u0440\u0442\u0438
+        \u043F\u043E\u0433\u043B\u043E\u0449\u0430\u0435\u0442 \u0443\u0440\u043E\u043D"
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    - name: 'Protective grin '
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: Death grin absorbs damage
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    price: 2000
+    isQuestItem: 0
+    damageMin: 0
+    damageMax: 0
+    mageDamage: 0
+    requierLevel: 5
+    isUse: 0
+    avialable: 0
+    swordMageType: 0
+    bonus: 6
+    bonusValue: 10
+  - itemType: 1
+    itemCategory: 0
+    icon: {fileID: 21300000, guid: 1248ae1d38e3e514487cecfc78bb8b6c, type: 3}
+    index: 28
+    itemLocalizations:
+    - name: "\_\u0417\u0432\u0435\u0440\u0438\u043D\u043E\u0435 \u0437\u0434\u043E\u0440\u043E\u0432\u044C\u0435"
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: "\u0412\u044B\u043D\u043E\u0441\u043B\u0438\u0432\u043E\u0441\u0442\u044C
+        \u0434\u0438\u043A\u0438\u0445 \u0437\u0432\u0435\u0440\u0435\u0439 "
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    - name: 'Wild health '
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: Endurance of wild beasts
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    price: 1500
+    isQuestItem: 0
+    damageMin: 0
+    damageMax: 0
+    mageDamage: 0
+    requierLevel: 5
+    isUse: 0
+    avialable: 0
+    swordMageType: 0
+    bonus: 5
+    bonusValue: 200
+  - itemType: 1
+    itemCategory: 0
+    icon: {fileID: 21300000, guid: 36585347162f0ce4ca3dc8bb87239997, type: 3}
+    index: 29
+    itemLocalizations:
+    - name: "\u0422\u0430\u043B\u0438\u0441\u043C\u0430\u043D \u0421\u0435\u0432\u0435\u0440\u043D\u043E\u0433\u043E
+        \u0421\u0438\u044F\u043D\u0438\u044F"
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: "\u0412\u0435\u0441\u044C \u0445\u043E\u043B\u043E\u0434 \u0441\u0435\u0432\u0435\u0440\u0430
+        \u0437\u0430\u043A\u043B\u044E\u0447\u0435\u043D \u0437\u0434\u0435\u0441\u044C"
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    - name: 'Talisman of the North '
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: All the cold of the north is here
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    price: 2500
+    isQuestItem: 0
+    damageMin: 0
+    damageMax: 0
+    mageDamage: 0
+    requierLevel: 7
+    isUse: 0
+    avialable: 0
+    swordMageType: 0
+    bonus: 1
+    bonusValue: 7
+  - itemType: 1
+    itemCategory: 0
+    icon: {fileID: 21300000, guid: 86ebd6a0087e1bf449c837f51edf68b1, type: 3}
+    index: 30
+    itemLocalizations:
+    - name: "\u041F\u043E\u0431\u0435\u0434\u0438\u0442\u0435\u043B\u044C"
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: "\u041F\u043E\u0431\u0435\u0434\u0438\u0442\u0435\u043B\u0435\u0439
+        \u043D\u0435 \u0441\u0443\u0434\u044F\u0442"
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    - name: 'Winner '
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: Winners are not judged
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    price: 1500
+    isQuestItem: 0
+    damageMin: 0
+    damageMax: 0
+    mageDamage: 0
+    requierLevel: 5
+    isUse: 0
+    avialable: 0
+    swordMageType: 0
+    bonus: 10
+    bonusValue: 500
+  - itemType: 1
+    itemCategory: 0
+    icon: {fileID: 21300000, guid: e34f49fd7f5ae5542a9cec58591e77e0, type: 3}
+    index: 31
+    itemLocalizations:
+    - name: "\u041F\u044B\u043B\u0430\u044E\u0449\u0438\u0439 \u0432\u043E\u0438\u043D"
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: "\u041C\u043E\u0436\u043D\u043E \u043F\u043E\u0434\u043F\u0430\u043B\u0438\u0442\u044C
+        \u043B\u044E\u0431\u043E\u0433\u043E \u0432\u0440\u0430\u0433\u0430"
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    - name: 'Flaming warrior '
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: You can set any enemy on fire
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    price: 2500
+    isQuestItem: 0
+    damageMin: 0
+    damageMax: 0
+    mageDamage: 0
+    requierLevel: 7
+    isUse: 0
+    avialable: 0
+    swordMageType: 0
+    bonus: 0
+    bonusValue: 7
+  - itemType: 1
+    itemCategory: 0
+    icon: {fileID: 21300000, guid: c7f9df7e6330ba946a55d8697aa5e11c, type: 3}
+    index: 32
+    itemLocalizations:
+    - name: "\u0421\u043C\u043E\u0442\u0440\u0438\u0442\u0435\u043B\u044C \u043A\u043B\u0430\u0434\u0431\u0438\u0449\u0430"
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: "\u0412\u043E\u0441\u0441\u0442\u0430\u043D\u044C \u0438\u0437 \u043C\u0435\u0440\u0442\u0432\u044B\u0445,
+        \u0436\u0438\u0432\u0438!"
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    - name: 'Cemetery caretaker '
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: Rise from the dead, live!
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    price: 3000
+    isQuestItem: 0
+    damageMin: 0
+    damageMax: 0
+    mageDamage: 0
+    requierLevel: 10
+    isUse: 0
+    avialable: 0
+    swordMageType: 0
+    bonus: 3
+    bonusValue: 10
+  - itemType: 1
+    itemCategory: 0
+    icon: {fileID: 21300000, guid: fa63e43951f5e85469df53a44d509547, type: 3}
+    index: 33
+    itemLocalizations:
+    - name: "\u0413\u043B\u0430\u0437 - \u0430\u043B\u043C\u0430\u0437"
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: "\u0413\u043B\u0430\u0437 - \u0430\u043B\u043C\u0430\u0437, \u0440\u0443\u043A\u0430
+        -\u043B\u0438\u043D\u0435\u0439\u043A\u0430!"
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    - name: 'Very sharp eye '
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: The eye is a diamond, the hand is a ruler!
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    price: 1500
+    isQuestItem: 0
+    damageMin: 0
+    damageMax: 0
+    mageDamage: 0
+    requierLevel: 5
+    isUse: 0
+    avialable: 0
+    swordMageType: 0
+    bonus: 7
+    bonusValue: 25
+  - itemType: 1
+    itemCategory: 0
+    icon: {fileID: 21300000, guid: a6b58901a3b631c43a913848d241ada3, type: 3}
+    index: 34
+    itemLocalizations:
+    - name: "\u0420\u0443\u043A\u0430 \u0434\u044C\u044F\u0432\u043E\u043B\u0430"
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: "\u041F\u0440\u043E\u0434\u0430\u0439 \u0434\u0443\u0448\u0443 \u0438
+        \u043D\u0435 \u043F\u0440\u043E\u0433\u0430\u0434\u0430\u0435\u0448\u044C"
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    - name: Devil's hand
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: "Sell \u200B\u200Byour soul and you won't go wrong"
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    price: 5000
+    isQuestItem: 0
+    damageMin: 0
+    damageMax: 0
+    mageDamage: 0
+    requierLevel: 7
+    isUse: 0
+    avialable: 0
+    swordMageType: 0
+    bonus: 11
+    bonusValue: 7
+  - itemType: 1
+    itemCategory: 0
+    icon: {fileID: 21300000, guid: f491567be688f5044b3cd607f4f8f30b, type: 3}
+    index: 35
+    itemLocalizations:
+    - name: "\u0413\u0440\u043E\u0437\u0430 \u0438\u0437 \u041A\u043D\u0438\u0433\u0438"
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: "\u041D\u0435 \u0437\u0430\u0431\u044B\u043B \u0441\u0434\u0430\u0442\u044C
+        \u043A\u043D\u0438\u0433\u0443 \u0432 \u0431\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0443?"
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    - name: 'Thunderstorm Book '
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: Did you forget to turn in your book to the library?
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    price: 2500
+    isQuestItem: 0
+    damageMin: 0
+    damageMax: 0
+    mageDamage: 0
+    requierLevel: 7
+    isUse: 0
+    avialable: 0
+    swordMageType: 0
+    bonus: 2
+    bonusValue: 7
+  - itemType: 1
+    itemCategory: 0
+    icon: {fileID: 21300000, guid: 5563c535826037a42971835873ad4324, type: 3}
+    index: 36
+    itemLocalizations:
+    - name: "\u0411\u0435\u0437\u0443\u043C\u0438\u0435 \u0411\u0435\u0440\u0441\u0435\u0440\u043A\u0430"
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: "\u0413\u0440\u0438\u0431\u044B \u043E\u043D\u0438 \u0442\u0430\u043A\u0438\u0435..."
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    - name: 'Berserker Madness '
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: They are such mushrooms ...
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    price: 5000
+    isQuestItem: 0
+    damageMin: 0
+    damageMax: 0
+    mageDamage: 0
+    requierLevel: 10
+    isUse: 0
+    avialable: 0
+    swordMageType: 0
+    bonus: 4
+    bonusValue: 15
+  - itemType: 1
+    itemCategory: 0
+    icon: {fileID: 21300000, guid: 5761acec9dccff2449af166d11290f34, type: 3}
+    index: 37
+    itemLocalizations:
+    - name: "\u0421\u0432\u044F\u0442\u0430\u044F \u0432\u043E\u0434\u0430"
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: "\u041F\u0435\u0439, \u043F\u0435\u0439 - \u0441\u043F\u043B\u043E\u0448\u043D\u043E\u0435
+        \u0437\u0434\u043E\u0440\u043E\u0432\u044C\u0435"
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    - name: 'Holy water '
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: Drink, drink - solid health
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    price: 5000
+    isQuestItem: 0
+    damageMin: 0
+    damageMax: 0
+    mageDamage: 0
+    requierLevel: 10
+    isUse: 0
+    avialable: 0
+    swordMageType: 0
+    bonus: 9
+    bonusValue: 15
+  - itemType: 1
+    itemCategory: 0
+    icon: {fileID: 21300000, guid: ffcff4a3b32a8bb439542dc4d2b19115, type: 3}
+    index: 38
+    itemLocalizations:
+    - name: "\u0414\u044C\u044F\u0432\u043E\u043B \u043B\u044E\u0431\u0438\u0442
+        \u0442\u0435\u0431\u044F"
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: "\u0410\u0434\u0441\u043A\u043E\u0435 \u0437\u0434\u043E\u0440\u043E\u0432\u044C\u0435
+        \u043E\u0431\u0435\u0441\u043F\u0435\u0447\u0435\u043D\u043E"
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    - name: 'Devil loves  '
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: Infernal health assured
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    price: 4000
+    isQuestItem: 0
+    damageMin: 0
+    damageMax: 0
+    mageDamage: 0
+    requierLevel: 9
+    isUse: 0
+    avialable: 0
+    swordMageType: 0
+    bonus: 5
+    bonusValue: 300
+  - itemType: 1
+    itemCategory: 0
+    icon: {fileID: 21300000, guid: 050306cbaae1fca4392d791082266309, type: 3}
+    index: 39
+    itemLocalizations:
+    - name: "\u041A\u043E\u0440\u043E\u043D\u0430\u0446\u0438\u044F"
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: "\u0412\u0441\u0435 \u043C\u043E\u0433\u0443\u0442 \u043A\u043E\u0440\u043E\u043B\u0438!"
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    - name: 'Coronation '
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: Kings Can Do Anything!
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    price: 3500
+    isQuestItem: 0
+    damageMin: 0
+    damageMax: 0
+    mageDamage: 0
+    requierLevel: 8
+    isUse: 0
+    avialable: 0
+    swordMageType: 0
+    bonus: 10
+    bonusValue: 700
+  - itemType: 1
+    itemCategory: 0
+    icon: {fileID: 21300000, guid: d3f88f098d0ba444b92f06063dcb5749, type: 3}
+    index: 40
+    itemLocalizations:
+    - name: "\u0421\u043C\u0435\u0440\u0442\u044C \u0441 \u043A\u043E\u0441\u043E\u0439"
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: "\u0410 \u0432\u0434\u043E\u043B\u044C \u0434\u043E\u0440\u043E\u0433\u0438
+        - \u043C\u0435\u0440\u0442\u0432\u044B\u0435 \u0441 \u043A\u043E\u0441\u0430\u043C\u0438..."
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    - name: 'Grim Reaper '
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: And along the road - dead with braids ...
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    price: 6000
+    isQuestItem: 0
+    damageMin: 0
+    damageMax: 0
+    mageDamage: 0
+    requierLevel: 12
+    isUse: 0
+    avialable: 0
+    swordMageType: 0
+    bonus: 3
+    bonusValue: 10
+  - itemType: 1
+    itemCategory: 0
+    icon: {fileID: 21300000, guid: 690b78545e137d64cacb60de2b95c323, type: 3}
+    index: 41
+    itemLocalizations:
+    - name: "\u041A\u043B\u0435\u0432\u0435\u0440 \u041F\u0430\u0442\u0440\u0438\u043A\u0430"
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: "\u0415\u0441\u043B\u0438 \u0442\u044B \u0440\u044B\u0436\u0438\u0439,
+        \u043F\u043E\u0432\u0435\u0437\u0435\u0442 \u0431\u043E\u043B\u044C\u0448\u0435"
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    - name: 'Patrick''s Clover '
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: If you are red, you have better luck
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    price: 5000
+    isQuestItem: 0
+    damageMin: 0
+    damageMax: 0
+    mageDamage: 0
+    requierLevel: 10
+    isUse: 0
+    avialable: 0
+    swordMageType: 0
+    bonus: 11
+    bonusValue: 10
+  relic:
+  - itemType: 1
+    itemCategory: 0
+    icon: {fileID: 21300000, guid: 18e45214b15d542ab964e8ed9a8ee1f5, type: 3}
+    index: 0
+    itemLocalizations:
+    - name: "\u0418\u0441\u0447\u0430\u0434\u0438\u0435 \u0410\u0434\u0430"
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: "\u041D\u0430\u0437\u0432\u0430\u043D\u0438\u0435 \u0433\u043E\u0432\u043E\u0440\u0438\u0442
+        \u0441\u0430\u043C\u043E \u0437\u0430 \u0441\u0435\u0431\u044F"
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    - name: "\u041D\u0430\u0437\u0432\u0430\u043D\u0438\u0435"
+      category: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+      title: "\u0417\u0430\u0433\u043E\u043B\u043E\u0432\u043E\u043A"
+      description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+    price: 5000
+    isQuestItem: 0
+    damageMin: 35
+    damageMax: 40
+    mageDamage: 70
+    requierLevel: 30
+    isUse: 0
+    avialable: 0
+    swordMageType: 1
+    bonus: 3
+    bonusValue: 15

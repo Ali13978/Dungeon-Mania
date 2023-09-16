@@ -1,0 +1,84 @@
+10 <Welcome to the Halls of the Great Dungeon!>
+11 <What are you?>
+12 <I'm not interested!>
+20 <I am not what, but who! I am the Gatekeeper of the Great Dungeon, I am the first to meet the likes of you!>
+21 <How did I end up here?>
+22 <Ha - ha - ha! Don't make me laugh!>
+30 <The Dungeon itself chose you! It is looking for the bravest and strongest warriors who can pass the Great Challenge!>
+31 <Challenge?>
+32 <Nobody dares to choose me! I choose!>
+40 <Go to the depths of the Dungeon, the further you go down, the more terrible, stronger and more insidious your rivals will be. Defeat them all and discover the Great Secret of the Dungeon!>
+41 <I will pass the Challenge!>
+42 <Oh, these fairy tales, oh, these storytellers ...>
+50 <Among the many enemies, there are some of the most powerful, fearsome and bloodthirsty! These are the Titans of the Dungeon! You need to defeat them all! Then ...>
+51 <Then ... What?>
+60 <Take your time, my young warrior! First, defeat the first one! The Cave Ogre is a vile creature! Although this is the first enemy, but very dangerous, even for an experienced warrior, not to mention beginners.>
+61 <How can I get stronger?>
+70 <Fight, gain experience, get magic crystals and improve your skills. You will also find gold in the chests of the Dungeon, it can be exchanged for crystals!>
+71 <Clear!>
+80 <To make it easier, I reward you with one of the ancient swords that will help you in the beginning of the journey!>
+81 <Thanks!>
+82 <Thank you, my FRIEND !!!>
+90 <You called me friend !!! For thousands of years I have been vegetating in these musty halls, I hear the screams of monsters and cries for mercy and help ... And no one called me Friend! Take another gift from me, Mighty Artifact!>
+91 <See you!>
+92 <Artifact?>
+100 <You're also curious! It's good! Artifacts are magical entities that will improve your skills! Look for them in the Dungeon Chests and don't forget, Luck is what counts for this!>
+110 <Congratulations! You chose stupidity and indifference, and now go and choose death for yourself! Hope you figure it out yourself!>
+111 <Are you funny? So remain a fool, a fool without a reward! Hope you figure it out yourself!>
+112 <Let it be so! Hope you figure it out yourself!>
+130 <Oh-hoo! Whom do I see! You just defeated the Ogre, that nasty, nasty creature created in the eerie caverns of the Underworld!>
+131 <Yes it is!>
+132 <Speak faster!>
+140 <But besides Ogre, you have to fight a few more Titans!>
+141 <Who are they?>
+145 <In addition to Ogre, you will encounter the Stone Golem, the Cursed Minotaur and the Fire Ifrit! These Monsters, created by an eerie mind, using secret ancient magic ...>
+146 <Who is this Creator?>
+150 <The most ferocious, cruel and terrible Monster, the product of EVIL and Hell itself - this is the Crown of the Dungeon! THE SUPREME DEMON, dwelling in the Halls of Fire ...>
+151 <Go on! Don't stop!>
+160 <He commands all the elements, tamed all kinds of magic .. Creatures, monsters, creatures, monsters - all serve and worship him! You will have to fight him at the very end of your journey!>
+170 <Hmm, please! You must defeat the rest of the Titans of the Underground, and then ... plunge the Demon High into the dust.>
+175 <You did well, it's time to get your well-deserved reward!>
+180 <So! You are alive and have defeated all Titans! You are a Real Warrior! You have the last step left to Immortality and Infinity! The High Demon roars in the depths of the Dungeon! He wants revenge for his minions!>
+190 <Embark on the most terrible and dangerous path of your Test! In recognition of your merits, accept a gift from me, this is the most powerful and powerful sword - the crown of my collection!>
+200 <Greetings! Greetings! Hail Great Dungeon Conqueror! You have defeated the High Demon! The entire Dungeon is at your feet! You have become a great Warrior and I am happy for you!>
+201 <What's next?>
+210 <Next? Further only infinity and eternal Glory of the Great Dungeon Conqueror! You will stay here forever and endlessly fight in these Halls, but with stronger and more evil rivals!>
+300 <Ask what you want, Warrior!>
+301 <Your success deserves a reward!>
+302 <What does the Monster Slayer want?>
+303 <Presents are already waiting for you!>
+304 <Feel free to choose your reward!>
+305 <All the best just for you, Dungeon Ravager!>
+306 <My gifts will not leave you indifferent!>
+307 <Tell me what you are missing.>
+308 <I need a sword.>
+309 <Old swords ... they are old!>
+310 <New sword please!>
+311 <A sword, and only a sword!>
+312 <Give me an artifact.>
+313 <Artifact.>
+314 <I need a powerful artifact!>
+315 <I have few artifacts.>
+316 <Gold! All I need is gold!>
+317 <Gold, Gatekeeper!>
+318 <I am a fan of the Golden Calf!>
+319 <Gold is never too much!>
+400 <Another Titan awaits you!>
+401 <The next Boss is ready to fight!>
+402 <Another Thing wants your blood!>
+403 <I hear the angry roar of an unconquered Beast!>
+406 <Forward into the depths of the Underground! The Demon High is already awake!>
+600 <Praise to the Winner! The Terrible Stone Golem has been cast back into Hell!>
+601 <Done !!! The accursed Minotaur has been defeated by the great Hero!>
+602 <Oh Miracle !!! The Fiery Creature from the underworld submitted to the mighty Warrior!>
+700 <This thing - the Ogre is still alive! Finish him!!!>
+701 <The Stone Golem must be defeated!>
+702 <The cursed Minotaur eats little kids! Don't let this happen!>
+703 <Fiery Ifrit roasts another sacrifice! Finish the vile reptile!>
+704 <Demon High awaits you for your final battle!>
+3 <Infinity !!! Infinity and immortality !!!>
+1 <Leave ...>
+2 <Fight!>
+4 <Good advice.>
+5 <Next ...>
+

@@ -1,0 +1,83 @@
+10 <¡Bienvenido a los Salones de la Gran Mazmorra!>
+11 <¿Qué eres?>
+12 <¡No me interesa!>
+20 <¡No soy qué, sino quién! ¡Soy el Guardián de la Gran Mazmorra, soy el primero en conocer a gente como tú!>
+21 <¿Cómo terminé aquí?>
+22 <¡Ja, ja, ja! ¡No me hagas reír!>
+30 <¡La mazmorra misma te eligió a ti! ¡Está buscando a los guerreros más valientes y fuertes que puedan pasar la Gran Prueba!>
+31 <¿Desafío?>
+32 <¡Nadie se atreve a elegirme! ¡Yo elijo!>
+40 <Ve a las profundidades de la Mazmorra, cuanto más bajes, más terribles, más fuertes y más insidiosos serán tus rivales. ¡Derrótalos a todos y descubre el Gran Secreto de la Mazmorra!>
+41 <¡Pasaré el desafío!>
+42 <Oh, estos cuentos de hadas, oh, estos narradores ...>
+50 <¡Entre los muchos enemigos, hay algunos de los más poderosos, temibles y sanguinarios! ¡Estos son los titanes de la mazmorra! ¡Tienes que derrotarlos a todos! Entonces ...>
+51 <Entonces ... ¿Qué?>
+60 <¡Tómate tu tiempo, mi joven guerrero! Primero, ¡derrota al primero de ellos! ¡El ogro de las cavernas es una criatura vil! Aunque este es el primer enemigo, pero muy peligroso, incluso para un guerrero experimentado, por no hablar de los principiantes.>
+61 <¿Cómo puedo hacerme más fuerte?>
+70 <Lucha, gana experiencia, consigue cristales mágicos y mejora tus habilidades. También encontrarás oro en los cofres de la mazmorra, ¡se puede cambiar por cristales!>
+71 <¡Claro!>
+80 <¡Para que sea más fácil, te recompensaré con una de las espadas antiguas que te ayudarán al comienzo del viaje!>
+81 <¡Gracias!>
+82 <¡¡¡Gracias, mi AMIGO !!!>
+90 <¡¡¡Me llamaste amigo !!! Durante miles de años he estado vegetando en estos pasillos mohosos, escucho los gritos de los monstruos y los gritos de misericordia y ayuda ... ¡Y nadie me llamó Amigo! ¡Toma otro regalo mío, poderoso artefacto!>
+91 <¡Nos vemos!>
+92 <¿Artefacto?>
+100 <¡También tienes curiosidad! ¡Es bueno! ¡Los artefactos son entidades mágicas que mejorarán tus habilidades! Búscalos en los cofres de las mazmorras y no lo olvides, ¡la suerte es lo que cuenta!>
+110 <¡Felicitaciones! ¡Elegiste la estupidez y la indiferencia, y ahora ve y elige la muerte por ti mismo! ¡Espero que lo averigües tú mismo!>
+111 <¿Eres gracioso? ¡Así que sigue siendo un necio, un necio sin recompensa! ¡Espero que lo averigües tú mismo!>
+112 <¡Que así sea! ¡Espero que lo averigües tú mismo!>
+130 <¡Oh-hoo! ¡A quién veo! ¡Acabas de derrotar al Ogro, esa desagradable criatura creada en las espeluznantes cavernas del inframundo!>
+131 <¡Sí, lo es!>
+132 <¡Habla más rápido!>
+140 <¡Pero además de Ogre, tienes que luchar contra algunos titanes más!>
+141 <¿Quiénes son?>
+145 <¡Además de Ogre, encontrarás Stone Golem, Cursed Minotaur e Fire Ifrit! Estos monstruos, creados por una mente inquietante, usando magia antigua secreta ...>
+146 <¿Quién es este Creador?>
+150 <El monstruo más feroz, cruel y terrible, producto del MAL y del infierno mismo: ¡esta es la Corona de la Mazmorra! EL DEMONIO SUPREMO, morando en las Cámaras del Fuego ...>
+151 <¡Adelante! ¡No pares!>
+160 <Él controla todos los elementos, ha domesticado todo tipo de magia ... Criaturas, monstruos, criaturas, monstruos - ¡todos le sirven y adoran! ¡Tendrás que luchar contra él al final de tu viaje!>
+170 <¡Hmm, por favor! Debes derrotar al resto de los Titanes del Subterráneo y luego ... sumergirte en el polvo del Gran Demonio.>
+175 <¡Lo hiciste bien, es hora de recibir tu merecida recompensa!>
+180 <¡Entonces! ¡Estás vivo y has derrotado a todos los titanes! ¡Eres un verdadero guerrero! ¡Te queda el último paso hacia la inmortalidad y el infinito! ¡El Gran Demonio ruge en las profundidades de la Mazmorra! ¡Quiere vengarse de sus secuaces!>
+190 <¡Embárcate en el camino más terrible y peligroso de tu prueba! En reconocimiento a tus méritos, acepta un regalo mío, esta es la espada más poderosa y poderosa: ¡la corona de mi colección!>
+200 <¡Saludos! ¡Saludos! ¡Salve, gran conquistador de mazmorras! ¡Has derrotado al Gran Demonio! ¡Toda la mazmorra está a tus pies! ¡Te has convertido en un gran guerrero y estoy feliz por ti!>
+201 <¿Qué sigue?>
+210 <¿Siguiente? ¡Más allá solo el infinito y la gloria eterna del Gran Conquistador de la Mazmorra! ¡Te quedarás aquí para siempre y lucharás sin cesar en estos Salones, pero con rivales más fuertes y malvados!>
+300 <¡Pregunta lo que quieras, guerrero!>
+301 <¡Tu éxito merece una recompensa!>
+302 <¿Qué quiere el Monster Slayer?>
+303 <¡Los regalos ya te están esperando!>
+304 <¡Siéntete libre de elegir tu recompensa!>
+305 <¡Todo lo mejor para ti, Devastador de mazmorras!>
+306 <¡Mis regalos no te dejarán indiferente!>
+307 <Dime lo que te estás perdiendo.>
+308 <Necesito una espada.>
+309 <Espadas viejas ... ¡son viejas!>
+310 <¡Nueva espada, por favor!>
+311 <¡Una espada, y solo una espada !>
+312 <Dame un artefacto.>
+313 <Artefacto.>
+314 <¡Necesito un artefacto poderoso!>
+315 <Tengo pocos artefactos.>
+316 <¡Oro! ¡Todo lo que necesito es oro!>
+317 <¡Oro, guardián!>
+318 <¡Soy fanático del becerro de oro!>
+319 <¡El oro nunca es demasiado!>
+400 <¡Otro titán te espera!>
+401 <¡El próximo jefe está listo para luchar!>
+402 <¡Otra cosa quiere tu sangre!>
+403 <¡Escucho el rugido furioso de una Bestia invicta!>
+406 <¡Adelante a las profundidades del subterráneo! ¡El Demon High ya está despierto!>
+600 <¡Alabado sea el ganador! ¡El terrible gólem de piedra ha sido devuelto al infierno!>
+601 <¡¡¡Listo !!! ¡El maldito Minotauro ha sido derrotado por el gran héroe!>
+602 <¡¡¡Oh milagro !!! ¡La criatura ardiente del inframundo se sometió al poderoso Guerrero!>
+700 <Esta cosa: ¡el Ogro todavía está vivo! ¡Acaba con él!>
+701 <Kam¡El Golem objetivo debe ser derrotado!>
+702 <¡El Minotauro maldito se come a los niños pequeños! ¡No dejes que esto suceda!>
+703 <¡Ifrit ardiente asa otro sacrificio! ¡Acaba con el vil reptil!>
+704 <¡Demon High te espera para tu batalla final!>
+3 <¡¡¡Infinito !!! Infinito e inmortalidad !!!>
+1 <Dejar ...>
+2 <¡Lucha!>
+4 <Buen consejo.>
+5 <Siguiente ...>

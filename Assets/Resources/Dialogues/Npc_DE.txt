@@ -1,0 +1,83 @@
+10 <Willkommen in den Hallen des Großen Verlieses!>
+11 <Was bist du?>
+12 <Ich bin nicht interessiert!>
+20 <Ich bin nicht was, sondern wer! Ich bin der Torhüter des Großen Verlieses, ich bin der erste, der Leute wie Sie trifft!>
+21 <Wie bin ich hier gelandet?>
+22 <Ha - ha - ha! Bring mich nicht zum Lachen!>
+30 <Der Dungeon selbst hat dich ausgewählt! Es sucht die tapfersten und stärksten Krieger, die den Großen Test bestehen können!>
+31 <Herausforderung?>
+32 <Niemand wagt es, mich zu wählen! Ich wähle!>
+40 <Gehe in die Tiefen des Dungeons. Je weiter du hinuntergehst, desto schrecklicher, stärker und heimtückischer werden deine Rivalen sein. Besiege sie alle und entdecke das große Geheimnis des Dungeons!>
+41 <Ich werde die Herausforderung bestehen!>
+42 <Oh, diese Märchen, oh, diese Geschichtenerzähler ...>
+50 <Unter den vielen Feinden gibt es einige der mächtigsten, furchterregendsten und blutrünstigsten! Das sind die Titanen des Dungeons! Du musst sie alle besiegen! Dann ...>
+51 <Dann ... was?>
+60 <Nimm dir Zeit, mein junger Krieger! Besiege zuerst den ersten von ihnen! Der Höhlen-Oger ist eine abscheuliche Kreatur! Dies ist zwar der erste Feind, aber selbst für einen erfahrenen Krieger sehr gefährlich, ganz zu schweigen von Anfängern
+61 <Wie kann ich stärker werden?>
+70 <Kämpfe, sammle Erfahrung, sammle magische Kristalle und verbessere deine Fähigkeiten. Sie finden auch Gold in den Truhen des Dungeons, es kann gegen Kristalle eingetauscht werden!>
+71 <Löschen!>
+80 <Um es einfacher zu machen, belohne ich Sie mit einem der alten Schwerter, die Ihnen zu Beginn der Reise helfen werden!>
+81 <Danke!>
+82 <Danke, mein Freund !!!>
+90 <Du hast mich Freund genannt !!! Seit Tausenden von Jahren vegetiere ich in diesen muffigen Hallen, ich höre die Schreie von Monstern und schreie nach Gnade und Hilfe ... Und niemand nannte mich Freund! Nimm ein weiteres Geschenk von mir, Mighty Artifact!>
+91 <Bis bald!>
+92 <Artefakt?>
+100 <Du bist auch neugierig! Das ist gut! Artefakte sind magische Einheiten, die Ihre Fähigkeiten verbessern! Suche sie in den Dungeon-Truhen und vergiss nicht, dass das Glück zählt!>
+110 <Herzlichen Glückwunsch! Du hast dich für Dummheit und Gleichgültigkeit entschieden und wählst jetzt den Tod für dich selbst! Hoffe du findest es selbst heraus!>
+111 <Bist du lustig? Also bleib ein Narr, ein Narr ohne Belohnung! Hoffe du findest es selbst heraus!>
+112 <Lass es so sein! Hoffe du findest es selbst heraus!>
+130 <Oh-hoo! Wen sehe ich? Du hast gerade den Oger besiegt, diese böse, böse Kreatur, die in den unheimlichen Höhlen der Unterwelt erschaffen wurde!>
+131 <Ja, das ist es!>
+132 <Sprechen Sie schneller!>
+140 <Aber neben Ogre musst du noch ein paar Titanen bekämpfen!>
+141 <Wer sind sie?>
+145 <Zusätzlich zu Ogre treffen Sie auf Steingolem, verfluchten Minotaurus und Feuer-Ifrit! Diese Monster, erschaffen von einem unheimlichen Geist, mit geheimer alter Magie ...>
+146 <Wer ist dieser Schöpfer?>
+150 <Das grausamste, grausamste und schrecklichste Monster, das Produkt des Bösen und der Hölle selbst - das ist die Krone des Dungeons! DER SUPREME DEMON, der in den Hallen des Feuers wohnt ...>
+151 <Weiter! Hör nicht auf!>
+160 <Er befiehlt alle Elemente, hat alle Arten von Magie gezähmt. Kreaturen, Monster, Kreaturen, Monster - alle dienen und verehren ihn! Sie müssen ihn am Ende Ihrer Reise bekämpfen!>
+170 <Hmm, bitte! Sie müssen den Rest der Titanen des Untergrunds besiegen und dann ... in den Staub des Hochdämons eintauchen.>
+175 <Du hast es gut gemacht, es ist Zeit, deine wohlverdiente Belohnung zu bekommen!>
+180 <Also! Du bist am Leben und hast alle Titanen besiegt! Du bist ein echter Krieger! Sie haben den letzten Schritt zur Unsterblichkeit und Unendlichkeit! Der Hohe Dämon brüllt in den Tiefen des Dungeons! Er will Rache für seine Schergen!>
+190 <Begeben Sie sich auf den schrecklichsten und gefährlichsten Weg Ihres Tests! Nehmen Sie in Anerkennung Ihrer Verdienste ein Geschenk von mir an, dies ist das mächtigste und mächtigste Schwert - die Krone meiner Sammlung!>
+200 <Grüße! Schöne Grüße! Gegrüßet seist du großer Dungeon-Eroberer! Du hast den Hochdämon besiegt! Der gesamte Dungeon liegt Ihnen zu Füßen! Du bist ein großer Krieger geworden und ich freue mich für dich!>
+201 <Wie geht es weiter?>
+210 <Weiter? Weiter nur Unendlichkeit und ewige Herrlichkeit des Großen Dungeon-Eroberers! Sie werden für immer hier bleiben und endlos in diesen Hallen kämpfen, aber mit stärkeren und böseren Rivalen!>
+300 <Frag was du willst, Krieger!>
+301 <Ihr Erfolg verdient eine Belohnung!>
+302 <Was will der Monstertöter?>
+303 <Geschenke warten bereits auf Sie!>
+304 <Fühlen Sie sich frei, Ihre Belohnung zu wählen!>
+305 <Alles Gute nur für dich, Dungeon Ravager!>
+306 <Meine Gaben werden dich nicht gleichgültig lassen!>
+307 <Sag mir, was du vermisst.>
+308 <Ich brauche ein Schwert.>
+309 <Alte Schwerter ... sie sind alt!>
+310 <Neues Schwert bitte!>
+311 <Ein Schwert und nur ein Schwert!>
+312 <Gib mir ein Artefakt.>
+313 <Artefakt.>
+314 <Ich brauche ein mächtiges Artefakt!>
+315 <Ich habe nur wenige Artefakte.>
+316 <Gold! Ich brauche nur Gold!>
+317 <Gold, Torhüter!>
+318 <Ich bin ein Fan des Goldenen Kalbs!>
+319 <Gold ist nie zu viel!>
+400 <Ein weiterer Titan erwartet dich!>
+401 <Der nächste Boss ist bereit zu kämpfen!>
+402 <Eine andere Sache will dein Blut!>
+403 <Ich höre das wütende Brüllen eines nicht eroberten Tieres!>
+406 <Vorwärts in die Tiefen des Untergrunds! Das Dämonenhoch ist schon wach!>
+600 <Lob an den Gewinner! Der schreckliche Steingolem wurde zurück in die Hölle geworfen!>
+601 <Fertig !!! Der verfluchte Minotaurus wurde vom großen Helden besiegt!>
+602 <Oh Wunder !!! Die feurige Kreatur aus der Unterwelt unterwarf sich dem mächtigen Krieger!>
+700 <Dieses Ding - der Oger lebt noch! Beende ihn!>
+701 <KamDer Zielgolem muss besiegt werden!>
+702 <Der verfluchte Minotaurus isst kleine Kinder! Lass das nicht zu!>
+703 <Feuriger Ifrit brät ein weiteres Opfer! Beende das abscheuliche Reptil!>
+704 <Demon High erwartet dich für deine letzte Schlacht!>
+3 <Unendlichkeit !!! Unendlichkeit und Unsterblichkeit !!!>
+1 <Verlassen ...>
+2 <Kampf!>
+4 <Guter Rat.>
+5 <Weiter ...>

@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - target
+  - enemy
+  - chest
+  - triggerRoom
+  - PlayerCollider
+  - ground
+  - HelthPotion
+  - ManaPotion
+  - DistanceCollider
+  - Fire
+  - explosion
+  - Effects
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - PostProcessing
+  - TriggerRoom
+  - PlayerCollider
+  - Player
+  - Enemy
+  - MeleeAttack
+  - DistanceAttack
+  - Crystall
+  - DistanceCollider
+  - MeleeCollider
+  - MeleeCollider2
+  - MeleeAttack2
+  - Door
+  - Floor
+  - Fire
+  - Chest
+  - Teleport
+  - NPC
+  - ps
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

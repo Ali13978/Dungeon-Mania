@@ -1,0 +1,14 @@
+"Fire Bird" spell, increase damage and fire protection /
+"Ice Blast" spell, increase damage and protection from ice /
+"Healing" spell , increase damage and lightning protection /
+"Shield" spell, increase damage and protection from death magic /
+Increases Weapon Damage /
+Maximum Health /
+Reduces physical damage from weapons /
+With an exact hit - 100% damage, otherwise 50% /
+Increases the amount of gold in chests /
+Chance to resurrection after death /
+Increases score from defeated enemies (for rating) /
+Oh ho ho !!!
+
+This is probably the most important thing! /

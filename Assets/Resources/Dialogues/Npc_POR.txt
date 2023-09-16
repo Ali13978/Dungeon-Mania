@@ -1,0 +1,83 @@
+10 <Bem-vindo aos Salões da Grande Masmorra!>
+11 <O que você é?>
+12 <Não estou interessado!>
+20 <Eu não sou o que, mas quem! Eu sou o Guardião da Grande Masmorra, sou o primeiro a encontrar gente como você!>
+21 <Como vim parar aqui?>
+22 <Ha - ha - ha! Não me faça rir!>
+30 <A própria masmorra escolheu você! Ele está procurando pelos guerreiros mais corajosos e fortes que possam passar no Grande Teste!>
+31 <Desafio?>
+32 <Ninguém se atreve a me escolher! Eu escolho!>
+40 <Vá para as profundezas do Calabouço, quanto mais você descer, mais terríveis, fortes e traiçoeiros serão seus rivais. Derrote todos eles e descubra o Grande Segredo da Masmorra!>
+41 <Vou passar no desafio!>
+42 <Oh, esses contos de fadas, oh, esses contadores de histórias ...>
+50 <Entre os muitos inimigos, existem alguns dos mais poderosos, temíveis e sanguinários! Estes são os Titãs da Masmorra! Você precisa derrotar todos eles! Então ...>
+51 <Então ... O quê?>
+60 <Não tenha pressa, meu jovem guerreiro! Primeiro, derrote o primeiro deles! O Ogro da Caverna é uma criatura vil! Embora este seja o primeiro inimigo, mas muito perigoso, mesmo para um guerreiro experiente, para não falar dos iniciantes.>
+61 <Como posso ficar mais forte?>
+70 <Lute, ganhe experiência, obtenha cristais mágicos e melhore suas habilidades. Você também encontrará ouro nos baús do Calabouço, ele pode ser trocado por cristais!>
+71 <Limpar!>
+80 <Para facilitar, eu recomendo você com uma das espadas antigas que irão ajudá-lo no início da jornada!>
+81 <Obrigado!>
+82 <Obrigado, meu AMIGO !!!>
+90 <Você me chamou de amigo !!! Há milhares de anos venho vegetando nestes corredores mofados, ouço gritos de monstros e gritos de misericórdia e socorro ... E ninguém me chama de Amigo! Pegue outro presente meu, poderoso artefato!>
+91 <Até mais!>
+92 <Artefato?>
+100 <Você também está curioso! É bom! Artefatos são entidades mágicas que irão aprimorar suas habilidades! Procure-os nos baús de masmorras e não se esqueça, a sorte é o que conta para isso!>
+110 <Parabéns! Você escolheu a estupidez e a indiferença, e agora vá e escolha a morte para você! Espero que você descubra sozinho!>
+111 <Você é engraçado? Portanto, continue sendo um tolo, um tolo sem recompensa! Espero que você descubra sozinho!>
+112 <Que assim seja! Espero que você descubra sozinho!>
+130 <Oh-hoo! Quem eu vejo! Você acabou de derrotar o Ogro, aquela criatura asquerosa e asquerosa criada nas misteriosas cavernas do Submundo!>
+131 <Sim, é!>
+132 <Fale mais rápido!>
+140 <Mas além do Ogre, você tem que lutar mais alguns Titãs!>
+141 <Quem são eles?>
+145 <Além do Ogro, você encontrará Golem de Pedra, Minotauro Amaldiçoado e Ifrit de Fogo! Esses monstros, criados por uma mente misteriosa, usando magia secreta antiga ...>
+146 <Quem é este Criador?>
+150 <A Besta mais feroz, cruel e terrível, o produto do MAL e do próprio Inferno - esta é a Coroa do Calabouço! O SUPREMO DEMÔNIO, habitando nos Salões do Fogo ...>
+151 <Vá em frente! Não pare!>
+160 <Ele comanda todos os elementos, domesticou todos os tipos de magia .. Criaturas, monstros, criaturas, monstros - todos o servem e o adoram! Você terá que lutar contra ele no final de sua jornada!>
+170 <Hmm, por favor! Você deve derrotar o resto dos Titãs do Submundo e então ... mergulhar na poeira do Grande Demônio.>
+175 <Você se saiu bem, é hora de receber sua merecida recompensa!>
+180 <Então! Você está vivo e derrotou todos os Titãs! Você é um verdadeiro guerreiro! Você tem a última etapa restante para a Imortalidade e o Infinito! O Alto Demônio ruge nas profundezas do Calabouço! Ele quer vingança por seus lacaios!>
+190 <Embarque no caminho mais terrível e perigoso do seu Teste! Em reconhecimento aos seus méritos, aceite um presente meu, esta é a espada mais poderosa e poderosa - a coroa da minha coleção!>
+200 <Saudações! Saudações! Salve Conquistador do Grande Calabouço! Você derrotou o Grande Demônio! O Calabouço inteiro está aos seus pés! Você se tornou um grande Guerreiro e estou feliz por você!>
+201 <O que vem a seguir?>
+210 <Próximo? Além do infinito e da eterna Glória do Conquistador da Grande Masmorra! Você vai ficar aqui para sempre e lutar sem parar nestes salões, mas com rivais mais fortes e malvados!>
+300 <Pergunte o que quiser, Guerreiro!>
+301 <Seu sucesso merece uma recompensa!>
+302 <O que o Monster Slayer quer?>
+303 <Os presentes já estão esperando por você!>
+304 <Sinta-se à vontade para escolher sua recompensa!>
+305 <Tudo de melhor só para você, Dungeon Plaguebreaker!>
+306 <Meus presentes não o deixarão indiferente!>
+307 <Diga-me o que você está perdendo.>
+308 <Preciso de uma espada.>
+309 <Espadas velhas ... elas são velhas!>
+310 <Nova espada, por favor!>
+311 <Uma espada e apenas uma espada!>
+312 <Dê-me um artefato.>
+313 <Artefato.>
+314 <Preciso de um artefato poderoso!>
+315 <Tenho poucos artefatos.>
+316 <Gold! Tudo que eu preciso é ouro!>
+317 <Ouro, Guardião!>
+318 <Eu sou um fã do Bezerro de Ouro!>
+319 <Ouro nunca é demais!>
+400 <Outro Titã espera por você!>
+401 <O próximo chefe está pronto para lutar!>
+402 <Outra coisa quer seu sangue!>
+403 <Eu ouço o rugido raivoso de uma Besta invencível!>
+406 <Avante nas profundezas do subterrâneo! O Demon High já está acordado!>
+600 <Louvor ao Vencedor! O Terrible Stone Golem foi lançado de volta ao Inferno!>
+601 <Concluído !!! O maldito Minotauro foi derrotado pelo grande Herói!>
+602 <Oh Milagre !!! A Criatura Fiery do submundo submetida ao poderoso Guerreiro!>
+700 <Esta coisa - o Ogre ainda está vivo! Acabe com ele!>
+701 <KamO Golem alvo deve ser derrotado!>
+702 <O maldito Minotauro come crianças! Não deixe isso acontecer!>
+703 <Ifrit Fiery assa outro sacrifício! Acabe com o réptil vil!>
+704 <Demon High espera por você para sua batalha final!>
+3 <Infinito !!! Infinito e imortalidade !!!>
+1 <Sair ...>
+2 <Lute!>
+4 <Bom conselho.>
+5 <Próximo ...>

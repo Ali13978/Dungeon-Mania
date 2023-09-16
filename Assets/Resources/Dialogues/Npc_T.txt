@@ -1,0 +1,83 @@
+10 <Benvenuto nelle Sale del Grande Dungeon!>
+11 <Cosa sei?>
+12 <Non mi interessa!>
+20 <Non sono cosa, ma chi! Sono il Custode del Grande Dungeon, sono il primo a incontrare gente come te!>
+21 <Come sono finito qui?>
+22 <Ah - ah - ah! Non farmi ridere!>
+30 <Il Dungeon stesso ha scelto te! Sta cercando i guerrieri più coraggiosi e forti che possano superare la Grande Prova!>
+31 <Sfida?>
+32 <Nessuno osa scegliere me! Scelgo!>
+40 <Vai nelle profondità del Dungeon, più scendi, più terribili, forti e insidiosi saranno i tuoi rivali. Sconfiggili tutti e scopri il Grande Segreto del Dungeon!>
+41 <Supererò la sfida!>
+42 <Oh, queste favole, oh, questi narratori ...>
+50 <Tra i tanti nemici, ce ne sono alcuni tra i più potenti, temibili e assetati di sangue! Questi sono i Titani del Dungeon! Devi sconfiggerli tutti! Allora ...>
+51 <Allora ... cosa?>
+60 <Prenditi il ​​tuo tempo, mio ​​giovane guerriero! Per prima cosa, sconfiggi il primo di loro! L'orco delle caverne è una creatura vile! Anche se questo è il primo nemico, ma molto pericoloso, anche per un guerriero esperto, per non parlare dei principianti.>
+61 <Come posso diventare più forte?>
+70 <Combatti, guadagna esperienza, ottieni cristalli magici e migliora le tue abilità. Troverai anche oro nelle casse del Dungeon, può essere scambiato con cristalli!>
+71 <Cancella!>
+80 <Per semplificarti, ti ricompenso con una delle antiche spade che ti aiuteranno all'inizio del viaggio!>
+81 <Grazie!>
+82 <Grazie, AMICO mio !!!>
+90 <Mi hai chiamato amico !!! Per migliaia di anni ho vegeto in queste sale ammuffite, ho sentito le urla dei mostri e grida di pietà e aiuto ... E nessuno mi ha chiamato Amico! Prendi un altro regalo da me, Mighty Artifact!>
+91 <Ci vediamo!>
+92 <Artefatto?>
+100 <Sei anche curioso! Va bene! Gli artefatti sono entità magiche che miglioreranno le tue abilità! Cercali nei forzieri del dungeon e non dimenticare, la fortuna è ciò che conta per questo!>
+110 <Congratulazioni! Hai scelto la stupidità e l'indifferenza, e ora vai e scegli la morte per te stesso! Spero che tu lo capisca da solo!>
+111 <Sei divertente? Quindi resta uno sciocco, uno sciocco senza ricompensa! Spero che tu lo capisca da solo!>
+112 <Lascia che sia così! Spero che tu lo capisca da solo!>
+130 <Oh-hoo! Chi vedo! Hai appena sconfitto l'Orco, quella creatura orribile e cattiva creata nelle misteriose caverne degli Inferi!>
+131 <Sì, lo è!>
+132 <Parla più velocemente!>
+140 <Ma oltre a Ogre, devi combattere qualche altro Titano!>
+141 <Chi sono?>
+145 <Oltre a Ogre, incontrerai Stone Golem, Cursed Minotaur e Fire Ifrit! Questi mostri, creati da una mente inquietante, usando la magia antica segreta ...>
+146 <Chi è questo Creatore?>
+150 <Il mostro più feroce, crudele e terribile, il prodotto del MALE e dell'Inferno stesso: questa è la Corona del Dungeon! IL DEMONE SUPREMO, che dimora nelle Sale del Fuoco ...>
+151 <Avanti! Non fermarti!>
+160 <Lui comanda tutti gli elementi, ha domato tutti i tipi di magia .. Creature, mostri, creature, mostri - tutti lo servono e lo adorano! Dovrai combatterlo proprio alla fine del tuo viaggio!>
+170 <Hmm, per favore! Devi sconfiggere il resto dei Titani del Sottosuolo e poi ... tuffarti nella polvere dell'Alto Demone.>
+175 <Hai fatto bene, è ora di ottenere la tua meritata ricompensa!>
+180 <Allora! Sei vivo e hai sconfitto tutti i Titani! Sei un vero guerriero! Ti resta l'ultimo passo verso l'Immortalità e l'Infinito! L'Alto Demone ruggisce nelle profondità del Dungeon! Vuole vendetta per i suoi tirapiedi!>
+190 <Imbarcati sul sentiero più terribile e pericoloso della tua prova! In riconoscimento dei tuoi meriti, accetta un regalo da parte mia, questa è la spada più potente e potente: la corona della mia collezione!>
+200 <Saluti! Saluti! Hail Great Dungeon Conqueror! Hai sconfitto l'Alto Demone! L'intero Dungeon è ai tuoi piedi! Sei diventato un grande Guerriero e io sono felice per te!>
+201 <Cosa c'è dopo?>
+210 <Avanti? Inoltre solo l'infinito e l'eterna Gloria del Grande Conquistatore di Dungeon! Rimarrai qui per sempre e combatterai all'infinito in queste Sale, ma con rivali più forti e malvagi!>
+300 <Chiedi quello che vuoi, Guerriero!>
+301 <Il tuo successo merita una ricompensa!>
+302 <Cosa vuole l'ammazza mostri?>
+303 <I regali ti stanno già aspettando!>
+304 <Sentiti libero di scegliere la tua ricompensa!>
+305 <Tutto il meglio per te, Dungeon Ravager!>
+306 <I miei doni non ti lasceranno indifferente!>
+307 <Dimmi cosa ti perdi.>
+308 <Ho bisogno di una spada.>
+309 <Vecchie spade ... sono vecchie!>
+310 <Nuova spada per favore!>
+311 <Una spada e solo una spada!>
+312 <Dammi un artefatto.>
+313 <Artefatto.>
+314 <Ho bisogno di un potente artefatto!>
+315 <Ho pochi artefatti.>
+316 <Oro! Tutto ciò di cui ho bisogno è l'oro!>
+317 <Oro, Guardiano!>
+318 <Sono un fan del Vitello d'Oro!>
+319 <L'oro non è mai troppo!>
+400 <Un altro Titano ti aspetta!>
+401 <Il prossimo Boss è pronto a combattere!>
+402 <Un'altra cosa vuole il tuo sangue!>
+403 <Sento il ruggito rabbioso di una Bestia non conquistata!>
+406 <Avanti nelle profondità del sottosuolo! Il Demon High è già sveglio!>
+600 <Lode al vincitore! Il Terribile Golem di Pietra è stato rigettato all'Inferno!>
+601 <Fatto !!! Il maledetto Minotauro è stato sconfitto dal grande Eroe!>
+602 <Oh miracolo !!! La Fiery Creature degli inferi sottomessa al potente Guerriero!>
+700 <Questa cosa: l'orco è ancora vivo! Finiscilo!>
+701 <KamIl Golem bersaglio deve essere sconfitto!>
+702 <Il Minotauro maledetto mangia i bambini! Non lasciare che accada!>
+703 <Fiery Ifrit arrostisce un altro sacrificio! Finisci il vile rettile!>
+704 <Demon High ti aspetta per la tua battaglia finale!>
+3 <Infinito !!! Infinito e immortalità !!!>
+1 <Lascia ...>
+2 <Combatti!>
+4 <Buon consiglio.>
+5 <Avanti ...>

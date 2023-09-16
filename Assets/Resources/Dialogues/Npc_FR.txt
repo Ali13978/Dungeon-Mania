@@ -1,0 +1,83 @@
+10 <Bienvenue dans les salles du grand donjon!>
+11 <Qu'est-ce que tu es?>
+12 <Je ne suis pas intéressé!>
+20 <Je ne suis pas quoi, mais qui! Je suis le Gardien du Grand Donjon, je suis le premier à rencontrer des gens comme vous!>
+21 <Comment suis-je arrivé ici?>
+22 <Ha - ha - ha! Ne me faites pas rire!>
+30 <Le donjon lui-même vous a choisi! Il recherche les guerriers les plus courageux et les plus forts capables de passer le Grand Test!>
+31 <Défi?>
+32 <Personne n'ose me choisir! Je choisis!>
+40 <Allez dans les profondeurs du donjon, plus vous descendez, plus vos rivaux seront terribles, forts et insidieux. Battez-les tous et découvrez le grand secret du donjon!>
+41 <Je réussirai le défi!>
+42 <Oh, ces contes de fées, oh, ces conteurs ...>
+50 <Parmi les nombreux ennemis, il y en a parmi les plus puissants, les plus effrayants et les plus sanguinaires! Ce sont les Titans du donjon! Vous devez tous les vaincre! Alors ...>
+51 <Alors ... Quoi?>
+60 <Prends ton temps, mon jeune guerrier! Tout d'abord, battez le premier d'entre eux! L'Ogre des cavernes est une créature infâme! Bien que ce soit le premier ennemi, mais très dangereux, même pour un guerrier expérimenté, sans parler des débutants.>
+61 <Comment puis-je devenir plus fort?>
+70 <Combattez, gagnez de l'expérience, obtenez des cristaux magiques et améliorez vos compétences. Vous trouverez également de l'or dans les coffres du donjon, il peut être échangé contre des cristaux!>
+71 <Clair!>
+80 <Pour vous faciliter la tâche, je vous récompense avec l'une des anciennes épées qui vous aideront au début du voyage!>
+81 <Merci!>
+82 <Merci, mon AMI !!!>
+90 <Vous m'avez appelé ami !!! Depuis des milliers d'années je végète dans ces salles moisies, j'entends les cris des monstres et les cris de miséricorde et d'aide ... Et personne ne m'a appelé Ami! Prends-moi un autre cadeau, Artefact puissant!>
+91 <A bientôt!>
+92 <Artefact?>
+100 <Vous êtes également curieux! C'est bon! Les artefacts sont des entités magiques qui amélioreront vos compétences! Cherchez-les dans les coffres du donjon et n'oubliez pas, c'est la chance qui compte pour cela!>
+110 <Félicitations! Vous avez choisi la bêtise et l'indifférence, et maintenant allez choisir la mort pour vous-même! J'espère que vous le comprendrez vous-même!>
+111 <Êtes-vous drôle? Alors restez un imbécile, un imbécile sans récompense! J'espère que vous le comprendrez vous-même!>
+112 <Qu'il en soit ainsi! J'espère que vous le comprendrez vous-même!>
+130 <Oh-hoo! Qui vois-je! Vous venez de vaincre l'Ogre, cette créature méchante et méchante créée dans les cavernes étranges des Enfers!>
+131 <Oui, c'est vrai!>
+132 <Parlez plus vite!>
+140 <Mais à part Ogre, vous devez combattre quelques Titans de plus!>
+141 <Qui sont-ils?>
+145 <En plus d'Ogre, vous rencontrerez le Golem de pierre, le Minotaure maudit et l'Ifrit de feu! Ces monstres, créés par un esprit étrange, utilisant une magie ancienne secrète ...>
+146 <Qui est ce Créateur?>
+150 <La bête la plus féroce, la plus cruelle et la plus terrible, le produit du MAL et de l'enfer lui-même - c'est la couronne du donjon! LE DEMON SUPRÊME, habité dans les Halls of Fire ...>
+151 <Allez! Ne t'arrête pas!>
+160 <Il commande tous les éléments, a apprivoisé toutes sortes de magie. Créatures, monstres, créatures, monstres - tous le servent et l'adorent! Vous devrez le combattre à la toute fin de votre périple!>
+170 <Hmm, s'il vous plaît! Vous devez vaincre le reste des Titans de l'Underground, puis ... plonger dans la poussière du Haut Démon.>
+175 <Vous avez bien fait, il est temps d'obtenir votre récompense bien méritée!>
+180 <Alors! Vous êtes vivant et avez vaincu tous les Titans! Vous êtes un vrai guerrier! Vous avez le dernier pas vers l'immortalité et l'infini! Le grand démon rugit dans les profondeurs du donjon! Il veut se venger de ses serviteurs!>
+190 <Embarquez sur le chemin le plus terrible et le plus dangereux de votre test! En reconnaissance de vos mérites, acceptez un cadeau de ma part, c'est l'épée la plus puissante et la plus puissante - la couronne de ma collection!>
+200 <Salutations! Les salutations! Salut le grand conquérant du donjon! Vous avez vaincu le Haut Démon! Le donjon entier est à vos pieds! Vous êtes devenu un grand guerrier et je suis heureux pour vous!>
+201 <Quelle est la prochaine étape?>
+210 <Suivant? Plus loin que l'infini et la gloire éternelle du grand conquérant de donjon! Vous resterez ici pour toujours et vous vous battrez sans fin dans ces salles, mais avec des rivaux plus forts et plus méchants!>
+300 <Demandez ce que vous voulez, guerrier!>
+301 <Votre succès mérite une récompense!>
+302 <Que veut le Monster Slayer?>
+303 <Des cadeaux vous attendent déjà!>
+304 <N'hésitez pas à choisir votre récompense!>
+305 <Bonne chance rien que pour vous, Dungeon Plaguebreaker!>
+306 <Mes dons ne vous laisseront pas indifférent!>
+307 <Dites-moi ce qui vous manque.>
+308 <J'ai besoin d'une épée.>
+309 <Les vieilles épées ... elles sont vieilles!>
+310 <Nouvelle épée s'il vous plaît!>
+311 <Une épée, et seulement une épée !>
+312 <Donnez-moi un artefact.>
+313 <Artefact.>
+314 <J'ai besoin d'un artefact puissant!>
+315 <J'ai peu d'artefacts.>
+316 <Or! Tout ce dont j'ai besoin, c'est de l'or!>
+317 <Or, gardien!>
+318 <Je suis fan du veau d'or!>
+319 <L'or n'est jamais trop!>
+400 <Un autre Titan vous attend!>
+401 <Le prochain Boss est prêt à se battre!>
+402 <Une autre chose veut votre sang!>
+403 <J'entends le rugissement furieux d'une bête invaincue!>
+406 <En avant dans les profondeurs du métro! Le Demon High est déjà réveillé!>
+600 <Louange au gagnant! Le terrible Golem de pierre a été renvoyé en enfer!>
+601 <Terminé !!! Le minotaure maudit a été vaincu par le grand héros!>
+602 <Oh Miracle !!! La créature ardente des enfers soumise au puissant guerrier!>
+700 <Cette chose - l'Ogre est toujours vivant! Arrêtez-le!>
+701 <KamLe Golem ciblé doit être vaincu!>
+702 <Le minotaure maudit mange les petits enfants! Ne laissez pas cela arriver!>
+703 <Fiery Ifrit rôtit un autre sacrifice! Terminez le vil reptile!>
+704 <Demon High vous attend pour votre bataille finale!>
+3 <Infini !!! Infini et immortalité !!!>
+1 <Quitter ...>
+2 <Combattez!>
+4 <Bon conseil.>
+5 <Suivant ...>
